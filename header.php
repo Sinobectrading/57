@@ -19,6 +19,11 @@ http://www.tooplate.com/view/2079-garage
 <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Italianno" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Lato:100,100i" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Wire+One" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Belleza" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Roboto:100,300" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Barlow+Condensed:100,200,300,400" rel="stylesheet">
 <link rel="stylesheet" type="text/css" href="style/slider.css">
 <link rel="stylesheet" type="text/css" href="style/mystyle.css">
 <link rel="stylesheet" type="text/css" href="style/main.css">

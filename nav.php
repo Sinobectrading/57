@@ -15,10 +15,10 @@
 			<div class="navbar-collapse collapse">
 				<ul class="nav navbar-nav navbar-left">
 					<li class="active">
-						<a href="#">HOME</a> 
+						<a href="index.php">HOME</a> 
 					</li>
 					<li>
-						<a href="about.html">ABOUT</a>
+						<a href="about.php">ABOUT</a>
 					</li>
 					<li class="dropdown">
 							<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">PRODUCTS<span class="caret"></span></a>
@@ -29,7 +29,7 @@
 							</ul>
 					</li>
 					<li>
-						<a href="contact.html">CONTACT</a>
+						<a href="contact.php">CONTACT</a>
 					</li>
 				</ul>
 				<ul class="nav navbar-nav navbar-right">

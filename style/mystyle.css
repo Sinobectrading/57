@@ -228,11 +228,11 @@ padding-left: 5%;
   border-bottom: 2px solid #C59E47; 
 }
 .navbar-default .navbar-nav .open .dropdown-menu > li > a {
-	font-family: 'BebasNeue Regular';
+	font-family: 'fpl', sans-serif;
 	font-size: 13pt;
 	color: #000;
 	background-color: rgba(255,255,255,.5);
-	text-align: center;
+	text-align: left;
 
 }
 .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover{
@@ -759,11 +759,10 @@ font-weight: bold;
 }
 
 .carstxt{
-	padding-left: 45px;
-	padding-right: 88px;
+  padding-left: 30px
 }
 .bdots{
-	padding-right: 40px;
+ 
 } 
 .row{
 	padding: 0px;
