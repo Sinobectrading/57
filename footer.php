@@ -2,14 +2,20 @@
 	<nav class="navbar navbar-default" id="footernav">
 		<div class="container-fluid">
 				<!-- Collect the nav links, forms, and other content for toggling -->
-			<div class="collapse navbar-collapse" id="botnav">
+			<div class=" " id="botnav">
 				<ul class="nav navbar-nav">
 					<li class="pull-left copyright">&copy; Copy Right 2016, All right reserved</li>
-
-					<li><a href="#">ABOUT</a></li>
-					<li><a href="#">CONTACT</a></li>
-					<li><a href="#">PRIVACY</a></li>
-
+					 
+					<li class="hidden-xs"><a href="#">ABOUT</a></li>
+					<li class="hidden-xs"><a href="track.php">TRACKING ORDER</a></li>
+					<li class="hidden-xs"><a href="#">PRIVACY</a></li>
+					 <div class="visible-xs clearfix" id="footn">
+					 	<ul class="visible-xs">
+					 	<li class="fcenter"><a href="#">ABOUT</a></li>
+						<li class="fcenter"><a href="track.php">TRACKING ORDER</a></li>
+						<li class="fcenter"><a href="#">PRIVACY</a></li>
+						</ul>
+					 </div>
 					<li class="pull-right social">
 						<span>Tel : +1 (888) 888 8888</span>
 				 		<a href="#"><i class="fa fa-facebook"></i></a>

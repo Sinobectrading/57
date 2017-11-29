@@ -33,8 +33,8 @@
 					<li>
 						<a href="contact.php">CONTACT</a>
 					</li>
-					<li>
-						<a href="contact.php">TRACKING</a>
+					<li class="visible-xs">
+						<a href="track.php">TRACKING</a>
 					</li>
 				</ul>
 				<ul class="nav navbar-nav navbar-right hidden-xs">

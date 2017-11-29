@@ -261,6 +261,14 @@ body {
 .stick1 .featurecontant p {
 	font-size: 18px
 }
+.stick1 .featurecontant > div > p > span:first-child {
+	width: 120px;
+	display: inline-block;
+	padding-left: 15px;
+}
+.stick1 .featurecontant > div > p > span:last-child {
+	padding-left: 20px;
+}
 /*////products -pages ///*/
 #aluminumtop .well {
 	background-color: #fff;
@@ -299,7 +307,12 @@ body {
 	color: #333;
 	text-transform: uppercase;
 } 
-
+#readmore>h1,
+#readmore2>h1,
+#readmore3>h1,
+#readmore4>h1 {
+	padding-top:0px
+}
 /*////contact pages////*/
 .flex {
  
@@ -313,30 +326,204 @@ body {
 	margin-top: 130px
 }
 #map-outer address {
-	font-size: 18px
+	font-size: 18px;
+	padding-top: 20px
 }
-@media only screen and (min-width: 768px) and (max-width: 1365px){
+#map-outer address strong {
+	line-height: 2
+}
+#trackimg img {
+	 width: auto;
+  height: auto;
+  max-width: 100%;
+  max-height: 100%;
+}
+#tc {
+	margin-top: 16vh;
+	height: 77vh
+}
+#form-login {
+	padding-right: 40px
+}
+#form-login input {
+	width: 100%;
+	height: 50px;
+	margin-bottom: 20px;
+	padding: 0 10px
+}
+#res {
+	margin-top: 40px
+}
+#featuresection .img2colon img,
+#featuresection .img1colon img {
+	padding: 12px;
+}
+.featurecontant {
+	margin-top: 12px
+}
+#featuresection .costumcol .costumrow {
+	display: flex
+}
+#readmore2,
+#readmore,
+#readmore3,
+#readmore4 {
+	margin-top: 25px
+}
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 1025px) and (max-width: 1680px){ 
+
+#readmore4,
+#readmore3,
+#readmore,
+#readmore2{
+	max-width: 83%;
+	margin-top: 20px
+}
+#btnRL, #btnRL2, #btnRL3, #btnRL4 {
+	bottom:0px
+}
+.featurecontant {
+	margin-top: 0%;
+	height: 96%
+}
+.costumrow {
+	display: flex
+}
+#featuresection .img2colon img,
+#featuresection .img1colon img {
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-height: 100%;
+  min-width: 100%;
+  transform: translate(-50%, -50%);
+  padding: 15px
+}
+.txt1colon {
+	padding-top: 15px;
+}
+#featuresection .img1colon>img {
+ 
+}
+
+}
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 768px) and (max-width: 1365px){
 .productinside {
 	padding: 10px 80px 0px 20px;
 	font-size: 18px;
 }
 .productinside h1,
 .stick1 h1 {
-	font-size: 24px;
-	margin-top: 10px
+	font-size: 20px;
+	margin-top: 10px;
+	font-weight: 300
+}
+#a1 .slideimg img {
+	display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-height: 100%;
+  min-width: 100%;
+  transform: translate(-50%, -50%);
+}
+#a1 .stick1 .featurecontant > div  p   span {
+	padding-left: 0px
+}
+#a1 .colborder2 .costumrow {
+	display: flex
+}
+#a1 .stick1 .featurecontant {
+	padding-top: 0px;
+	margin-top: 0px
+}
+.productinside {
+	position: relative;
 }
 .productinside h1 {
 	margin-top: 20px
 } 
+#featuresection .costumcol .costumrow {
+	display: flex
+}
 .featurecontant>h1 {
-	margin-top: 8%
+	margin-top: 8%;
+	font-size: 16px
+}
+.featurecontant {
+	height: 94%
+}
+#featuresection #readmore4,
+#featuresection #readmore3,
+#featuresection #readmore,
+#featuresection #readmore2 {
+	margin-top: 16px;
+}
+#readmore2>button,
+#readmore>button,
+#readmore3>button,
+#readmore4>button,
+.featurecontant>button {
+	font-size: 13px;
+	padding-top: 12px;
+	padding-bottom:12px;
+}
+#readmore2>h1,
+#readmore4>h1,
+#readmore3>h1,
+#readmore>h1 {
+	margin-top: 10px;
+	margin-bottom: 5px;
+	font-size: 14px
+}
+#readmore>p {
+	margin-bottom: 0px
+}
+#featuresection #btnRL, #featuresection #btnRL2, #featuresection #btnRL3, #featuresection #btnRL4 {
+	bottom: 15px
 }
 .navbar-brand {
 	margin-left: 15vw
 }
  
-
+#readmore>button,
+#readmore2>button,
+#readmore3>button,
+#readmore4>button {
+	margin-bottom: 0px
+}
+#btnRL, #btnRL2, #btnRL3, #btnRL4 {
+	bottom: 0px
+}
 }
 
 @media screen and (max-width: 767px){
@@ -347,7 +534,100 @@ body {
 	margin-top: -40px
 }
 
+/*/// Track Form ///*/
+#res {
+	margin-top: 80px
 }
+
+/* Force table to not be like tables anymore */
+  #res table, thead, tbody, th, td, tr { 
+    display: block; 
+  }
+  
+  /* Hide table headers (but not display: none;, for accessibility) */
+  #res thead tr { 
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+  }
+  
+ #res tr { 
+  border: 1px solid #ccc; 
+  margin-top: 0vh;
+  padding-bottom: 0vh;
+}
+  
+ #res td { 
+    /* Behave  like a "row" */
+    border: none;
+    border-bottom: 1px solid #eee; 
+    position: relative;
+    padding-left: 50%; 
+    line-height: 2;
+    text-align: left
+  }
+  
+ #res td:before { 
+    /* Now like a table header */
+    position: absolute;
+    /* Top/left values mimic padding */
+    top: 6px;
+    left: 6px;
+    width: 45%; 
+    padding-right: 10px; 
+    white-space: nowrap;
+  }
+  
+  /*
+  Label the data
+  */
+  #ajaxresponse {
+  	width: 
+  }
+   #res td:nth-of-type(1):before
+    { 
+    content: "AG PO#";  
+    font-size:1.2em; 
+    font-weight: 700; 
+    text-align: left;
+    padding-left: 8px;
+  }
+  #res td:nth-of-type(2):before { 
+    content: "SINOBEC PO#"; 
+    font-size:1.2em; 
+    font-weight: 700; 
+    text-align: left ;
+    padding-left: 8px;
+  }
+  #res td:nth-of-type(3):before { 
+    content: "INVOICE#"; 
+    font-size:1.2em; 
+    font-weight: 700; 
+    text-align: left ;
+    padding-left: 8px;
+  }
+  #res td:nth-of-type(4):before { 
+    content: "SHIPPING Ref";  
+    font-size:1.2em; 
+    font-weight: 700; 
+    text-align: left;
+    padding-left: 8px;
+  }
+  #res td:nth-of-type(5):before { 
+    content: "CONTAINER#"; 
+    font-size:1.2em; 
+    font-weight: 700;
+    text-align: left ;
+    padding-left: 8px;
+  }
+  #res td:nth-of-type(6):before { 
+    content: "ETA";  
+    font-size:1.2em; 
+    font-weight: 700; 
+    text-align: left;
+    padding-left: 8px;
+  }
+ 
 
 @media screen and (min-width: 320px) and (max-width: 766px){
 #navtop .navbar-brand{
@@ -387,13 +667,23 @@ body {
 #readmore4>h1 {
 	padding-top:0px
 }
+
 #navtop .navbar-collapse {
 	background: #e7e7e7;
 	background-color: #e7e7e7;
 	padding-top: 10px
 }
+.carousel-caption > h2 {
+	font-size: 28px
+}
 #aboutmain h1 {
 	font-size: 20px
+}
+.carousel-caption>p {
+	font-size: 18px
+}
+.featurecontant>p {
+	font-size: 14px
 }
 #aboutmain .featurecontant div p {
     font-size: 16px;
@@ -427,16 +717,192 @@ body {
 #aluminumtop .tab-content .row a div img {
     padding: 20px 40px;
 }
+.productinside {
+	position: relative;
+}
 #a1 .productinside {
 	padding: 0px 20px 0px 20px
 }
 #a1 .productinside h1 {
 	font-size: 20px
 }
+#a1 .stick1 .featurecontant > div  p  span {
+	padding-left: 0px
+}
 #a1 .stick1 h1 {
 	font-size: 20px
+}
+#a1 #topimg   {
+	 margin-top: 40px
+}
+#a1 .firstrow > div.colborder2:nth-child(1) {
+	margin-bottom: 10px
+}
+#a1 .costumcol {
+	max-width: 98%
+}
+#botnav .copyright {
+	display: none;
+}
+#footn {
+	text-align: center;
+	clear: both;
+	margin: 20px auto;
+}
+#footn ul {
+	text-align: center;
+}
+#footn li {
+	float: left;
+	list-style: none;
+	margin-right: 15px;
+}
+#footn li a {
+	font-family: 'fpm', sans-serif;
+	color: #c59e47
+}
+#footn li a:first-child {
+	margin-left: -5px
+}
+.footer .social a {
+	line-height: 20px
+}
+#botnav .navbar-nav {
+	line-height: 20px
+}
+#tmp {
+	display: none
+}
+#map {
+	margin-top: 40px
+}
+#featuresection .costumcol {
+	max-width: 98%
+}
+#featuresection .img2colon,
+#featuresection .img2colon2,
+#featuresection .img1colon {
+	width: 100%;
+	max-width: 100%
+}
+ 
+#featuresection .txt1colon {
+	width: 100%
+}
+
+#readmore4,
+#readmore3,
+#readmore,
+#readmore2 {
+	max-width: 98%
 }
 #cntd {
 	padding-top: 40px
 }
+#tc {
+	margin-top: 120px
 }
+#tc h1 {
+font-size: 28px
+}
+#res {
+	margin-top: 80px
+}
+  #ajaxresponse {
+  	width:  
+  }
+/* Force table to not be like tables anymore */
+  #res table, thead, tbody, th, td, tr { 
+    display: block; 
+  }
+  
+  /* Hide table headers (but not display: none;, for accessibility) */
+  #res thead tr { 
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+  }
+  
+ #res tr { 
+  border: 1px solid #ccc; 
+  margin-top: 0vh;
+  padding-bottom: 0vh;
+}
+  
+ #res td { 
+    /* Behave  like a "row" */
+    border: none;
+    border-bottom: 1px solid #eee; 
+    position: relative;
+    padding-left: 50%; 
+    line-height: 2;
+    text-align: left
+  }
+  
+ #res td:before { 
+    /* Now like a table header */
+    position: absolute;
+    /* Top/left values mimic padding */
+    top: 6px;
+    left: 6px;
+    width: 45%; 
+    padding-right: 10px; 
+    white-space: nowrap;
+  }
+  
+  /*
+  Label the data
+  */
+   #res td:nth-of-type(1):before
+    { 
+    content: "AG PO#";  
+    font-size:1.1em; 
+    font-weight: 700; 
+    text-align: left;
+    padding-left: 8px;
+  }
+  #res td:nth-of-type(2):before { 
+    content: "SINOBEC PO#"; 
+    font-size:1.1em; 
+    font-weight: 700; 
+    text-align: left ;
+    padding-left: 8px;
+  }
+  #res td:nth-of-type(3):before { 
+    content: "INVOICE#"; 
+    font-size:1.1em; 
+    font-weight: 700; 
+    text-align: left ;
+    padding-left: 8px;
+  }
+  #res td:nth-of-type(4):before { 
+    content: "SHIPPING Ref";  
+    font-size:1.1em; 
+    font-weight: 700; 
+    text-align: left;
+    padding-left: 8px;
+  }
+  #res td:nth-of-type(5):before { 
+    content: "CONTAINER#"; 
+    font-size:1.1em; 
+    font-weight: 700;
+    text-align: left ;
+    padding-left: 8px;
+  }
+  #res td:nth-of-type(6):before { 
+    content: "ETA";  
+    font-size:1.1em; 
+    font-weight: 700; 
+    text-align: left;
+    padding-left: 8px;
+  }
+}
+
+
+@media screen and (max-width: 1198px) {
+	#featuresection #readmore>h1, #readmore2>h1, #readmore3>h1, #readmore4>h1 {
+	padding-top: 15px
+}
+
+}
+

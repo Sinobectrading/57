@@ -810,7 +810,8 @@ font-weight: bold;
   
 }
 .costumrow{
- 
+	/*border-top: 1px solid #BABABA;
+	border-bottom: 1px solid #BABABA;*/	
 }
 .txt1colon{
 	width: 53.7%;
@@ -819,9 +820,9 @@ font-weight: bold;
 	width:85%;
 	height: auto;
 	border: 1px solid #C59E47;
+	margin-top: 3%;
 	margin-right: auto;
 	margin-left: auto;
- 
 }
 .featurecontant>h1{
 	font-family: "OpenSans Regular";
@@ -887,7 +888,6 @@ font-weight: bold;
 	top:0px;
 	margin-top: 35px;
 	height: 0px;
- 	max-width: 80%;
 }
 #readmore>h1{
 	text-align: center;
@@ -925,6 +925,12 @@ font-weight: bold;
     -webkit-transition: all .2s ease-in;
     transition: all .2s ease-in; 
 } 
+#readmore,
+#readmore2,
+#readmore3,
+#readmore4 {
+	max-width: 83%
+}
 #btnRL,
 #btnRL2,
 #btnRL3,
@@ -939,7 +945,6 @@ font-weight: bold;
 	top:0px;
 	margin-top: 35px;
 	height: 0px;
- 	max-width: 410px;
 }
 #readmore2>h1{
 	text-align: center;
@@ -1096,16 +1101,18 @@ margin-left: auto;
  border-bottom: 0px;
 }
 .img1colon>img{
- width: 290px
+	width: 100%;
+	margin-left: 3px;
 }
 .img2colon>img{
-width: 290px
+	width: 100%;
+	margin-left: 3px;
 }
 .colborder2{
 border:0px solid #BABABA;
 }
 .txt1colon{
- width: 290px;
+ width: 310px;
  margin-left: 3px;
 }
 .featurecontant{

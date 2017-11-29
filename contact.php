@@ -25,7 +25,7 @@ body{
 			<div id="map-outer" class="col-md-12">
 				<div id="address" class="col-md-4">
 					<h1>Our Location</h1>
-					<address>
+					<address class="col-md-12 col-sm-6 col-xs-12">
 						<strong>SINOMETAL RESOURCES INC.</strong><br>
 						Dorsoduro, 701-704<br>
 						30123<br>
@@ -34,7 +34,7 @@ body{
 						<abbr>P:</abbr> +39 041 240 5411<br>
 						<abbr>Email:</abbr> wqd@sww.com
 					</address>
-					<address>
+					<address class="col-md-12 col-sm-6 col-xs-12">
 						<strong>OPENING HOURS:</strong><br>
 						<abbr>Monday:</abbr>9:00 ~ 17:00<br>
 						<abbr>Monday:</abbr>9:00 ~ 17:00<br>
@@ -45,7 +45,7 @@ body{
 						<abbr>Monday:</abbr>9:00 ~ 17:00<br>
 					</address>
 				</div>
-				<div id="map" class="col-md-8"></div>
+				<div id="map" class="col-md-8 col-xs-12"></div>
 			</div><!-- /map-outer -->
 		</div> <!-- /row -->
 

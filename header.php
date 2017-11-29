@@ -1,6 +1,6 @@
 <head>
 <meta charset="UTF-8">
-<title>Garage Bootstrap Template</title>
+<title>Sinometal Resources Inc.</title>
 <meta name="description" content="">
 <!--
 

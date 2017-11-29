@@ -42,7 +42,7 @@
 		<h1 class="text-center"> O U R S<span class="carstxt">F E A T U R E S</span></h1>
 	</div>
 	<div class="feturedimage">
-		<div class="row firstrow">
+		<div class="row firstrow"  id="featuresection">
 			<div class="col-lg-6 costumcol colborder1">
 				<div class="row costumrow">
 					<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 img1colon">
@@ -53,7 +53,7 @@
 							<h1>LOREM IPSUM 1</h1>
 							<p>"Lorem ipsum dolor sit amet, consectetur ,<br>
 			 						sed do eiusmod tempor incididunt </p>
-			 				<h2>Price &euro;</h2>
+			 				<h2>Something here....</h2>
 			 				<button id="btnRM" onClick="rmtxt()">READ MORE</button>
 			 				<div id="readmore">
 			 						<h1>Car Name</h1>
@@ -79,7 +79,7 @@
 							<h1>LOREM IPSUM 2</h1>
 							<p>"Lorem ipsum dolor sit amet, consectetur ,<br>
 			 						sed do eiusmod tempor incididunt </p>
-			 				<h2>Price &euro;</h2>
+			 				<h2>Something here....</h2>
 			 				<button id="btnRM2">READ MORE</button>
 			 				<div id="readmore2">
 			 						<h1>Car Name</h1>
@@ -104,7 +104,7 @@
 							<h1>LOREM IPSUM 3</h1>
 							<p>"Lorem ipsum dolor sit amet, consectetur ,<br>
 			 						sed do eiusmod tempor incididunt </p>
-			 				<h2>Price &euro;</h2>
+			 				<h2>Something here....</h2>
 			 				<button id="btnRM3" onClick="rmtxt()">READ MORE</button>
 			 				<div id="readmore3">
 			 						<h1>Car Name</h1>
@@ -130,7 +130,7 @@
 							<h1>LOREM IPSUM 4</h1>
 							<p>"Lorem ipsum dolor sit amet, consectetur ,<br>
 			 						sed do eiusmod tempor incididunt </p>
-			 				<h2>Price &euro;</h2>
+			 				<h2>Something here....</h2>
 			 				<button id="btnRM4">READ MORE</button>
 			 				<div id="readmore4">
 			 						<h1>Car Name</h1>
