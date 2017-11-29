@@ -22,13 +22,16 @@
 					<li>
 						<a href="about.php">ABOUT</a>
 					</li>
-					<li class="dropdown">
-							<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">PRODUCTS<span class="caret"></span></a>
-							<ul class="dropdown-menu dropdowncostume">
-								<li><a href="aluminum.php">Aluminum</a></li>
-								<li><a href="#">Steel</a></li>
-								<li><a href="3">railing</a></li>
-							</ul>
+					<!-- <li class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">PRODUCTS<span class="caret"></span></a>
+						<ul class="dropdown-menu dropdowncostume">
+							<li><a href="aluminum.php">Aluminum</a></li>
+							<li><a href="#">Steel</a></li>
+							<li><a href="3">railing</a></li>
+						</ul>
+					</li> -->
+					<li>
+						<a href="products.php">PRODUCTS</a>
 					</li>
 					<li>
 						<a href="contact.php">CONTACT</a>

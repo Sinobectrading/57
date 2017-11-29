@@ -6,12 +6,12 @@
 				<ul class="nav navbar-nav">
 					<li class="pull-left copyright">&copy; Copy Right 2016, All right reserved</li>
 					 
-					<li class="hidden-xs"><a href="#">ABOUT</a></li>
+					<li class="hidden-xs"><a href="service.php">SERVICE</a></li>
 					<li class="hidden-xs"><a href="track.php">TRACKING ORDER</a></li>
 					<li class="hidden-xs"><a href="#">PRIVACY</a></li>
 					 <div class="visible-xs clearfix" id="footn">
 					 	<ul class="visible-xs">
-					 	<li class="fcenter"><a href="#">ABOUT</a></li>
+					 	<li class="fcenter"><a href="service.php">SERVICE</a></li>
 						<li class="fcenter"><a href="track.php">TRACKING ORDER</a></li>
 						<li class="fcenter"><a href="#">PRIVACY</a></li>
 						</ul>

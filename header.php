@@ -27,4 +27,5 @@ http://www.tooplate.com/view/2079-garage
 <link rel="stylesheet" type="text/css" href="style/slider.css">
 <link rel="stylesheet" type="text/css" href="style/mystyle.css">
 <link rel="stylesheet" type="text/css" href="style/main.css">
+<link rel="stylesheet" type="text/css" href="style/input.css">
 </head>

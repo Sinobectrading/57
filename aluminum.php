@@ -12,16 +12,16 @@
  	 	    <div class="row">
 		        <div class="col-sm-2">
 		            <ul id="nav-tabs-wrapper" class="nav nav-tabs nav-pills nav-stacked well">
-		              	<li class="active"><a href="#vtab1" data-toggle="tab">Tab 1</a></li>
-		              	<li><a href="#vtab2" data-toggle="tab">Tab 2</a></li>
-		              	<li><a href="#vtab3" data-toggle="tab">Tab 3</a></li>
-		              	<li><a href="#vtab4" data-toggle="tab">Tab 3</a></li>
-		              	<li><a href="#vtab5" data-toggle="tab">Tab 3</a></li>
-		              	<li><a href="#vtab6" data-toggle="tab">Tab 3</a></li>
-		              	<li><a href="#vtab7" data-toggle="tab">Tab 3</a></li>
+		              	<li class="active"><a href="#vtab1" data-toggle="tab">Stand EX</a></li>
+		              	<li><a href="#vtab2" data-toggle="tab">Al Casting</a></li>
+		              	<li><a href="#vtab3" data-toggle="tab">Customized</a></li>
+		              	<li><a href="#vtab4" data-toggle="tab">COIl</a></li>
+		              	<li><a href="#vtab5" data-toggle="tab">Plate & Sheet</a></li>
+		              	<li><a href="#vtab6" data-toggle="tab">TREAT PLATE</a></li>
+		             <!--  	<li><a href="#vtab7" data-toggle="tab">Tab 3</a></li>
 		              	<li><a href="#vtab8" data-toggle="tab">Tab 3</a></li>
 						<li><a href="#vtab9" data-toggle="tab">Tab 3</a></li>
-						<li><a href="#vtab10" data-toggle="tab">Tab 3</a></li>
+						<li><a href="#vtab10" data-toggle="tab">Tab 3</a></li> -->
 		            </ul>
 		        </div>
 
@@ -30,34 +30,73 @@
 
 		                <div role="tabpanel" class="tab-pane fade in active" id="vtab1">
 		                    <div class="row">
-								<a href="a1.php">
-									<div class="col-lg-3 col-md-6 col-xs-12">
+								<a href="rcconer.php">
+									<div class="col-lg-4 col-md-6 col-xs-12">
 										<img src="image/far02.png" alt="">
-										<h4>Description</h4>
+										<h4>RC CORNER</h4>
 									</div>
 								</a>
 
 								<a href="">
-									<div class="col-lg-3 col-md-6 col-xs-12">
+									<div class="col-lg-4 col-md-6 col-xs-12">
 										<img src="image/far02.png" alt="">
-										<h4>Description</h4>
+										<h4>ANGLE</h4>
 									</div>
 								</a>
 
 								<a href="">
-									<div class="col-lg-3 col-md-6 col-xs-12">
+									<div class="col-lg-4 col-md-6 col-xs-12">
 										<img src="image/far02.png" alt="">
-										<h4>Description</h4>
-									</div>
-								</a>
-
-								<a href="">
-									<div class="col-lg-3 col-md-6 col-xs-12">
-										<img src="image/far02.png" alt="">
-										<h4>Description</h4>
+										<h4>ROUND BAR</h4>
 									</div>
 								</a>
 							</div>
+
+							<div class="row">
+								<a href="">
+									<div class="col-lg-4 col-md-6 col-xs-12">
+										<img src="image/far02.png" alt="">
+										<h4>CH-STRUC</h4>
+									</div>
+								</a>
+					
+								<a href="a1.php">
+									<div class="col-lg-4 col-md-6 col-xs-12">
+										<img src="image/far02.png" alt="">
+										<h4>CHANNEL</h4>
+									</div>
+								</a>
+
+								<a href="">
+									<div class="col-lg-4 col-md-6 col-xs-12">
+										<img src="image/far02.png" alt="">
+										<h4>FLAT BAR</h4>
+									</div>
+								</a>
+							</div>
+
+							<div class="row">
+								<a href="">
+									<div class="col-lg-4 col-md-6 col-xs-12">
+										<img src="image/far02.png" alt="">
+										<h4>I-BEAM</h4>
+									</div>
+								</a>
+
+								<a href="">
+									<div class="col-lg-4 col-md-6 col-xs-12">
+										<img src="image/far02.png" alt="">
+										<h4>PIPE</h4>
+									</div>
+								</a>
+								<a href="">
+									<div class="col-lg-4 col-md-6 col-xs-12">
+										<img src="image/far02.png" alt="">
+										<h4>POST</h4>
+									</div>
+								</a>
+							</div>
+
 		                </div>
 						<!-- Tab 1 end -->
 

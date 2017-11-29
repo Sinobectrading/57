@@ -231,14 +231,54 @@ body {
 #aluminumtop .tab-content .row a div h4 {
 	line-height: 80px;
 	text-align: center;
+	text-transform: uppercase;
+}
+
+
+
+/*///// products details /////*/
+#productinside {
+	text-align: center;
+	background: #e7e7e7;
+}
+
+#productinside .row {
+	padding: 100px 60px;
+}
+#productinside .row:nth-child(1) {
+	padding-bottom: 0px
+}
+#productinside .row > a > div {
+	padding: 40px;
+}
+#productinside .row > a > div h4 {
+	padding-top: 40px;
+	font-size: 14px;
+}
+.propath {
+	 padding-top: 15px;
+	 border-bottom: 1px  solid  #c59e47
+}
+.propath a {
+	text-decoration: none;
+	color: #333;
+}
+.propath h3 {
+	font-size: 16px
 }
 .productinside {
 	padding: 30px 60px;
+	padding-top: 0px;
 	font-size: 20px;
 	position: fixed;
 	z-index: 101;
 	background: #fff;
 	right: 0
+}
+.productinside h1 {
+	line-height: 2;
+	margin-top: 0px;
+	margin-bottom: 0px;
 }
 #a1 .img2colon img,
 .slideimg img {
@@ -261,12 +301,28 @@ body {
 .stick1 .featurecontant p {
 	font-size: 18px
 }
-.stick1 .featurecontant > div > p > span:first-child {
+.stick1  div.sticky > p > span:first-child,
+.productinside  p > span:first-child {
 	width: 120px;
 	display: inline-block;
 	padding-left: 15px;
 }
-.stick1 .featurecontant > div > p > span:last-child {
+.stick1  div.profile > p > span:nth-child(1) {
+	padding-left: 15px;
+}
+.stick1  div.profile > p > span {
+	width: 33%;
+	display: inline-block;
+}
+.profile > p {
+	padding-bottom: 0px;
+	margin-bottom: 2px;
+}
+.profile > p span {
+	font-size: 14px
+}
+.stick1 .featurecontant > div > p > span:last-child,
+.productinside  p > span:last-child {
 	padding-left: 20px;
 }
 /*////products -pages ///*/
@@ -342,24 +398,49 @@ body {
 	margin-top: 16vh;
 	height: 77vh
 }
+#tc h1 {
+	padding-top: 10%
+}
 #form-login {
-	padding-right: 40px
+	padding-right: 40px;
+	padding-top: 12%
 }
 #form-login input {
 	width: 100%;
 	height: 50px;
-	margin-bottom: 20px;
+	margin-bottom: 0px;
 	padding: 0 10px
 }
+#form-login + a {
+	line-height: 5
+}
+input.err {
+	/*background-color: #f7eae6;*/
+}
+.err::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #e54c36;
+    opacity: 1; /* Firefox */
+}
+
+.err:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #e54c36;
+}
+
+.err::-ms-input-placeholder { /* Microsoft Edge */
+    color: #e54c36;
+}
 #res {
-	margin-top: 40px
+	margin-top: 60px
+}
+#res h1 {
+	padding-top: 0px
 }
 #featuresection .img2colon img,
 #featuresection .img1colon img {
 	padding: 12px;
 }
 .featurecontant {
-	margin-top: 12px
+	margin-top: 0px
 }
 #featuresection .costumcol .costumrow {
 	display: flex
@@ -370,6 +451,18 @@ body {
 #readmore4 {
 	margin-top: 25px
 }
+.table > thead > tr > th, .table > tbody > tr > th, 
+.table > tfoot > tr > th, .table > thead > tr > td, 
+.table > tbody > tr > td, .table > tfoot > tr > td {
+height: 60px;
+padding-top: 20px
+}
+.table .thead-inverse  > tr > td {
+	font-size: 16px;
+	font-family: 'fpm', sans-serif;
+	text-align: center
+}
+
 
 
 
