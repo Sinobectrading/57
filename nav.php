@@ -11,7 +11,7 @@
 				<a class="navbar-brand" href="#">					
 
 					<img src="image/triangle30.png" alt=""></br class="visible-xs">SINOBEC RESOURCES INC.
-					<p class="navtitle hidden-xs">Metal is Our Business</p>
+					<p class="navtitle hidden-xs">Since 2002</p>
 				</a>
 			</div>
 			<div class="navbar-collapse collapse">

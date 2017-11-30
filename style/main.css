@@ -299,7 +299,7 @@ body {
 	padding: 10px 20px
 }
 .stick1 .featurecontant p {
-	font-size: 18px
+	font-size: 14px
 }
 .stick1  div.sticky > p > span:first-child,
 .productinside  p > span:first-child {
@@ -313,6 +313,11 @@ body {
 .stick1  div.profile > p > span {
 	width: 33%;
 	display: inline-block;
+}
+#a1 .featurecontant h3 {
+	font-family: 'fpm', sans-serif;
+	font-size: 14px;
+	margin-top: 10px
 }
 .profile > p {
 	padding-bottom: 0px;
@@ -439,17 +444,45 @@ input.err {
 #featuresection .img1colon img {
 	padding: 12px;
 }
-.featurecontant {
-	margin-top: 0px
+#featuresection .txt1colon {
+	padding: 12px;
+}
+#featuresection .featurecontant {
+	height: 100%
 }
 #featuresection .costumcol .costumrow {
 	display: flex
+}
+#featuresection .featurecontant>button {
+	margin-bottom: 0px
+}
+#featuresection .featurecontant>h2 {
+	margin-top: 40%
 }
 #readmore2,
 #readmore,
 #readmore3,
 #readmore4 {
-	margin-top: 25px
+	margin-top: 25px;
+	max-width: 80%
+}
+#readmore>p,
+#readmore2>p,
+#readmore3>p,
+#readmore4>p {
+	font-size: 14px
+}
+#readmore2 h1,
+#readmore h1,
+#readmore3 h1,
+#readmore4 h1 {
+	padding-top: 20px
+}
+#readmore>button,
+#readmore2>button,
+#readmore3>button,
+#readmore4>button {
+	margin-bottom: 45px
 }
 .table > thead > tr > th, .table > tbody > tr > th, 
 .table > tfoot > tr > th, .table > thead > tr > td, 
@@ -462,7 +495,9 @@ padding-top: 20px
 	font-family: 'fpm', sans-serif;
 	text-align: center
 }
-
+#track {
+	font-size: 16px;
+}
 
 
 
@@ -495,12 +530,12 @@ padding-top: 20px
 #btnRL, #btnRL2, #btnRL3, #btnRL4 {
 	bottom:0px
 }
-.featurecontant {
+#featuresection .featurecontant {
 	margin-top: 0%;
 	height: 96%
 }
 .costumrow {
-	display: flex
+	/*display: flex*/
 }
 #featuresection .img2colon img,
 #featuresection .img1colon img {
@@ -541,19 +576,13 @@ padding-top: 20px
 	font-weight: 300
 }
 #a1 .slideimg img {
-	display: block;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  min-height: 100%;
-  min-width: 100%;
-  transform: translate(-50%, -50%);
+ 
 }
 #a1 .stick1 .featurecontant > div  p   span {
 	padding-left: 0px
 }
 #a1 .colborder2 .costumrow {
-	display: flex
+	/*display: flex*/
 }
 #a1 .stick1 .featurecontant {
 	padding-top: 0px;

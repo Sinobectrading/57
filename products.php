@@ -17,14 +17,14 @@
 					</div>
 				</a>
 
-				<a href="">
+				<a href="aicasting.php">
 					<div class="col-lg-4 col-md-6 col-xs-12">
 						<img src="image/far02.png" alt="">
 						<h4>Al Casting</h4>
 					</div>
 				</a>
 
-				<a href="">
+				<a href="customized.php">
 					<div class="col-lg-4 col-md-6 col-xs-12">
 						<img src="image/far02.png" alt="">
 						<h4>Customized</h4>
@@ -33,21 +33,21 @@
 			</div>
 
 			<div class="row">
-				<a href="">
+				<a href="coil.php">
 					<div class="col-lg-4 col-md-6 col-xs-12">
 						<img src="image/far02.png" alt="">
 						<h4>COil</h4>
 					</div>
 				</a>
 	
-				<a href="a1.php">
+				<a href="plate.php">
 					<div class="col-lg-4 col-md-6 col-xs-12">
 						<img src="image/far02.png" alt="">
 						<h4>Plate & Sheet</h4>
 					</div>
 				</a>
 
-				<a href="">
+				<a href="treatplate.php">
 					<div class="col-lg-4 col-md-6 col-xs-12">
 						<img src="image/far02.png" alt="">
 						<h4>TREAT PLATE</h4>

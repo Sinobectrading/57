@@ -38,3 +38,36 @@
 
 <script type="text/javascript" src="source/bootstrap-3.3.6-dist/js/jquery.1.11.js"></script>
 <script type="text/javascript" src="source/bootstrap-3.3.6-dist/js/bootstrap.js"></script>
+
+<script>
+// array is also fine, equal to
+$('.stick1').stickit([
+{
+  screenMinWidth: 1024,    // apply if width >= 1024
+  top: 260,
+  onStick: function () {
+    $("#fade").fadeOut();
+  }
+}, 
+{
+  screenMinWidth: 768,    // apply if width >= 768 && width <= 1023
+  screenMaxWidth: 1023,
+  top: 300,
+  onStick: function () {
+    $("#fade").fadeOut();
+  }
+}, 
+{
+  screenMaxWidth: 767,    // apply if width <= 767
+  top: 350,
+  onStick: function () {
+    $("#fade").fadeOut();
+  }
+}]); 
+$(window).scroll( function() { 
+ 	var scrolled_val = $(document).scrollTop().valueOf();
+ 	if(scrolled_val < 100){
+ 		$("#fade").fadeIn();
+ 	}
+});
+</script>

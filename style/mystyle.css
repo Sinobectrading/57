@@ -820,7 +820,6 @@ font-weight: bold;
 	width:85%;
 	height: auto;
 	border: 1px solid #C59E47;
-	margin-top: 3%;
 	margin-right: auto;
 	margin-left: auto;
 }
@@ -936,7 +935,7 @@ font-weight: bold;
 #btnRL3,
 #btnRL4 {
 	position: absolute;
-	bottom: 15px
+	bottom: 5px
 }
 #readmore2{
 	overflow-y: auto;

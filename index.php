@@ -50,18 +50,14 @@
 					</div>
 					<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 txt1colon ">
 						<div class="featurecontant">
-							<h1>LOREM IPSUM 1</h1>
-							<p>"Lorem ipsum dolor sit amet, consectetur ,<br>
-			 						sed do eiusmod tempor incididunt </p>
-			 				<h2>Something here....</h2>
+							<h1>Our Vision</h1>
+							<p><!-- "Lorem ipsum dolor sit amet, consectetur ,<br>
+			 						sed do eiusmod tempor incididunt  --></p>
+			 				<h2>Innovation</h2>
 			 				<button id="btnRM" onClick="rmtxt()">READ MORE</button>
 			 				<div id="readmore">
-			 						<h1>Car Name</h1>
-			 						<p>"Lorem ipsum dolor sit amet, consectetur ,<br>
-			 						sed do eiusmod tempor incididunt <br>"Lorem ipsum dolor sit amet, consectetur ,<br>
-			 						sed do eiusmod tempor incididunt"Lorem ipsum dolor sit amet, consectetur1 ,
-			 						sed do eiusmod tempor incididunt"Lorem ipsum dolor sit amet, consectetur1
-			 						sed do eiusmod tempor incididunt"Lorem ipsum dolor sit amet, consectetur1<br>
+			 						<h1>Efficiency & Accurate</h1>
+			 						<p>We are beyond traditional distributor, but frontier explore in term of operation model and technology.
 			 						</p>
 			 						<button id="btnRL">READ LESS</button>
 			 				</div>
@@ -76,18 +72,13 @@
 					</div>
 					<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 txt1colon ">
 						<div class="featurecontant">
-							<h1>LOREM IPSUM 2</h1>
-							<p>"Lorem ipsum dolor sit amet, consectetur ,<br>
-			 						sed do eiusmod tempor incididunt </p>
-			 				<h2>Something here....</h2>
+							<h1>Our Value</h1>
+							<p></p>
+			 				<h2>Integration</h2>
 			 				<button id="btnRM2">READ MORE</button>
 			 				<div id="readmore2">
-			 						<h1>Car Name</h1>
-			 						<p>"Lorem ipsum dolor sit amet, consectetur ,<br>
-			 						sed do eiusmod tempor incididunt <br>"Lorem ipsum dolor sit amet, consectetur ,<br>
-			 						sed do eiusmod tempor incididunt"Lorem ipsum dolor sit amet, consectetur1 ,
-			 						sed do eiusmod tempor incididunt"Lorem ipsum dolor sit amet, consectetur1
-			 						sed do eiusmod tempor incididunt"Lorem ipsum dolor sit amet, consectetur1<br></p>
+			 						<h1>Connection</h1>
+			 						<p>We see ourselves as the major media to integration of upstream and downstream of our industry. Meanwhile we build bridge to connect domestic and overseas market. By combining the strength and advantage of whole industrial, we create more value to our end user and reduce the total cost. </p>
 			 						<button id="btnRL2">READ LESS</button>
 			 				</div>
 						</div>
