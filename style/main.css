@@ -520,7 +520,21 @@ padding-top: 20px
 #track {
 	font-size: 16px;
 }
-
+ #ajaxresponse > thead > tr > th, 
+ #ajaxresponse > tbody > tr > th, 
+ #ajaxresponse > tfoot > tr > th, 
+ #ajaxresponse > thead > tr > td, 
+ #ajaxresponse > tbody > tr > td, 
+ #ajaxresponse > tfoot > tr > td {
+  	text-align: center;
+  }
+#tc button:disabled,
+#tc button[disabled],
+#tc button:disabled:hover {
+  border: 1px solid #7c7c7c;
+  background-color: #999;
+  color: #fff;
+}
 
 
 
@@ -785,7 +799,8 @@ padding-top: 20px
 	margin-bottom: 20px
 }
 #productinside .row > a > div img {
-	padding: 
+	width: auto;
+	max-width: 100%;
 }
 #productinside .row > a > div h4 {
 	padding-top: 0px;
@@ -832,9 +847,7 @@ padding-top: 20px
   /*
   Label the data
   */
-  #ajaxresponse {
-  	width: 
-  }
+
    #res td:nth-of-type(1):before
     { 
     content: "AG PO#";  
@@ -1162,6 +1175,10 @@ font-size: 28px
 	#featuresection #readmore>h1, #readmore2>h1, #readmore3>h1, #readmore4>h1 {
 	padding-top: 15px
 }
+#form-login {
+	padding-top: 0px
+}
+
 
 }
 

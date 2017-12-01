@@ -1,6 +1,6 @@
 <!doctype html>
 <html>
-<?php include_once 'header.php'; ?>
+<?php include_once '../header.php'; ?>
 <style>
 html{
     min-height:100%;/* make sure it is at least as tall as the viewport */
@@ -63,7 +63,7 @@ body{
                          
                     </table>
                 </div>  
-                <img id="tmp" src="image/rawpixel-com2.jpg" alt="">    
+                <img id="tmp" src="../image/rawpixel-com2.jpg" alt="">    
             </div>
         </div><!-- /map-outer -->
     </div> <!-- /row -->
