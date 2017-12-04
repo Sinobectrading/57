@@ -7,17 +7,17 @@
 					<li class="pull-left copyright">&copy; Derechos de autor 2016, Todos los derechos reservados</li>
 					 
 					<li class="hidden-xs"><a href="/057/es/service.php">SERVICIO</a></li>
-					<li class="hidden-xs"><a href="/057/es/track.php">ORDEN DE SEGUIMIENTO</a></li>
+					<li class="hidden-xs"><a href="/057/es/about.php">SOBRE NOSOTROS</a></li>
 					<li class="hidden-xs"><a href="/057/es/privacy">INTIMIDAD</a></li>
 					 <div class="visible-xs clearfix" id="footn">
 					 	<ul class="visible-xs">
 					 	<li class="fcenter"><a href="/057/es/service.php">SERVICIO</a></li>
-						<li class="fcenter"><a href="/057/es/track.php">ORDEN DE SEGUIMIENTO</a></li>
+						<li class="fcenter"><a href="/057/es/about.php">SOBRE NOSOTROS</a></li>
 						<li class="fcenter"><a href="/057/es/privacy.php">INTIMIDAD</a></li>
 						</ul>
 					 </div>
 					<li class="pull-right social">
-						<span>Tel : +1 (888) 888 8888</span>
+						<span>Tel : +1 561-409-2205</span>
 				 		<a href="#"><i class="fa fa-facebook"></i></a>
 						<a href="#"><i class="fa fa-twitter"></i></a>
 						<a href="#"><i class="fa fa-google-plus"></i></a>

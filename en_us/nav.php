@@ -20,7 +20,10 @@
 						<a href="index.php">HOME</a> 
 					</li>
 					<li>
-						<a href="about.php">ABOUT</a>
+						<a href="products.php">PRODUCTS</a>
+					</li>
+					<li>
+						<a href="track.php">TRACK ORDER</a>
 					</li>
 					<!-- <li class="dropdown">
 						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">PRODUCTS<span class="caret"></span></a>
@@ -30,14 +33,9 @@
 							<li><a href="3">railing</a></li>
 						</ul>
 					</li> -->
-					<li>
-						<a href="products.php">PRODUCTS</a>
-					</li>
+					
 					<li>
 						<a href="contact.php">CONTACT</a>
-					</li>
-					<li class="visible-xs">
-						<a href="track.php">TRACKING</a>
 					</li>
 				</ul>
 				<ul class="nav navbar-nav navbar-right hidden-xs">

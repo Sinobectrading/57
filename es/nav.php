@@ -19,9 +19,7 @@
 					<li class="active">
 						<a href="index.php">CASA</a> 
 					</li>
-					<li>
-						<a href="about.php">SOBRE NOSOTROS</a>
-					</li>
+					
 					<!-- <li class="dropdown">
 						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">PRODUCTS<span class="caret"></span></a>
 						<ul class="dropdown-menu dropdowncostume">
@@ -34,11 +32,12 @@
 						<a href="products.php">PRODUCTOS</a>
 					</li>
 					<li>
+						<a href="track.php">ORDEN DE PISTA</a>
+					</li>
+					<li>
 						<a href="contact.php">CONTACTO</a>
 					</li>
-					<li class="visible-xs">
-						<a href="track.php">RASTREO</a>
-					</li>
+					
 				</ul>
 				<ul class="nav navbar-nav navbar-right hidden-xs">
 					<li><a href="/057/en_us/<?php echo basename($_SERVER['PHP_SELF']); ?>"><span class="register">EN</span></a> </li>

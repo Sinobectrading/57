@@ -78,7 +78,7 @@
 			 				<button id="btnRM2">READ MORE</button>
 			 				<div id="readmore2">
 			 						<h1>Connection</h1>
-			 						<p>We see ourselves as the major media to integration of upstream and downstream of our industry. Meanwhile we build bridge to connect domestic and overseas market. By combining the strength and advantage of whole industrial, we create more value to our end user and reduce the total cost.</p>
+			 						<p>We see ourselves as the major media to integration of upstream and downstream of our industry.</p>
 			 						<button id="btnRL2">READ LESS</button>
 			 				</div>
 						</div>
@@ -92,18 +92,13 @@
 					</div>
 					<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 txt1colon ">
 						<div class="featurecontant">
-							<h1>LOREM IPSUM 3</h1>
-							<p>"Lorem ipsum dolor sit amet, consectetur ,<br>
-			 						sed do eiusmod tempor incididunt </p>
-			 				<h2>Something here....</h2>
+							<h1>Our business Goal </h1>
+							
+			 				<h2>Value Creation</h2>
 			 				<button id="btnRM3" onClick="rmtxt()">READ MORE</button>
 			 				<div id="readmore3">
-			 						<h1>Car Name</h1>
-			 						<p>"Lorem ipsum dolor sit amet, consectetur ,<br>
-			 						sed do eiusmod tempor incididunt <br>"Lorem ipsum dolor sit amet, consectetur ,<br>
-			 						sed do eiusmod tempor incididunt"Lorem ipsum dolor sit amet, consectetur1 ,
-			 						sed do eiusmod tempor incididunt"Lorem ipsum dolor sit amet, consectetur1
-			 						sed do eiusmod tempor incididunt"Lorem ipsum dolor sit amet, consectetur1<br>
+			 						<h1>Value Creation</h1>
+			 						<p>We are continuing streamline our internal operation system.
 			 						</p>
 			 						<button id="btnRL3">READ LESS</button>
 			 				</div>
@@ -118,18 +113,13 @@
 					</div>
 					<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 txt1colon ">
 						<div class="featurecontant">
-							<h1>LOREM IPSUM 4</h1>
-							<p>"Lorem ipsum dolor sit amet, consectetur ,<br>
-			 						sed do eiusmod tempor incididunt </p>
-			 				<h2>Something here....</h2>
+							<h1>Our Business Strategy</h1>
+			 				<h2>Win-Win Solution</h2>
 			 				<button id="btnRM4">READ MORE</button>
 			 				<div id="readmore4">
-			 						<h1>Car Name</h1>
-			 						<p>"Lorem ipsum dolor sit amet, consectetur ,<br>
-			 						sed do eiusmod tempor incididunt <br>"Lorem ipsum dolor sit amet, consectetur ,<br>
-			 						sed do eiusmod tempor incididunt"Lorem ipsum dolor sit amet, consectetur1 ,
-			 						sed do eiusmod tempor incididunt"Lorem ipsum dolor sit amet, consectetur1
-			 						sed do eiusmod tempor incididunt"Lorem ipsum dolor sit amet, consectetur1<br></p>
+			 						<h1>Win-Win Solution</h1>
+			 						<p>Create win-win relationship with clients and vendors.<br>
+			 						</p>
 			 						<button id="btnRL4">READ LESS</button>
 			 				</div>
 						</div>

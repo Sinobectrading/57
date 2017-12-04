@@ -554,42 +554,68 @@ padding-top: 20px
 
 
 
-@media (min-width: 1025px) and (max-width: 1680px){ 
-
+@media (min-width: 1025px) and (max-width: 1780px){ 
+#featuresection .costumcol .costumrow {
+	margin-bottom: 35px;
+}
 #readmore4,
 #readmore3,
 #readmore,
 #readmore2{
-	max-width: 83%;
+	max-width: 76%;
 	margin-top: 20px
 }
 #btnRL, #btnRL2, #btnRL3, #btnRL4 {
-	bottom:0px
+	bottom:0px;
 }
 #featuresection .featurecontant {
 	margin-top: 0%;
-	height: 96%
+	height: 100%
 }
 .costumrow {
 	/*display: flex*/
 }
 #featuresection .img2colon img,
 #featuresection .img1colon img {
-  display: block;
+ display: block;
   position: absolute;
   top: 50%;
   left: 50%;
-  min-height: 100%;
-  min-width: 100%;
+  max-height: 100%;
+  max-width: 100%;
   transform: translate(-50%, -50%);
-  padding: 15px
+}
+#readmore2 h1, #readmore h1, #readmore3 h1, #readmore4 h1 {
+	padding-top: 0px
+}
+#featuresection .txt1colon {
+	padding-top: 0px;
+	padding-bottom: 0px;
+	height: 100%;
+	min-height: 100%;
+}
+#featuresection .featurecontant {
+	height: 100%
+}
+#featuresection .featurecontant>button {
+	font-size: 13px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-bottom: 12px
 }
 .txt1colon {
 	padding-top: 15px;
 }
-#featuresection .img1colon>img {
- 
+#readmore>button, #readmore2>button, #readmore3>button, #readmore4>button {
+	margin-bottom: 12px;
+	font-size: 13px;
+	padding-top: 10px;
+	padding-bottom: 10px;
 }
+
+
+
+
 
 }
 
@@ -645,6 +671,7 @@ padding-top: 20px
 #featuresection #readmore,
 #featuresection #readmore2 {
 	margin-top: 16px;
+	max-width: 79%
 }
 #readmore2>button,
 #readmore>button,
@@ -659,15 +686,15 @@ padding-top: 20px
 #readmore4>h1,
 #readmore3>h1,
 #readmore>h1 {
-	margin-top: 10px;
-	margin-bottom: 5px;
+	margin-top: 0px;
+	margin-bottom: 26px;
 	font-size: 14px
 }
 #readmore>p {
 	margin-bottom: 0px
 }
 #featuresection #btnRL, #featuresection #btnRL2, #featuresection #btnRL3, #featuresection #btnRL4 {
-	bottom: 15px
+	bottom: 0px
 }
 .navbar-brand {
 	margin-left: 15vw
@@ -720,13 +747,16 @@ padding-top: 20px
 	padding-bottom: 8px;
 }
 #featuresection .featurecontant>button {
-		margin-bottom: 12px
+		margin-bottom: 25px
+}
+#featuresection .featurecontant {
+	width: 100%
 }
 #readmore4,
 #readmore3,
 #readmore,
 #readmore2 {
-	max-width: 89%;
+	max-width: 95%;
 	margin-top: 14px
 }
 #readmore>button, 
@@ -937,11 +967,17 @@ padding-top: 20px
 	max-width: 100%;
 	max-height: 100%
 }
+#readmore ,
+#readmore2 ,
+#readmore3 ,
+#readmore4  {
+	max-width: 91%;
+}
 #readmore>h1,
 #readmore2>h1,
 #readmore3>h1,
 #readmore4>h1 {
-	padding-top:0px
+	padding-top:0px;
 }
 
 #navtop .navbar-collapse {
@@ -1173,7 +1209,8 @@ font-size: 28px
 
 @media screen and (max-width: 1198px) {
 	#featuresection #readmore>h1, #readmore2>h1, #readmore3>h1, #readmore4>h1 {
-	padding-top: 15px
+	padding-top: 15px;
+	font-size: 18px;
 }
 #form-login {
 	padding-top: 0px
