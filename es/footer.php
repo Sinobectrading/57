@@ -6,12 +6,12 @@
 				<ul class="nav navbar-nav">
 					<li class="pull-left copyright">&copy; Derechos de autor 2016, Todos los derechos reservados</li>
 					 
-					<li class="hidden-xs"><a href="/057/es/service.php">SERVICIO</a></li>
+					 
 					<li class="hidden-xs"><a href="/057/es/about.php">SOBRE NOSOTROS</a></li>
 					<li class="hidden-xs"><a href="/057/es/privacy">INTIMIDAD</a></li>
 					 <div class="visible-xs clearfix" id="footn">
 					 	<ul class="visible-xs">
-					 	<li class="fcenter"><a href="/057/es/service.php">SERVICIO</a></li>
+					 	
 						<li class="fcenter"><a href="/057/es/about.php">SOBRE NOSOTROS</a></li>
 						<li class="fcenter"><a href="/057/es/privacy.php">INTIMIDAD</a></li>
 						</ul>
@@ -32,12 +32,12 @@
 <script type="text/javascript" src="/057/source/bootstrap-3.3.6-dist/js/jquery.js"></script>
 <script type="text/javascript" src="/057/source/js/isotope.js"></script>
 <script type="text/javascript" src="/057/source/js/myscript.js"></script> 
-
 <script type="text/javascript" src="/057/source/js/jquery.stickit.min.js"></script> 
-
-
 <script type="text/javascript" src="/057/source/bootstrap-3.3.6-dist/js/jquery.1.11.js"></script>
 <script type="text/javascript" src="/057/source/bootstrap-3.3.6-dist/js/bootstrap.js"></script>
+
+<script type="text/javascript" src="/057/source/js/modernizr.custom.js"></script>
+<script type="text/javascript" src="/057/source/js/grid.js"></script> 
 
 <script>
 // array is also fine, equal to

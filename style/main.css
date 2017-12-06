@@ -259,24 +259,41 @@ body {
 
 
 /*///// products details /////*/
-#productinside {
+#productinside, #serviceinside {
 	text-align: center;
 	background: #e7e7e7;
+	padding-top: 0px;
+	padding-bottom: 60px
 }
 
 #productinside .row {
 	padding: 100px 60px;
 }
-#productinside .row:nth-child(1) {
-	padding-bottom: 0px
+#serviceinside .row {
+	padding: 100px 40px
 }
-#productinside .row > a > div {
-	padding: 40px;
+#productinside  div.row {
+	padding: 80px 40px;
 }
 #productinside .row > a > div h4 {
-	padding-top: 40px;
+	padding-top: 0px;
 	font-size: 14px;
+	color: #626262
 }
+#productinside img,#serviceinside img {
+	width: auto;
+	height: auto;
+	max-width: 100%;
+	max-height: 100%
+}
+.srvtext {
+	padding-right: 5vw;
+	text-align: left;
+}
+
+
+
+
 .propath {
 	 padding-top: 15px;
 	 border-bottom: 1px  solid  #c59e47
@@ -398,7 +415,8 @@ body {
 }
 /*////contact pages////*/
 .flex {
- 
+  display: flex;
+  align-items: center
 }
 
 #map {
@@ -1008,8 +1026,8 @@ padding-top: 20px
     text-align: left;
 }
 #aboutmain .feturedsection h1 {
-    line-height: 40px;
-    padding-top: 20px;
+    line-height: 10px;
+    padding-top: 40px;
 }
 #aluminumtop h3 {
 	margin-top: 0px;

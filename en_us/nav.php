@@ -20,7 +20,7 @@
 						<a href="index.php">HOME</a> 
 					</li>
 					<li>
-						<a href="products.php">PRODUCTS</a>
+						<a href="products.php">PRODUCTS & SERVICES</a>
 					</li>
 					<li>
 						<a href="track.php">TRACK ORDER</a>

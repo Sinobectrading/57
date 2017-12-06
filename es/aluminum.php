@@ -7,13 +7,13 @@
 <!--_______________________________________ Carousel__________________________________ -->
 <div class="allcontain clearfix">
 	 <div class="col-md-12" id="aluminumtop">
-	 	<h3>Aluminum Products</h3>	
+	 	<h3>Productos de aluminio</h3>	
 
  	 	    <div class="row">
 		        <div class="col-sm-2">
 		            <ul id="nav-tabs-wrapper" class="nav nav-tabs nav-pills nav-stacked well">
-		              	<li class="active"><a href="#vtab1" data-toggle="tab">Stand EX</a></li>
-		              	<li><a href="#vtab2" data-toggle="tab">Al Casting</a></li>
+		              	<li class="active"><a href="#vtab1" data-toggle="tab">Stand Extrusion</a></li>
+		              	<li><a href="#vtab2" data-toggle="tab">Aluminum Casting</a></li>
 		              	<li><a href="#vtab3" data-toggle="tab">Customized</a></li>
 		              	<li><a href="#vtab4" data-toggle="tab">COIl</a></li>
 		              	<li><a href="#vtab5" data-toggle="tab">Plate & Sheet</a></li>

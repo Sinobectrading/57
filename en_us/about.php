@@ -15,25 +15,21 @@
 	<div class="allcontain" id="aboutmain">
 
 		<div class="feturedsection">
-			<h1 class="text-center">O U R S<span class="carstxt">H I S T O R Y</span></h1>
+			<h1 class="text-center">O U R <span class="carstxt">V I S I O N</span></h1>
 		</div>
 		<div class="feturedimage">
 			<div class="row firstrow">
 				 
 				<div class="col-lg-12 costumcol colborder2">
 					<div class="row costumrow flex hidden-xs">
-						<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 img2colon">
+						<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 img2colon">
 							<img src="../image/800_610.jpg" alt="porsche1">
 						</div>
-						<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 txt1colon">
+						<div class="col-xs-12 col-sm-6 col-md-8 col-lg-8 txt1colon">
 							<div class="featurecontant">
 								<div>
-									<h1>LOREM IPSUM 2</h1>
-									<p>"Lorem ipsum dolor sit amet, consectetur  
-				 						sed do eiusmod tempor incididunt Lorem ipsum dolor sit amet, consectetur 
-				 						sed do eiusmod tempor incididuntLorem ipsum dolor sit amet, consectetur 
-				 						sed do eiusmod tempor incididuntLorem ipsum dolor sit amet, consectetu 
-				 						sed do eiusmod tempor incididunt </p>
+									<h1>Innovation</h1>
+									<p>We are beyond traditional distributor, but frontier explore in term of operation model and technology. Innovation; Efficiency and accurate.</p>
 				 				</div>
 	 						</div>
 						</div>
@@ -45,12 +41,8 @@
 						<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 txt1colon">
 							<div class="featurecontant">
 								<div>
-									<h1>LOREM IPSUM 2</h1>
-									<p>"Lorem ipsum dolor sit amet, consectetur  
-				 						sed do eiusmod tempor incididunt Lorem ipsum dolor sit amet, consectetur 
-				 						sed do eiusmod tempor incididuntLorem ipsum dolor sit amet, consectetur 
-				 						sed do eiusmod tempor incididuntLorem ipsum dolor sit amet, consectetu 
-				 						sed do eiusmod tempor incididunt </p>
+									<h1>Innovation</h1>
+									<p>We are beyond traditional distributor, but frontier explore in term of operation model and technology. Innovation; Efficiency and accurate.</p>
 				 				</div>
 	 						</div>
 						</div>
@@ -58,69 +50,118 @@
 				</div>
 
 				<div class="col-lg-12 costumcol colborder2">
+					<div class="feturedsection">
+						<h1 class="text-center">O U R <span class="carstxt"> V A L U E</span></h1>
+					</div>
+					<div class="row costumrow flex hidden-xs">
+						<div class="col-xs-12 col-sm-6 col-md-8 col-lg-8 txt1colon">
+							<div class="featurecontant">
+								<div>
+									<h1>Integration</h1>
+									<p>We see ourselves as the major media to integration of upstream and downstream of our industry. Bridge to connect domestic and overseas market. Combine the strength and advantage of whole industry. </p>
+				 				</div>
+	 						</div>
+						</div>
+						<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 img2colon">
+							<img src="../image/800_610.jpg" alt="porsche1">
+						</div>
+					</div>
+					<div class="row costumrow visible-xs">
+						<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 img2colon">
+							<img src="../image/800_610.jpg" alt="porsche1">
+						</div>
+						<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 txt1colon">
+							<div class="featurecontant">
+								<div>
+									<h1>Integration</h1>
+									<p>We see ourselves as the major media to integration of upstream and downstream of our industry. Bridge to connect domestic and overseas market. Combine the strength and advantage of whole industry. </p>
+				 				</div>
+	 						</div>
+						</div>
+					</div>
+					 
+				</div>
+
+				<div class="col-lg-12 costumcol colborder2">
+					<div class="feturedsection">
+						<h1 class="text-center">O U R <span class="carstxt"> G O A L</span></h1>
+					</div>
+					<div class="row costumrow flex hidden-xs">
+						<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 img2colon">
+							<img src="../image/800_610.jpg" alt="porsche1">
+						</div>
+						<div class="col-xs-12 col-sm-6 col-md-8 col-lg-8 txt1colon">
+							<div class="featurecontant">
+								<div>
+									<h1>Creation</h1>
+									<p>We are continuing streamline our internal operation system.
+									We keep learning and improving. Explore the frontier. Be the leader of the industry.We keep build our reputation and influence within the industry and cross industries.  </p>
+				 				</div>
+	 						</div>
+						</div>
+					</div>
+					<div class="row costumrow visible-xs">
+						<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 img2colon">
+							<img src="../image/800_610.jpg" alt="porsche1">
+						</div>
+						<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 txt1colon">
+							<div class="featurecontant">
+								<div>
+									<h1>Creation</h1>
+									<p>We are continuing streamline our internal operation system.
+									We keep learning and improving. Explore the frontier. Be the leader of the industry.We keep build our reputation and influence within the industry and cross industries.</p>
+				 				</div>
+	 						</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-12 costumcol colborder2">
+					<div class="feturedsection">
+						<h1 class="text-center">O U R <span class="carstxt"> S T R A T E G Y</span></h1>
+					</div>
 					<div class="row costumrow flex hidden-xs">
 						
-						<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 txt1colon ">
+						<div class="col-xs-12 col-sm-6 col-md-8 col-lg-8 txt1colon">
 							<div class="featurecontant">
 								<div>
-								<h1>LOREM IPSUM 2</h1>
-								<p>"Lorem ipsum dolor sit amet, consectetur , 
-			 						sed do eiusmod tempor incididunt Lorem ipsum dolor sit amet, consectetur , 
-			 						sed do eiusmod tempor incididunt Lorem ipsum dolor sit amet, consectetur ,  
-			 						sed do eiusmod tempor incididunt  
-			 						sed do eiusmod tempor incididunt Lorem ipsum dolor sit amet, consectetur , 
-			 						sed do eiusmod tempor incididunt Lorem ipsum dolor sit amet, consectetur , 
-			 						sed do eiusmod tempor incididunt Lorem ipsum dolor sit amet, consectetur ,  
-			 						sed do eiusmod tempor incididunt  
-			 						sed do eiusmod tempor incididuntLorem ipsum dolor sit amet, consectetur , 
-			 						sed do eiusmod tempor incididunt Lorem ipsum dolor sit amet, consectetur , 
-			 						sed do eiusmod tempor incididunt Lorem ipsum dolor sit amet, consectetur ,  
-			 						sed do eiusmod tempor incididunt  
-			 						sed do eiusmod tempor incididuntLorem ipsum dolor sit amet, consectetur , 
-			 						sed do eiusmod tempor incididunt Lorem ipsum dolor sit amet, consectetur , 
-			 						sed do eiusmod tempor incididunt Lorem ipsum dolor sit amet, consectetur ,  
-			 						sed do eiusmod tempor incididunt  
-			 						sed do eiusmod tempor incididunt </p>
-			 						</div>
- 	 						</div>
+									<h1>Win-Win Solution</h1>
+									<p>
+										<li>
+											Create win-win relationship with clients and vendors.
+										</li>
+										<li>
+											Benefit from by create the value for the whole value chain and reduce the total cost of ownership.
+										</li>
+									</p>
+				 				</div>
+	 						</div>
 						</div>
-
-						<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 img2colon">
+						<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 img2colon">
 							<img src="../image/800_610.jpg" alt="porsche1">
 						</div>
 					</div>
-
 					<div class="row costumrow visible-xs">
-						
-						<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 txt1colon ">
-							<div class="featurecontant">
-								<div>
-								<h1>LOREM IPSUM 2</h1>
-								<p>"Lorem ipsum dolor sit amet, consectetur , 
-			 						sed do eiusmod tempor incididunt Lorem ipsum dolor sit amet, consectetur , 
-			 						sed do eiusmod tempor incididunt Lorem ipsum dolor sit amet, consectetur ,  
-			 						sed do eiusmod tempor incididunt  
-			 						sed do eiusmod tempor incididunt Lorem ipsum dolor sit amet, consectetur , 
-			 						sed do eiusmod tempor incididunt Lorem ipsum dolor sit amet, consectetur , 
-			 						sed do eiusmod tempor incididunt Lorem ipsum dolor sit amet, consectetur ,  
-			 						sed do eiusmod tempor incididunt  
-			 						sed do eiusmod tempor incididuntLorem ipsum dolor sit amet, consectetur , 
-			 						sed do eiusmod tempor incididunt Lorem ipsum dolor sit amet, consectetur , 
-			 						sed do eiusmod tempor incididunt Lorem ipsum dolor sit amet, consectetur ,  
-			 						sed do eiusmod tempor incididunt  
-			 						sed do eiusmod tempor incididuntLorem ipsum dolor sit amet, consectetur , 
-			 						sed do eiusmod tempor incididunt Lorem ipsum dolor sit amet, consectetur , 
-			 						sed do eiusmod tempor incididunt Lorem ipsum dolor sit amet, consectetur ,  
-			 						sed do eiusmod tempor incididunt  
-			 						sed do eiusmod tempor incididunt </p>
-			 						</div>
- 	 						</div>
-						</div>
-
 						<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 img2colon">
 							<img src="../image/800_610.jpg" alt="porsche1">
 						</div>
+						<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 txt1colon">
+							<div class="featurecontant">
+								<div>
+									<h1>Win-Win Solution</h1>
+									<p><li>
+											Create win-win relationship with clients and vendors.
+										</li>
+										<li>
+											Benefit from by create the value for the whole value chain and reduce the total cost of ownership.
+										</li></p>
+				 				</div>
+	 						</div>
+						</div>
 					</div>
+				</div>
+
+				 
 
 				</div>
 			</div>

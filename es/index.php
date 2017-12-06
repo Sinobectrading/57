@@ -78,7 +78,7 @@
 			 				<button id="btnRM2">LEE MAS</button>
 			 				<div id="readmore2">
 			 						<h1>Conexión</h1>
-			 						<p>Nos vemos a nosotros mismos como los principales medios para la integración de las fases iniciales y posteriores de nuestra industria. Mientras tanto construimos el puente para conectar el mercado doméstico y de ultramar. Al combinar la fuerza y la ventaja de toda la industria, creamos más valor para nuestro usuario final y reducimos el costo total.</p>
+			 						<p>Nos vemos a nosotros mismos como los principales medios para la integración de las fases iniciales y posteriores de nuestra industria.</p>
 			 						<button id="btnRL2">LEER MENOS</button>
 			 				</div>
 						</div>
@@ -92,20 +92,14 @@
 					</div>
 					<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 txt1colon ">
 						<div class="featurecontant">
-							<h1>LOREM IPSUM 3</h1>
-							<p>"Lorem ipsum dolor sit amet, consectetur ,<br>
-			 						sed do eiusmod tempor incididunt </p>
-			 				<h2>Something here....</h2>
-			 				<button id="btnRM3" onClick="rmtxt()">READ MORE</button>
+							<h1>Nuestro objetivo comercial</h1>
+			 				<h2>Creación de valor</h2>
+			 				<button id="btnRM3" onClick="rmtxt()">LEE MAS</button>
 			 				<div id="readmore3">
-			 						<h1>Car Name</h1>
-			 						<p>"Lorem ipsum dolor sit amet, consectetur ,<br>
-			 						sed do eiusmod tempor incididunt <br>"Lorem ipsum dolor sit amet, consectetur ,<br>
-			 						sed do eiusmod tempor incididunt"Lorem ipsum dolor sit amet, consectetur1 ,
-			 						sed do eiusmod tempor incididunt"Lorem ipsum dolor sit amet, consectetur1
-			 						sed do eiusmod tempor incididunt"Lorem ipsum dolor sit amet, consectetur1<br>
+			 						<h1>Creación de valor</h1>
+			 						<p>Continuamos racionalizando nuestro sistema de operación interna.
 			 						</p>
-			 						<button id="btnRL3">READ LESS</button>
+			 						<button id="btnRL3">LEER MENOS</button>
 			 				</div>
 						</div>
 					</div>
@@ -118,19 +112,13 @@
 					</div>
 					<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 txt1colon ">
 						<div class="featurecontant">
-							<h1>LOREM IPSUM 4</h1>
-							<p>"Lorem ipsum dolor sit amet, consectetur ,<br>
-			 						sed do eiusmod tempor incididunt </p>
-			 				<h2>Something here....</h2>
-			 				<button id="btnRM4">READ MORE</button>
+							<h1>Nuestra estrategia empresarial</h1>
+			 				<h2>Solución ganar-ganar</h2>
+			 				<button id="btnRM4">LEE MAS</button>
 			 				<div id="readmore4">
-			 						<h1>Car Name</h1>
-			 						<p>"Lorem ipsum dolor sit amet, consectetur ,<br>
-			 						sed do eiusmod tempor incididunt <br>"Lorem ipsum dolor sit amet, consectetur ,<br>
-			 						sed do eiusmod tempor incididunt"Lorem ipsum dolor sit amet, consectetur1 ,
-			 						sed do eiusmod tempor incididunt"Lorem ipsum dolor sit amet, consectetur1
-			 						sed do eiusmod tempor incididunt"Lorem ipsum dolor sit amet, consectetur1<br></p>
-			 						<button id="btnRL4">READ LESS</button>
+			 						<h1>Solución ganar-ganar</h1>
+			 						<p>Crea una relación ganar-ganar con clientes y proveedores.</p>
+			 						<button id="btnRL4">LEER MENOS</button>
 			 				</div>
 						</div>
 					</div>
@@ -140,7 +128,7 @@
 	</div>
 <!-- ________________________LATEST CARS SECTION _______________________-->
 <div class="latestcars">
-	<h1 class="text-center">OUR FOCUS</h1>
+	<h1 class="text-center">NUESTRO OBJETIVO</h1>
 	<!-- <ul class="nav nav-tabs navbar-left latest-navleft">
 		<li role="presentation" class="li-sortby"><span class="sortby">SORT BY: </span></li>
 		<li data-filter=".RECENT" role="presentation"><a href="#mostrecent" class="prcBtnR">MOST RECENT </a></li>
