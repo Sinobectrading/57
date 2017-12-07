@@ -14,7 +14,7 @@
 				<a href="standex.php">
 					<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
 						<img src="../image/Calepino_PocketNotebook_KraftandWhite_Grey.jpg" alt="">
-						<h4>Stand EX</h4>
+						<h4>Standard Extrusion</h4>
 					</div>
 				</a>
 
@@ -35,7 +35,7 @@
 				<a href="coil.php">
 					<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
 						<img src="../image/Calepino_PocketNotebook_KraftandWhite_Grey.jpg" alt="">
-						<h4>COil</h4>
+						<h4>Coil</h4>
 					</div>
 				</a>
 	
@@ -49,7 +49,7 @@
 				<a href="treatplate.php">
 					<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
 						<img src="../image/Calepino_PocketNotebook_KraftandWhite_Grey.jpg" alt="">
-						<h4>TREAT PLATE</h4>
+						<h4>Treat Plate</h4>
 					</div>
 				</a>
 			</div>

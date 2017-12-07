@@ -16,8 +16,11 @@
 			</div>
 			<div class="navbar-collapse collapse">
 				<ul class="nav navbar-nav navbar-left">
-					<li class="active">
-						<a href="index.php">CASA</a> 
+					<li
+						<?php if (trim($_SERVER['PHP_SELF']) == "/057/es/index.php") {
+                              echo 'class="active"';} ?> 
+					>
+						<a href="index.php" class="element underline-opening">CASA</a> 
 					</li>
 					
 					<!-- <li class="dropdown">
@@ -28,21 +31,30 @@
 							<li><a href="3">railing</a></li>
 						</ul>
 					</li> -->
-					<li>
-						<a href="products.php">PRODUCTOS & SERVICIO</a>
+					<li
+							<?php if (trim($_SERVER['PHP_SELF']) == "/057/es/products.php") {
+                              echo 'class="active"';} ?> 
+					>
+						<a href="products.php" class="element underline-opening">PRODUCTOS & SERVICIO</a>
 					</li>
-					<li>
-						<a href="track.php">ORDEN DE PISTA</a>
+					<li
+						<?php if (trim($_SERVER['PHP_SELF']) == "/057/es/track.php") {
+                              echo 'class="active"';} ?> 
+					>
+						<a href="track.php" class="element underline-opening">ORDEN DE PISTA</a>
 					</li>
 
-					<li>
-						<a href="contact.php">CONTACTO</a>
+					<li
+						<?php if (trim($_SERVER['PHP_SELF']) == "/057/es/contact.php") {
+                              echo 'class="active"';} ?> 
+					>
+						<a href="contact.php" class="element underline-opening">CONTACTO</a>
 					</li>
 					
 				</ul>
 				<ul class="nav navbar-nav navbar-right hidden-xs">
-					<li><a href="/057/en_us/<?php echo basename($_SERVER['PHP_SELF']); ?>"><span class="register">EN</span></a> </li>
-					<li><a href="/057/es/<?php echo basename($_SERVER['PHP_SELF']); ?>"><span class="currentlg">ES</span></a></li>
+					<li><a href="/057/en_us/<?php echo basename($_SERVER['PHP_SELF']); ?>"><span class="register element underline-opening">EN</span></a> </li>
+					<li><a href="/057/es/<?php echo basename($_SERVER['PHP_SELF']); ?>"><span class="currentlg element underline-opening">ES</span></a></li>
 				</ul>
 				 
 			</div>

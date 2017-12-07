@@ -16,14 +16,23 @@
 			</div>
 			<div class="navbar-collapse collapse">
 				<ul class="nav navbar-nav navbar-left">
-					<li class="active">
-						<a href="index.php">HOME</a> 
+					<li
+						<?php if (trim($_SERVER['PHP_SELF']) == "/057/en_us/index.php") {
+                              echo 'class="active"';} ?> 
+					>
+						<a href="index.php" class="element underline-opening">HOME</a> 
 					</li>
-					<li>
-						<a href="products.php">PRODUCTS & SERVICES</a>
+					<li
+						<?php if (trim($_SERVER['PHP_SELF']) == "/057/en_us/products.php") {
+                              echo 'class="active"';} ?> 
+					>
+						<a href="products.php" class="element underline-opening">PRODUCTS & SERVICES</a>
 					</li>
-					<li>
-						<a href="track.php">TRACK ORDER</a>
+					<li
+						<?php if (trim($_SERVER['PHP_SELF']) == "/057/en_us/track.php") {
+                              echo 'class="active"';} ?> 
+					>
+						<a href="track.php" class="element underline-opening">TRACK ORDER</a>
 					</li>
 					<!-- <li class="dropdown">
 						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">PRODUCTS<span class="caret"></span></a>
@@ -34,13 +43,16 @@
 						</ul>
 					</li> -->
 					
-					<li>
-						<a href="contact.php">CONTACT</a>
+					<li
+						<?php if (trim($_SERVER['PHP_SELF']) == "/057/en_us/contact.php") {
+                              echo 'class="active"';} ?> 
+					>
+						<a href="contact.php" class="element underline-opening">CONTACT</a>
 					</li>
 				</ul>
 				<ul class="nav navbar-nav navbar-right hidden-xs">
-					<li><a href="/057/en_us/<?php echo basename($_SERVER['PHP_SELF']); ?>"><span class="currentlg">EN</span></a> </li>
-					<li><a href="/057/es/<?php echo basename($_SERVER['PHP_SELF']); ?>"><span class="register">ES</span></a></li>
+					<li><a href="/057/en_us/<?php echo basename($_SERVER['PHP_SELF']); ?>"><span class="currentlg element underline-opening">EN</span></a> </li>
+					<li><a href="/057/es/<?php echo basename($_SERVER['PHP_SELF']); ?>"><span class="register element underline-opening">ES</span></a></li>
 				</ul>
 				 
 			</div>

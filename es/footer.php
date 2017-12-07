@@ -8,7 +8,7 @@
 					 
 					 
 					<li class="hidden-xs"><a href="/057/es/about.php">SOBRE NOSOTROS</a></li>
-					<li class="hidden-xs"><a href="/057/es/privacy">INTIMIDAD</a></li>
+					<li class="hidden-xs"><a href="/057/es/privacy.php">INTIMIDAD</a></li>
 					 <div class="visible-xs clearfix" id="footn">
 					 	<ul class="visible-xs">
 					 	

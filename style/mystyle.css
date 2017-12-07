@@ -16,6 +16,191 @@ src:  url("../font/Gill_Sans_Light.woff") format("woff"),
 	padding: 0px;
 }
 
+.element {
+	display: inline;
+	position: relative;
+	z-index: 2;
+	text-decoration: none;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-webkit-user-select: none; 
+	-moz-user-select: none; 
+	-ms-user-select: none; 
+	user-select: none; 
+	-webkit-touch-callout: none; 
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0); 
+	padding: 10px;
+	white-space: nowrap;
+	overflow: hidden;
+	-webkit-transition: color 1s ease;
+	-moz-transition: color 1s ease;
+	-ms-transition: color 1s ease;
+	-o-transition: color 1s ease;
+	transition: color 1s ease;
+}
+
+#navtop .element:hover,
+#navtop .element:focus {
+	outline: 0;
+	color: #c59e47;
+	-webkit-transition: color 1s ease;
+	-moz-transition: color 1s ease;
+	-ms-transition: color 1s ease;
+	-o-transition: color 1s ease;
+	transition: color 1s ease;
+	cursor: pointer;
+}
+
+.element:before {
+	-webkit-transition: all 1s ease; /* add delay if wanted */
+	-moz-transition: all 1s ease; /* add delay if wanted */
+	-ms-transition: all 1s ease; /* add delay if wanted */
+	-o-transition: all 1s ease; /* add delay if wanted */
+	transition: all 1s ease; /* add delay if wanted */
+}
+
+.element:after {
+	-webkit-transition: all 1s ease; /* add delay if wanted */
+	-moz-transition: all 1s ease; /* add delay if wanted */
+	-ms-transition: all 1s ease; /* add delay if wanted */
+	-o-transition: all 1s ease; /* add delay if wanted */
+	transition: all 1s ease; /* add delay if wanted */	
+}
+
+#navtop .element:hover:after,
+#navtop .element:focus:after {
+	outline: 0;
+	background-color:#c59e47;
+	-webkit-transition:  all 1s ease; /* add delay if wanted */
+	   -moz-transition:  all 1s ease; /* add delay if wanted */
+	    -ms-transition:  all 1s ease; /* add delay if wanted */
+	     -o-transition:  all 1s ease; /* add delay if wanted */
+	        transition:  all 1s ease; /* add delay if wanted */
+}
+
+#navtop .element:hover:before,
+#navtop .element:focus:before {
+	outline: 0;
+	background-color: #c59e47;
+	-webkit-transition:  all 1s ease; /* add delay if wanted */
+	   -moz-transition:  all 1s ease; /* add delay if wanted */
+	    -ms-transition:  all 1s ease; /* add delay if wanted */
+	     -o-transition:  all 1s ease; /* add delay if wanted */
+	        transition:  all 1s ease; /* add delay if wanted */
+}
+
+.underline-opening:after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  width: 3px;
+  height: 1px; }
+#navtop .underline-opening:hover:after, .underline-opening:focus:after {
+  width: 100%;
+  height: 1px; }
+.underline-opening:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  width: 3px;
+  height: 1px; }
+#navtop .underline-opening:hover:before, .underline-opening:focus:before {
+  width: 100%;
+  height: 1px; }
+.underline-opening:after {
+  bottom: 0%;
+  left: 0%;
+  right: 0;
+  margin: 0 auto; }
+.underline-opening:before {
+  bottom: 0%;
+  right: 0%;
+  left: 0;
+  margin: 0 auto; }
+
+#navtop .active .underline-opening {
+	color: #c59e47
+}
+.active .element {
+	 
+}
+.active .element:before {
+	-webkit-transition: all 1s ease; /* add delay if wanted */
+	-moz-transition: all 1s ease; /* add delay if wanted */
+	-ms-transition: all 1s ease; /* add delay if wanted */
+	-o-transition: all 1s ease; /* add delay if wanted */
+	transition: all 1s ease; /* add delay if wanted */
+}
+
+.active .element:after {
+	-webkit-transition: all 1s ease; /* add delay if wanted */
+	-moz-transition: all 1s ease; /* add delay if wanted */
+	-ms-transition: all 1s ease; /* add delay if wanted */
+	-o-transition: all 1s ease; /* add delay if wanted */
+	transition: all 1s ease; /* add delay if wanted */	
+}
+
+.active .elemen:after,
+.active .element:after {
+	outline: 0;
+	background-color:#c59e47;
+	-webkit-transition:  all 1s ease; /* add delay if wanted */
+	   -moz-transition:  all 1s ease; /* add delay if wanted */
+	    -ms-transition:  all 1s ease; /* add delay if wanted */
+	     -o-transition:  all 1s ease; /* add delay if wanted */
+	        transition:  all 1s ease; /* add delay if wanted */
+}
+
+.active .element:before,
+.active .element:before {
+	outline: 0;
+	background-color: #c59e47;
+	-webkit-transition:  all 1s ease; /* add delay if wanted */
+	   -moz-transition:  all 1s ease; /* add delay if wanted */
+	    -ms-transition:  all 1s ease; /* add delay if wanted */
+	     -o-transition:  all 1s ease; /* add delay if wanted */
+	        transition:  all 1s ease; /* add delay if wanted */
+}
+
+ 
+.active .underline-opening:after, 
+.active .underline-opening:after {
+  width: 100%;
+  height: 1px; }
+.active .underline-opening:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  width: 3px;
+  height: 1px; }
+.active .underline-opening:before, 
+.active .underline-opening:before {
+  width: 100%;
+  height: 1px; }
+.active .underline-opening:after {
+  bottom: 0%;
+  left: 0%;
+  right: 0;
+  margin: 0 auto; }
+.active .underline-opening:before {
+  bottom: 0%;
+  right: 0%;
+  left: 0;
+  margin: 0 auto; }
+
+
+
+
+
+#navtop .navbar-collapse .navbar-nav li {
+	display: block;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
 .socialicon{
 list-style-type: none;
 display: inline-block;
@@ -1825,7 +2010,10 @@ padding-left: 0px;
 }
 .rightside>img{
 	position: relative;
-	width: 100%;
+	width: auto;
+	height: auto;
+	max-width: 100%;
+	max-height: 100%;
 	padding-top: 120px;
 	z-index: 1;
 }

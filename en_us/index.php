@@ -147,38 +147,38 @@
 		<div class="row">
 			<a href="">
 				<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
-					<img src="../image/338_389/01.png" alt="car1">
+					<img src="../image/Calepino_PocketNotebook_KraftandWhite_Grey.jpg" alt="car1">
 					<p>Project 1</p>	
 				</div>
 			</a>
 			
 			<a href="">
 				<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
-					<img src="../image/338_389/01.png" alt="car1">
+					<img src="../image/Calepino_PocketNotebook_KraftandWhite_Grey.jpg" alt="car1">
 					<p>Project 1</p>	
 				</div>
 			</a>
 			<a href="">
 				<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
-					<img src="../image/338_389/01.png" alt="car1">
+					<img src="../image/Calepino_PocketNotebook_KraftandWhite_Grey.jpg" alt="car1">
 					<p>Project 1</p>	
 				</div>
 			</a>
 			<a href="">
 				<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
-					<img src="../image/338_389/01.png" alt="car1">
+					<img src="../image/Calepino_PocketNotebook_KraftandWhite_Grey.jpg" alt="car1">
 					<p>Project 1</p>	
 				</div>
 			</a>
 			<a href="">
 				<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
-					<img src="../image/338_389/01.png" alt="car1">
+					<img src="../image/Calepino_PocketNotebook_KraftandWhite_Grey.jpg" alt="car1">
 					<p>Project 1</p>	
 				</div>
 			</a>
 			<a href="">
 				<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
-					<img src="../image/338_389/01.png" alt="car1">
+					<img src="../image/Calepino_PocketNotebook_KraftandWhite_Grey.jpg" alt="car1">
 					<p>Project 1</p>	
 				</div>
 			</a>		 	
@@ -194,7 +194,7 @@
 				and other discount information.</p>
 		</div>
 		<div class="rightside">
-			<img class="newsimage" src="../image/newsletter.jpg" alt="newsletter">
+			<img class="newsimage" src="../image/Calepino_PocketNotebook_KraftandWhite_Grey.jpg" alt="newsletter">
 			<input type="text" class="form-control" id="subemail" placeholder="EMAIL">
 			<button>SUBSCRIBE</button>
 		</div>
