@@ -13,43 +13,43 @@
             <div class="row">
 				<a href="standex.php">
 					<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
-						<img src="../image/Calepino_PocketNotebook_KraftandWhite_Grey.jpg" alt="">
+						<img src="../image/700_774/003.jpg" alt="">
 						<h4>Standard Extrusion</h4>
 					</div>
 				</a>
 
 				<a href="aicasting.php">
 					<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
-						<img src="../image/Calepino_PocketNotebook_KraftandWhite_Grey.jpg" alt="">
-						<h4>Al Casting</h4>
+						<img src="../image/700_774/011.jpg" alt="">
+						<h4>Aluminum Casting</h4>
 					</div>
 				</a>
 
 				<a href="customized.php">
 					<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
-						<img src="../image/Calepino_PocketNotebook_KraftandWhite_Grey.jpg" alt="">
+						<img src="../image/700_774/002.jpg" alt="">
 						<h4>Customized</h4>
 					</div>
 				</a>
 		 
 				<a href="coil.php">
 					<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
-						<img src="../image/Calepino_PocketNotebook_KraftandWhite_Grey.jpg" alt="">
+						<img src="../image/700_774/007.jpg" alt="">
 						<h4>Coil</h4>
 					</div>
 				</a>
 	
 				<a href="plate.php">
 					<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
-						<img src="../image/Calepino_PocketNotebook_KraftandWhite_Grey.jpg" alt="">
+						<img src="../image/700_774/008.jpg" alt="">
 						<h4>Plate & Sheet</h4>
 					</div>
 				</a>
 
 				<a href="treatplate.php">
 					<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
-						<img src="../image/Calepino_PocketNotebook_KraftandWhite_Grey.jpg" alt="">
-						<h4>Treat Plate</h4>
+						<img src="../image/700_774/009.jpg" alt="">
+						<h4>Tread Plate</h4>
 					</div>
 				</a>
 			</div>
@@ -60,7 +60,7 @@
             <div class="row">
 				<div class="col-lg-6 col-sm-6 col-xs-12 flex">
 					<div class="col-md-6 col-xs-12">
-						<img src="../image/Calepino_PocketNotebook_KraftandWhite_Grey.jpg" alt="">
+						<img src="../image/700_774/020.png" alt="">
 					</div>
 					<div class="col-md-6 col-xs-12 srvtext">
 						<h4>Metal Processing & Fabrication</h4>
@@ -69,7 +69,7 @@
 				</div>
 				<div class="col-lg-6 col-sm-6 col-xs-12 flex">
 					<div class="col-md-6 col-xs-12">
-						<img src="../image/Calepino_PocketNotebook_KraftandWhite_Grey.jpg" alt="">
+						<img src="../image/700_774/015.png" alt="">
 					</div>
 					<div class="col-md-6 col-xs-12 srvtext">
 						<h4>Supply Chain</h4>
@@ -79,7 +79,7 @@
 			 
 				<div class="col-lg-6 col-sm-6 col-xs-12 flex">
 					<div class="col-md-6 col-xs-12">
-						<img src="../image/Calepino_PocketNotebook_KraftandWhite_Grey.jpg" alt="">
+						<img src="../image/700_774/013.png" alt="">
 					</div>
 					<div class="col-md-6 col-xs-12 srvtext">
 						<h4>Consultant</h4>
@@ -88,7 +88,7 @@
 				</div>
 				<div class="col-lg-6 col-sm-6 col-xs-12 flex">
 					<div class="col-md-6 col-xs-12">
-						<img src="../image/Calepino_PocketNotebook_KraftandWhite_Grey.jpg" alt="">
+						<img src="../image/700_774/014.png" alt="">
 					</div>
 					<div class="col-md-6 col-xs-12 srvtext">
 						<h4>Project and Turn Key solution</h4>

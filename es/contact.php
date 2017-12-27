@@ -34,14 +34,14 @@ body{
             <abbr>Email:</abbr>randysinometalresources@gmail.com
           </address>
 					<address class="col-md-12 col-sm-6 col-xs-12">
-						<strong>OPENING HOURS:</strong><br>
-						<abbr>Monday:</abbr>9:00 ~ 17:00<br>
-						<abbr>Monday:</abbr>9:00 ~ 17:00<br>
-						<abbr>Monday:</abbr>9:00 ~ 17:00<br>
-						<abbr>Monday:</abbr>9:00 ~ 17:00<br>
-						<abbr>Monday:</abbr>9:00 ~ 17:00<br>
-						<abbr>Monday:</abbr>9:00 ~ 17:00<br>
-						<abbr>Monday:</abbr>9:00 ~ 17:00<br>
+					<strong> HORAS DE APERTURA: </ strong> <br>
+          <span><abbr> Lunes: </abbr></span> 9:00 ~ 17:00 <br>
+          <span><abbr> Martes: </abbr></span> 9:00 ~ 17:00 <br>
+          <span><abbr> Wendsday: </abbr></span> 9:00 ~ 17:00 <br>
+          <span><abbr> jueves: </abbr></span> 9:00 ~ 17:00 <br>
+          <span><abbr> Viernes: </abbr></span> 9:00 ~ 17:00 <br>
+          <span><abbr> Sábado: </abbr></span> Cerrado <br>
+          <span><abbr> Domingo: </abbr></span> Cerrado <br>
 					</address>
 				</div>
 				<div id="map" class="col-md-8 col-xs-12"></div>

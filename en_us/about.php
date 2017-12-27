@@ -8,7 +8,8 @@
 <div class="allcontain clearfix">
 	 <div class="col-md-12" id="abouttop">
 	 	<h3>We might the best distributro of Metal in the world.</h3>	
-		<img src="../image/about2.jpg" alt="porsche1">
+ 		<img src="../image/DSC00134.jpg" alt="porsche1">
+
 	</div>
 </div>
 <!-- ____________________Featured Section ______________________________--> 
@@ -23,7 +24,7 @@
 				<div class="col-lg-12 costumcol colborder2">
 					<div class="row costumrow flex hidden-xs">
 						<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 img2colon">
-							<img src="../image/800_610.jpg" alt="porsche1">
+							<img src="../image/innovation.jpg" alt="porsche1">
 						</div>
 						<div class="col-xs-12 col-sm-6 col-md-8 col-lg-8 txt1colon">
 							<div class="featurecontant">
@@ -36,7 +37,7 @@
 					</div>
 					<div class="row costumrow visible-xs">
 						<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 img2colon">
-							<img src="../image/800_610.jpg" alt="porsche1">
+							<img src="../image/innovation.jpg" alt="porsche1">
 						</div>
 						<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 txt1colon">
 							<div class="featurecontant">
@@ -88,7 +89,7 @@
 					</div>
 					<div class="row costumrow flex hidden-xs">
 						<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 img2colon">
-							<img src="../image/800_610.jpg" alt="porsche1">
+							<img src="../image/inno.jpg" alt="porsche1">
 						</div>
 						<div class="col-xs-12 col-sm-6 col-md-8 col-lg-8 txt1colon">
 							<div class="featurecontant">
@@ -102,7 +103,7 @@
 					</div>
 					<div class="row costumrow visible-xs">
 						<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 img2colon">
-							<img src="../image/800_610.jpg" alt="porsche1">
+							<img src="../image/inno.jpg" alt="porsche1">
 						</div>
 						<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 txt1colon">
 							<div class="featurecontant">
@@ -138,12 +139,12 @@
 	 						</div>
 						</div>
 						<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 img2colon">
-							<img src="../image/800_610.jpg" alt="porsche1">
+							<img src="../image/consultant.jpg" alt="porsche1">
 						</div>
 					</div>
 					<div class="row costumrow visible-xs">
 						<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 img2colon">
-							<img src="../image/800_610.jpg" alt="porsche1">
+							<img src="../image/consultant.jpg" alt="porsche1">
 						</div>
 						<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 txt1colon">
 							<div class="featurecontant">
@@ -177,7 +178,7 @@
 			<div class="col-lg-12 costumcol colborder1">
 				<div class="row costumrow">
 					<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-						<img src="../image/pexels-photo-236705.jpg" alt="porsche">
+						<img src="../image/focus.jpg" alt="porsche">
 					</div>
 					
 				</div>
@@ -188,8 +189,8 @@
 	<div class="clearfix" id="aboutfocus">
 		<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
 			<div class="aboutfocusinside">
-				<h1>LOREM IPSUM 2</h1>
-				<p>"Lorem ipsum dolor sit amet, consectetur sed do eiusmod tempor incididunt Lorem ipsum dolor sit amet, consectetur sed do eiusmod tempor incididunt Lorem ipsum dolor sit amet, consectetur sed do eiusmod tempor incididunt Lorem ipsum dolor sit amet, consectetur sed do eiusmod tempor incididunt Lorem ipsum dolor sit amet, consectetur sed do eiusmod tempor incididunt Lorem ipsum dolor sit amet, consectetur sed do eiusmod tempor incididunt Lorem ipsum dolor sit amet, consectetur sed do eiusmod tempor incididunt </p>
+<!-- 				<h1>LOREM IPSUM 2</h1>
+ -->				<p>Sinobec Resources LLC, established in 2002, is a large sized Master Distributor of non-ferrous products including aluminum & stainless steel, in all shapes & forms. We pride ourselves on innovation, efficiency and management resulting in providing our customers with quality products at competitive prices. We currently have three strategically located facilities in Canada & the USA which carry standard stock of aluminum coils, sheets, plates, extrusions and stainless steel sheets.</p>
  				<h2>&nbsp;</h2>
 			</div>
 		</div>

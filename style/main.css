@@ -18,6 +18,16 @@ body {
 	font-family: 'fpl', sans-serif;
 	overflow-x: hidden;
 }
+.flex {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	align-content: center
+
+}
+#brochure img {
+	/*margin-top: 3%*/
+}
 #privacy {
 	margin-top: 120px
 }
@@ -124,9 +134,111 @@ body {
 }
 
 
+/*//reset*/
+#reset {;
+    margin-top: 25vh;
+	height: 67vh
+}
+.panel-default>.panel-heading {
+  color: #333;
+  background-color: #fff;
+  border-color: #e4e5e7;
+  padding: 0;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.panel-default>.panel-heading a {
+  display: block;
+  padding: 25px 15px;
+}
+
+.panel-default>.panel-heading a:after {
+  content: "";
+  position: relative;
+  top: 1px;
+  display: inline-block;
+  font-family: 'Glyphicons Halflings';
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  float: right;
+  transition: transform .25s linear;
+  -webkit-transition: -webkit-transform .25s linear;
+}
+
+.panel-default>.panel-heading a[aria-expanded="true"] {
+  background-color: #eee;
+}
+
+.panel-default>.panel-heading a[aria-expanded="true"]:after {
+  content: "\2212";
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+
+.panel-default>.panel-heading a[aria-expanded="false"]:after {
+  content: "\002b";
+  -webkit-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+
+.accordion-option {
+  width: 100%;
+  float: left;
+  clear: both;
+  margin: 15px 0;
+}
+
+.accordion-option .title {
+  font-size: 20px;
+  font-weight: bold;
+  float: left;
+  padding: 0;
+  margin: 0;
+}
+
+.accordion-option .toggle-accordion {
+  float: right;
+  font-size: 16px;
+  color: #6a6c6f;
+}
+#reset a {
+     text-decoration: none;
+}
+#reset a[role='button'] {
+     font-size: 18px
+}
+.panel-default > .panel-heading + .panel-collapse > .panel-body {
+     font-size: 16px
+}
+#accordion .panel:nth-child(2) {
+     margin-top: 2vh
+}
+/*.accordion-option .toggle-accordion:before {
+  content: "Expand All";
+}
+
+.accordion-option .toggle-accordion.active:before {
+  content: "Collapse All";
+}*/
+
+
+
+
+
+
+
 #lastproject {
 	background: #e7e7e7;
 	padding-bottom: 5vh
+}
+#lastproject .row {
+	padding-bottom: 10%
 }
 #lastproject img {
 	padding: 20%;
@@ -155,13 +267,29 @@ body {
 #footernav {
 	margin-bottom: 0px
 }
-
-
+#carousel-up .carousel-caption  p {
+	font-size: 1.4em;
+	text-align: left;
+}
+#otm span {
+	min-width: 80px;
+	width: 80px;
+	display: inline-block;
+}
 /*//////about///////*/
+#aboutfocus .aboutfocusinside p {
+	padding-top: 50px
+}
 #abouttop,
 #aluminumtop,
 #a1 {
 	margin-top: 90px
+}
+#abouttop > div.container {
+	margin-bottom: 50px;
+	font-size: 1.3em;
+	padding-top: 50px;
+	padding-bottom: 50px
 }
 #abouttop h3,
 #aluminumtop h3 {
@@ -176,7 +304,7 @@ body {
 }
 #abouttop img,
 #aboutfocusimg img {
-  width: auto;
+  width: 100%;
   height: auto;
   max-width: 100%;
   max-height: 100%;
@@ -277,7 +405,8 @@ body {
 	padding: 100px 40px
 }
 #productinside  div.row {
-	padding: 80px 40px;
+	padding: 60px 40px;
+	padding-top: 40px
 }
 #productinside .row > a > div h4 {
 	padding-top: 0px;
@@ -288,7 +417,9 @@ body {
 	width: auto;
 	height: auto;
 	max-width: 100%;
-	max-height: 100%
+	max-height: 100%;
+	padding: 15%;
+	padding-bottom: 0;
 }
 .srvtext {
 	padding-right: 5vw;
@@ -501,7 +632,7 @@ input.err {
 	margin-bottom: 0px
 }
 #featuresection .featurecontant>h2 {
-	margin-top: 40%
+	margin-top: 30%
 }
 #readmore2,
 #readmore,
@@ -575,17 +706,19 @@ padding-top: 20px
 
 
 
-
 @media (min-width: 1025px) and (max-width: 1780px){ 
 #featuresection .costumcol .costumrow {
 	margin-bottom: 35px;
+}
+#brochure img {
+   /* margin-top: 8%;*/
 }
 #readmore4,
 #readmore3,
 #readmore,
 #readmore2{
 	max-width: 76%;
-	margin-top: 20px
+	margin-top: 18px
 }
 #btnRL, #btnRL2, #btnRL3, #btnRL4 {
 	bottom:0px;
@@ -653,6 +786,15 @@ padding-top: 20px
 	padding: 10px 80px 0px 20px;
 	font-size: 18px;
 }
+#brochure img {
+    /*margin-top: 15%;*/
+}
+.leftside>img {
+	width: 92%
+}
+.leftside>h1 {
+	/*top: 40%*/
+}
 .productinside h1,
 .stick1 h1 {
 	font-size: 20px;
@@ -693,7 +835,7 @@ padding-top: 20px
 #featuresection #readmore,
 #featuresection #readmore2 {
 	margin-top: 16px;
-	max-width: 79%
+	max-width: 78%
 }
 #readmore2>button,
 #readmore>button,
@@ -701,19 +843,23 @@ padding-top: 20px
 #readmore4>button,
 .featurecontant>button {
 	font-size: 13px;
-	padding-top: 12px;
-	padding-bottom:12px;
+	padding-top: 10px;
+	padding-bottom:10px;
 }
 #readmore2>h1,
 #readmore4>h1,
 #readmore3>h1,
 #readmore>h1 {
 	margin-top: 0px;
-	margin-bottom: 26px;
-	font-size: 14px
+	margin-bottom: 10px;
+	font-size: 16px
 }
-#readmore>p {
-	margin-bottom: 0px
+#readmore>p,
+#readmore2>p,
+#readmore3>p,
+#readmore4>p {
+	margin-bottom: 0px;
+	font-size: 13px
 }
 #featuresection #btnRL, #featuresection #btnRL2, #featuresection #btnRL3, #featuresection #btnRL4 {
 	bottom: 0px
@@ -989,6 +1135,9 @@ padding-top: 20px
 	max-width: 100%;
 	max-height: 100%
 }
+#lastproject .row > div {
+	float: left
+}
 #readmore ,
 #readmore2 ,
 #readmore3 ,
@@ -1241,3 +1390,26 @@ font-size: 28px
 
 }
 
+@media (min-width: 1781px) and (max-width: 2076px) {
+#readmore>button, #readmore2>button, #readmore3>button, #readmore4>button {
+	margin-bottom: 12px;
+	font-size: 13px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.featurecontant>button {
+    font-size: 13px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#readmore ,
+#readmore2 ,
+#readmore3 ,
+#readmore4  {
+	max-width: 78%;
+	margin-top: 19px
+}
+#brochure img {
+   /* margin-top: 5%;*/
+}
+}

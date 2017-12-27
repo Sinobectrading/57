@@ -37,6 +37,17 @@ body{
                             <path d="M0,56.5c0,0,298.666,0,399.333,0C448.336,56.5,513.994,46,597,46c77.327,0,135,10.5,200.999,10.5c95.996,0,402.001,0,402.001,0"/>
                         </svg>
                     </span>
+ 
+                    <span class="input input--nao">
+                        <input class="input__field input__field--nao valid" type="password" id="password" name="password"/>
+                        <label class="input__label input__label--nao" for="password">
+                            <span class="input__label-content input__label-content--nao">Password</span>
+                        </label>
+                        <svg class="graphic graphic--nao" width="300%" height="100%" viewBox="0 0 1200 60" preserveAspectRatio="none">
+                            <path d="M0,56.5c0,0,298.666,0,399.333,0C448.336,56.5,513.994,46,597,46c77.327,0,135,10.5,200.999,10.5c95.996,0,402.001,0,402.001,0"/>
+                        </svg>
+                    </span>
+
                     <span class="input input--nao">
                         <input class="input__field input__field--nao" type="text" id="ponumber" name="ponumber" />
                         <label class="input__label input__label--nao" for="ponumber">
@@ -49,9 +60,11 @@ body{
                          <!-- <input type="text" class="input-large valid" id="cidname" name="cidname" placeholder="Customer ID"> -->
                          <!-- <input type="text" class="input-large valid" id="ponumber" name="ponumber" placeholder="Order Number"> -->
                     <span class="input input--nao"><button class="btn btn-primary" id="track" name="track">Track</button></span>
+                    <span class="forget"><a href="trouble.php">Having trouble?</a></span>
+
                  </form>
 
-                <a href="#">Forgot your Customer ID?</a>
+                
                 
             </div>
 
@@ -63,7 +76,7 @@ body{
                          
                     </table>
                 </div>  
-                <img id="tmp" src="../image/rawpixel-com2.jpg" alt="">    
+                <img id="tmp" src="../image/rawpixel-com2.png" alt="">    
             </div>
         </div><!-- /map-outer -->
     </div> <!-- /row -->
@@ -191,17 +204,17 @@ if ( typeof define === 'function' && define.amd ) {
 <script>
 $.ajaxSetup({ headers: { 'csrftoken' : '{{ csrf_token() }}' } });
 $("#track").prop('disabled', true);
-$('#poreset').click(function(){
-    $('.valid').val("");
-    $("#ponumber").removeClass('err');
-    $("#cidname").removeClass('err');
-    $("#cidname").attr("placeholder", "Customer ID").val("");
-    $("#ponumber").attr("placeholder", "PO number").val("");
-    $("#track").prop('disabled', true);
-    $('#resulttitle').replaceWith('<a href="#" id="title">Forgot your Customer ID?</a>');
-    $('#ajaxresponse').empty();
-    $('.addedDiv').empty();
-});
+// $('#poreset').click(function(){
+//     $('.valid').val("");
+//     $("#ponumber").removeClass('err');
+//     $("#cidname").removeClass('err');
+//     $("#cidname").attr("placeholder", "Customer ID").val("");
+//     $("#ponumber").attr("placeholder", "PO number").val("");
+//     $("#track").prop('disabled', true);
+//     $('#resulttitle').replaceWith('<a href="#" id="title">Forgot your Customer ID?</a>');
+//     $('#ajaxresponse').empty();
+//     $('.addedDiv').empty();
+// });
 
 // var povalid;
 // var cidvalid;
@@ -216,7 +229,7 @@ $('#cidname').on({
     blur: function(){
         $.ajax({
             type: "POST",
-            url:"cid.php",
+            url:"po.php",
             dataType: "json",
             data:{
                 cidvalue:$('#cidname').val()
@@ -224,14 +237,14 @@ $('#cidname').on({
             success: function(data){
                 if (data.success) {
                     $("#cidname").removeClass('err');
-                    $("#track").prop('disabled', false);
-                    console.log('cidvalid');
+                    // $("#track").prop('disabled', false);
+                    console.log('cid valid');
                 }           
                 if(data.success == false) {
                     $("#cidname").addClass('err');
                     $("#cidname").attr("placeholder", "Customer ID doesn't exist.").val("");
                     $("#cidname").focus();
-                    console.log("cid data is false");
+                    console.log("cid error");
                 }
             },
             error:function(jqXHR, status, err){
@@ -242,12 +255,47 @@ $('#cidname').on({
 
 });
 
-$('#title').on({
-     click: function(){
-          $('div#add').replaceWith('<div class="addedDiv" id="add">Please send email to: info@sinobecresources.com to require your customer ID.</div>');
-          $('div.addedDiv').slideDown("slow");
-     }
+$('#password').on({
+    focus: function(){
+        $("#ciderror").empty();
+    },
+
+    blur: function(){
+        $.ajax({
+            type: "POST",
+            url:"po.php",
+            dataType: "json",
+            data:{
+                psvalue:$('#password').val(),
+                cidvalue:$("#cidname").val()
+                },
+            success: function(datap){
+                if (datap.success) {
+                    $("#password").removeClass('err');
+                    $("#track").prop('disabled', false);
+                    console.log('ps OK');
+                }           
+                if(datap.success == false) {
+                    $("#password").addClass('err');
+                    $("#password").attr("placeholder", "Password wrong.").val("");
+                    // $("#password").focus();
+                    console.log("password is false");
+                }
+            },
+            error:function(jqXHR, status, err){
+                console.log("password wrong");
+            },
+        });
+    },
+
 });
+
+// $('#title').on({
+//      click: function(){
+//           $('div#add').replaceWith('<div class="addedDiv" id="add">Please send email to: info@sinobecresources.com to require your customer ID.</div>');
+//           $('div.addedDiv').slideDown("slow");
+//      }
+// });
  
 $('#track').on({ 
     click: function(event){

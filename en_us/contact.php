@@ -33,15 +33,15 @@ body{
 						<abbr>P:</abbr> +1 561-409-2205<br>
 						<abbr>Email:</abbr>randysinometalresources@gmail.com
 					</address>
-					<address class="col-md-12 col-sm-6 col-xs-12">
+					<address class="col-md-12 col-sm-6 col-xs-12" id="otm">
 						<strong>OPENING HOURS:</strong><br>
-						<abbr>Monday:</abbr>9:00 ~ 17:00<br>
-						<abbr>Monday:</abbr>9:00 ~ 17:00<br>
-						<abbr>Monday:</abbr>9:00 ~ 17:00<br>
-						<abbr>Monday:</abbr>9:00 ~ 17:00<br>
-						<abbr>Monday:</abbr>9:00 ~ 17:00<br>
-						<abbr>Monday:</abbr>9:00 ~ 17:00<br>
-						<abbr>Monday:</abbr>9:00 ~ 17:00<br>
+						<span><abbr>Monday :</abbr></span>  9:00 ~ 17:00<br>
+            <span><abbr>Thueday :</abbr></span>  9:00 ~ 17:00<br>
+            <span><abbr>Wendsday:</abbr></span>  9:00 ~ 17:00<br>
+            <span><abbr>Thursday :</abbr></span>  9:00 ~ 17:00<br>
+            <span><abbr>Friday :</abbr></span>  9:00 ~ 17:00<br>
+            <span><abbr>Saturday:</abbr></span>  Closed<br>
+            <span><abbr>Sunday :</abbr></span>   Closed<br>
 					</address>
 				</div>
 				<div id="map" class="col-md-8 col-xs-12"></div>

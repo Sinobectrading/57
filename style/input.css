@@ -237,6 +237,9 @@
 }
 
 /* Nao */
+.forget {
+	margin-left: 1em
+}
 .input--nao {
 	overflow: hidden;
 	padding-top: 1em;

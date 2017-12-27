@@ -8,7 +8,7 @@
 <div class="allcontain clearfix">
 	 <div class="col-md-12" id="abouttop">
 	 	<h3>Podríamos ser el mejor distribuidor de metal en el mundo.</h3>	
-		<img src="../image/about2.jpg" alt="porsche1">
+		<img src="../image/DSC00134.jpg" alt="porsche1">
 	</div>
 </div>
 <!-- ____________________Featured Section ______________________________--> 

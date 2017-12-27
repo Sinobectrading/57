@@ -11,25 +11,23 @@
 			<div class="item active">
 				<img src="../image/1080/b02.jpg" alt="oldcar">
 				<div class="carousel-caption">
-					<h2>METAL 365</h2>
-					<p>Lorem ipsum dolor sit amet, consectetur ,<br>
-						sed do eiusmod tempor incididunt ut labore </p>
+					<h2>METAL</h2>
+					<p>Metal is everywhere in the world.</br>The metal products we provide can be used for varieties of fields.</p>
 				</div>
 			</div>
 			<div class="item">
 				<img src="../image/1080/b01.jpg" alt="porche">
 				<div class="carousel-caption">
 					<h2>ALUMINUM</h2>
-						<p>Lorem ipsum dolor sit amet, consectetur ,<br>
-						sed do eiusmod tempor incididunt ut labore </p>
+						<p>Our specialties include Ingots, billots <br>
+						and customized extrusion products ,</p>
 				</div>
 			</div>
 			<div class="item">
 				<img src="../image/1080/b03.jpg" alt="benz">
 				<div class="carousel-caption">
-					<h2>Car</h2>
-					<p>Lorem ipsum dolor sit amet, consectetur ,<br>
-						sed do eiusmod tempor incididunt ut labore </p>
+					<h2>Railing</h2>
+					<p>Need a railing for a wraparound deck, a balcony, a stairway<br>or another feature at a home or business?</br>Looking for the elegant look of wrought iron without the maintenance worries ? </p>
 				</div>
 			</div>
 		</div>
@@ -46,7 +44,7 @@
 			<div class="col-lg-6 costumcol colborder1">
 				<div class="row costumrow">
 					<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 img1colon">
-						<img src="../image/312_390/01.png" alt="porsche">
+						<img src="../image/600x700/006.jpg" alt="porsche">
 					</div>
 					<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 txt1colon ">
 						<div class="featurecontant">
@@ -68,7 +66,7 @@
 			<div class="col-lg-6 costumcol colborder2">
 				<div class="row costumrow">
 					<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 img2colon">
-						<img src="../image/312_390/01.png" alt="porsche1">
+						<img src="../image/600x700/004.jpg" alt="porsche1">
 					</div>
 					<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 txt1colon ">
 						<div class="featurecontant">
@@ -88,7 +86,7 @@
 			<div class="col-lg-6 costumcol colborder1">
 				<div class="row costumrow">
 					<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 img1colon">
-						<img src="../image/312_390/01.png" alt="porsche">
+						<img src="../image/600x700/003.jpg" alt="porsche">
 					</div>
 					<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 txt1colon ">
 						<div class="featurecontant">
@@ -109,7 +107,7 @@
 			<div class="col-lg-6 costumcol colborder2">
 				<div class="row costumrow">
 					<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 img2colon">
-						<img src="../image/312_390/01.png" alt="porsche1">
+						<img src="../image/600x700/005.jpg" alt="porsche1">
 					</div>
 					<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 txt1colon ">
 						<div class="featurecontant">
@@ -130,7 +128,7 @@
 	</div>
 <!-- ________________________LATEST CARS SECTION _______________________-->
 <div class="latestcars">
-	<h1 class="text-center">OUR FOCUS</h1>
+	<h1 class="text-center">OUR PRODUCTS</h1>
 	<!-- <ul class="nav nav-tabs navbar-left latest-navleft">
 		<li role="presentation" class="li-sortby"><span class="sortby">SORT BY: </span></li>
 		<li data-filter=".RECENT" role="presentation"><a href="#mostrecent" class="prcBtnR">MOST RECENT </a></li>
@@ -145,58 +143,66 @@
 <!-- ________________________Latest Cars Image Thumbnail________________-->
 	<div class="clearfix" id="lastproject">
 		<div class="row">
-			<a href="">
-				<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
-					<img src="../image/Calepino_PocketNotebook_KraftandWhite_Grey.jpg" alt="car1">
-					<p>Project 1</p>	
-				</div>
-			</a>
 			
-			<a href="">
-				<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
-					<img src="../image/Calepino_PocketNotebook_KraftandWhite_Grey.jpg" alt="car1">
-					<p>Project 1</p>	
-				</div>
-			</a>
-			<a href="">
-				<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
-					<img src="../image/Calepino_PocketNotebook_KraftandWhite_Grey.jpg" alt="car1">
-					<p>Project 1</p>	
-				</div>
-			</a>
-			<a href="">
-				<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
-					<img src="../image/Calepino_PocketNotebook_KraftandWhite_Grey.jpg" alt="car1">
-					<p>Project 1</p>	
-				</div>
-			</a>
-			<a href="">
-				<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
-					<img src="../image/Calepino_PocketNotebook_KraftandWhite_Grey.jpg" alt="car1">
-					<p>Project 1</p>	
-				</div>
-			</a>
-			<a href="">
-				<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
-					<img src="../image/Calepino_PocketNotebook_KraftandWhite_Grey.jpg" alt="car1">
-					<p>Project 1</p>	
-				</div>
-			</a>		 	
+			<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+ 					<img src="../image/700_774/004.jpg" alt="car1">
+					<p>Standard Extrusion</p>	
+ 			</div>
+			
+			
+			<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+ 					<img src="../image/700_774/021.png" alt="car1">
+					<p>Aluminum Casting</p>	
+ 			</div>
+
+			<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+ 					<img src="../image/700_774/001.jpg" alt="car1">
+					<p>Customized Extrusion</p>	
+ 			</div>
+		 
+			<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+ 					<img src="../image/700_774/007.jpg" alt="car1">
+					<p>Aluminum Coil</p>	
+ 			</div>
+
+			<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+ 					<img src="../image/700_774/023.png" alt="car1">
+					<p>Plates & Sheets</p>	
+ 			</div>
+
+			<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+ 					<img src="../image/700_774/024.jpg" alt="car1">
+					<p>Tread Plates</p>	
+ 			</div>	 	
 		</div>
 	</div>
 <!-- _______________________________News Letter ____________________-->
-	<div class="newslettercontent">
-		<div class="leftside">
+	<div class="newslettercontent flex hidden-xs">
+		<div class="leftside" id="brochure">
 			<img src="../image/border.png" alt="border">
-			<h1>NEWSLETTER</h1>
+			<h1>Brochure</h1>
 			<p>Subscribe to the COLLECTIONCARS mailing list to <br>
 				receive updates on new arrivals, special offers <br>
 				and other discount information.</p>
 		</div>
 		<div class="rightside">
-			<img class="newsimage" src="../image/Calepino_PocketNotebook_KraftandWhite_Grey.jpg" alt="newsletter">
-			<input type="text" class="form-control" id="subemail" placeholder="EMAIL">
-			<button>SUBSCRIBE</button>
+			<img class="newsimage" src="../image/brochure.jpg" alt="newsletter">
+			<!-- <input type="text" class="form-control" id="subemail" placeholder="EMAIL"> -->
+			<button>Download</button>
+		</div>
+	</div>
+	<div class="newslettercontent visible-xs">
+		<div class="leftside" id="brochure">
+			<img src="../image/border.png" alt="border">
+			<h1>Brochure</h1>
+			<p>Subscribe to the COLLECTIONCARS mailing list to <br>
+				receive updates on new arrivals, special offers <br>
+				and other discount information.</p>
+		</div>
+		<div class="rightside">
+			<img class="newsimage" src="../image/brochure.jpg" alt="newsletter">
+			<!-- <input type="text" class="form-control" id="subemail" placeholder="EMAIL"> -->
+			<button>Download</button>
 		</div>
 	</div>
 </div>
