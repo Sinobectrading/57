@@ -25,11 +25,20 @@ body{
             <div id="rehash" class="col-md-12">
  
                 <h1>Rehash</h1>
-                 <form class="form-inline" action="#" method="post" id="form-login" action="rehash.php">
+                 <form class="form-inline" method="post" id="form-login" action="rehash.php">
                     <span class="input input--nao">
                         <input class="input__field input__field--nao valid" type="text" id="cidname" name="cidname"/>
                         <label class="input__label input__label--nao" for="cidname">
                             <span class="input__label-content input__label-content--nao">Customer ID</span>
+                        </label>
+                        <svg class="graphic graphic--nao" width="300%" height="100%" viewBox="0 0 1200 60" preserveAspectRatio="none">
+                            <path d="M0,56.5c0,0,298.666,0,399.333,0C448.336,56.5,513.994,46,597,46c77.327,0,135,10.5,200.999,10.5c95.996,0,402.001,0,402.001,0"/>
+                        </svg>
+                    </span>
+                    <span class="input input--nao">
+                        <input class="input__field input__field--nao valid" type="text" id="pon" name="pon"/>
+                        <label class="input__label input__label--nao" for="pon">
+                            <span class="input__label-content input__label-content--nao">PO Number</span>
                         </label>
                         <svg class="graphic graphic--nao" width="300%" height="100%" viewBox="0 0 1200 60" preserveAspectRatio="none">
                             <path d="M0,56.5c0,0,298.666,0,399.333,0C448.336,56.5,513.994,46,597,46c77.327,0,135,10.5,200.999,10.5c95.996,0,402.001,0,402.001,0"/>
@@ -75,6 +84,25 @@ $(document).ready(function() {
 function hashPW($userpw){
     return password_hash($userpw, PASSWORD_DEFAULT, ['cost' => 12]);
 }
+function encrypt_decrypt($action, $string) {
+    $output = false;
+    $encrypt_method = "AES-256-CBC";
+    $secret_key = 'ssddeeff';
+    $secret_iv = 'This is myfd';
+    // hash
+    $key = hash('sha256', $secret_key);
+    
+    // iv - encrypt method AES-256-CBC expects 16 bytes - else you will get a warning
+    $iv = substr(hash('sha256', $secret_iv), 0, 16);
+    if ( $action == 'encrypt' ) {
+        $output = openssl_encrypt($string, $encrypt_method, $key, 0, $iv);
+        $output = base64_encode($output);
+    } else if( $action == 'decrypt' ) {
+        $output = openssl_decrypt(base64_decode($string), $encrypt_method, $key, 0, $iv);
+    }
+    return $output;
+}
+ 
 
 
 function updatePw($userId){
@@ -101,8 +129,38 @@ function updatePw($userId){
   	$stmtpost->execute();
 }
 
+function updateInv($pon){
+  $queryupd = "UPDATE po SET invoice=:newinvoice WHERE ag=:pon";
+
+  $stmtupd = $conn->prepare($queryupd);
+  $stmtupd->bindParam(':newinvoice', $newinvoice, PDO::PARAM_STR);
+  $stmtupd->bindParam(':pon', $ponumber, PDO::PARAM_STR);
+
+ 
+  $queryget = "SELECT * FROM po WHERE ag=:ponumber";
+
+  $stmt = $conn->prepare($queryget);
+  $stmt->bindParam(':ponumber',$ponumber, PDO::PARAM_STR);
+  echo "1aaaaaaaaaaaaaaaaaaaaa";
+ 
+  $ponumber = $pon;
+  $stmt->execute();
+  $row = $stmt->fetchAll(PDO::FETCH_ASSOC);
+     foreach ($row as $key) {
+
+      print_r($key["invoice"]);
+      $newinvoice = encrypt_decrypt('encrypt',$key['invoice']);
+       
+      $stmtupd->execute();
+    }
+    
+}
+
+
 $customerid = $_POST["cidname"];
+$pon = $_POST["pon"];
 updatePw($customerid);
+updateInv($pon);
 ?>
 </body>
 </html>

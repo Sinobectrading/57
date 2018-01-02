@@ -11,42 +11,42 @@
 	 	<h3>Products</h3>	
 		<div id="productinside">
             <div class="row">
-				<a href="standex.php">
+				<a href="standex">
 					<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
 						<img src="../image/700_774/003.jpg" alt="">
 						<h4>Standard Extrusion</h4>
 					</div>
 				</a>
 
-				<a href="aicasting.php">
+				<a href="aicasting">
 					<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
 						<img src="../image/700_774/011.jpg" alt="">
 						<h4>Aluminum Casting</h4>
 					</div>
 				</a>
 
-				<a href="customized.php">
+				<a href="customized">
 					<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
 						<img src="../image/700_774/002.jpg" alt="">
 						<h4>Customized</h4>
 					</div>
 				</a>
 		 
-				<a href="coil.php">
+				<a href="coil">
 					<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
 						<img src="../image/700_774/007.jpg" alt="">
 						<h4>Coil</h4>
 					</div>
 				</a>
 	
-				<a href="plate.php">
+				<a href="plate">
 					<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
 						<img src="../image/700_774/008.jpg" alt="">
 						<h4>Plate & Sheet</h4>
 					</div>
 				</a>
 
-				<a href="treatplate.php">
+				<a href="treatplate">
 					<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
 						<img src="../image/700_774/009.jpg" alt="">
 						<h4>Tread Plate</h4>

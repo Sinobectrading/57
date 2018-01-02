@@ -7,7 +7,7 @@
 <!--_______________________________________ Carousel__________________________________ -->
 <div class="allcontain clearfix">
 	 <div class="col-md-12" id="abouttop">
-	 	<h3>We might the best distributro of Metal in the world.</h3>	
+	 	<h3>We are the largest distributor of non-ferrous products.</h3>	
  		<img src="../image/DSC00134.jpg" alt="porsche1">
 
 	</div>

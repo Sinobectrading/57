@@ -33,7 +33,7 @@ body{
             <abbr>P:</abbr> +1 561-409-2205<br>
             <abbr>Email:</abbr>randysinometalresources@gmail.com
           </address>
-					<address class="col-md-12 col-sm-6 col-xs-12">
+					<!-- <address class="col-md-12 col-sm-6 col-xs-12">
 					<strong> HORAS DE APERTURA: </ strong> <br>
           <span><abbr> Lunes: </abbr></span> 9:00 ~ 17:00 <br>
           <span><abbr> Martes: </abbr></span> 9:00 ~ 17:00 <br>
@@ -42,7 +42,7 @@ body{
           <span><abbr> Viernes: </abbr></span> 9:00 ~ 17:00 <br>
           <span><abbr> Sábado: </abbr></span> Cerrado <br>
           <span><abbr> Domingo: </abbr></span> Cerrado <br>
-					</address>
+					</address> -->
 				</div>
 				<div id="map" class="col-md-8 col-xs-12"></div>
 			</div><!-- /map-outer -->

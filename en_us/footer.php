@@ -5,14 +5,14 @@
 			<div class=" " id="botnav">
 				<ul class="nav navbar-nav">
 					<li class="pull-left copyright">&copy; Copy Right 2016, All right reserved</li>
-					<li class="hidden-xs"><a href="/057/en_us/about.php">ABOUT</a></li>
+					<li class="hidden-xs"><a href="/057/en_us/about">ABOUT</a></li>
 			 
-					<li class="hidden-xs"><a href="/057/en_us/privacy.php">PRIVACY</a></li>
+					<li class="hidden-xs"><a href="/057/en_us/privacy">PRIVACY</a></li>
 					 <div class="visible-xs clearfix" id="footn">
 					 	<ul class="visible-xs">
-					 		<li class="fcenter"><a href="/057/en_us/about.php">ABOUT US</a></li>
+					 		<li class="fcenter"><a href="/057/en_us/about">ABOUT US</a></li>
 					 		
-							<li class="fcenter"><a href="/057/en_us/privacy.php">PRIVACY</a></li>
+							<li class="fcenter"><a href="/057/en_us/privacy">PRIVACY</a></li>
 						</ul>
 					 </div>
 					<li class="pull-right social">

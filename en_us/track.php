@@ -256,11 +256,11 @@ $('#cidname').on({
 });
 
 $('#password').on({
-    focus: function(){
-        $("#ciderror").empty();
-    },
+    // focus: function(){
+    //     $("#ciderror").empty();
+    // },
 
-    blur: function(){
+    focusout: function(){
         $.ajax({
             type: "POST",
             url:"po.php",
@@ -277,7 +277,7 @@ $('#password').on({
                 }           
                 if(datap.success == false) {
                     $("#password").addClass('err');
-                    $("#password").attr("placeholder", "Password wrong.").val("");
+                    $("#password").attr("placeholder", "Password wrong!").val("");
                     // $("#password").focus();
                     console.log("password is false");
                 }
@@ -311,13 +311,13 @@ $('#track').on({
                 },
             success: function(datat){
                if (datat.success) {
-                    $("#tmp").fadeOut();
+                    $("#tmp").replaceWith("");
                     $('.addedDiv').empty();
                     $("#ponumber").removeClass('err');
                     $('#title').replaceWith('<span id="resulttitle"><h1>Your PO tracking result:</h1></span>');
                     $('#ajaxresponse').replaceWith('<table class="table table-hover table-responsive" id="ajaxresponse"><thead class="thead-inverse"><tr><td>AG PO#</td><td>SINOBEC PO#</td><td>Invoice #</td><td>SHIPPING REF</td><td>CONTAINER#</td><td>ETA</td></tr></thead><tbody></tbody></table>');
                     for (var i = 0; i < datat.size; i++) {  
-                        var newString = ['<tr><td>'+datat.result[i].ag+'</td><td>'+datat.result[i].sinobec+'</td><td>'+datat.result[i].invoice+'</td><td>'+datat.result[i].shipref+'</td><td>'+datat.result[i].contref+'</td><td>'+datat.result[i].eta+'</td></tr>'].join('');
+                        var newString = ['<tr><td>'+datat.result[i].ag+'</td><td>'+datat.result[i].sinobec+'</td><td><a class="pdf" href="download.php?file='+datat.result[i].invoice+'" name="file">Download</a></td><td>'+datat.result[i].shipref+'</td><td>'+datat.result[i].contref+'</td><td>'+datat.result[i].eta+'</td></tr>'].join('');
                         $('#ajaxresponse tbody').append(newString);
                     }
                      console.log('povalid');
@@ -338,8 +338,16 @@ $('#track').on({
         });
     },
 });
+
+
 });
 
+</script>
+<script>
+$("a.pdf").click(function(){
+    window.open(this.href);
+    return false;
+});
 </script>
 </body>
 </html>

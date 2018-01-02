@@ -1,6 +1,6 @@
 <head>
 <meta charset="UTF-8">
-<title>Sinometal Resources Inc.</title>
+<title>Sinometal Resources LLC</title>
 <meta name="description" content="">
 <!--
 

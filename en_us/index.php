@@ -143,37 +143,46 @@
 <!-- ________________________Latest Cars Image Thumbnail________________-->
 	<div class="clearfix" id="lastproject">
 		<div class="row">
-			
+			<a href="standex">
 			<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
  					<img src="../image/700_774/004.jpg" alt="car1">
 					<p>Standard Extrusion</p>	
  			</div>
+			</a>
 			
-			
+			<a href="aicasting">
 			<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
  					<img src="../image/700_774/021.png" alt="car1">
 					<p>Aluminum Casting</p>	
  			</div>
+			</a>
 
+			<a href="customized">
 			<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
  					<img src="../image/700_774/001.jpg" alt="car1">
 					<p>Customized Extrusion</p>	
  			</div>
-		 
+		 	</a>
+
+		 	<a href="coil">
 			<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
  					<img src="../image/700_774/007.jpg" alt="car1">
 					<p>Aluminum Coil</p>	
  			</div>
+			</a>
 
+			<a href="plate"></a>
 			<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
  					<img src="../image/700_774/023.png" alt="car1">
 					<p>Plates & Sheets</p>	
  			</div>
 
+			<a href="treatplate">
 			<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
  					<img src="../image/700_774/024.jpg" alt="car1">
 					<p>Tread Plates</p>	
- 			</div>	 	
+ 			</div>	
+ 			</a> 	
 		</div>
 	</div>
 <!-- _______________________________News Letter ____________________-->
@@ -181,28 +190,25 @@
 		<div class="leftside" id="brochure">
 			<img src="../image/border.png" alt="border">
 			<h1>Brochure</h1>
-			<p>Subscribe to the COLLECTIONCARS mailing list to <br>
-				receive updates on new arrivals, special offers <br>
-				and other discount information.</p>
+			<p>View or download our company brochure to see our comprehensive range of products and services. </p>
 		</div>
 		<div class="rightside">
 			<img class="newsimage" src="../image/brochure.jpg" alt="newsletter">
 			<!-- <input type="text" class="form-control" id="subemail" placeholder="EMAIL"> -->
-			<button>Download</button>
+			<button id="broc">Download</button>
 		</div>
 	</div>
 	<div class="newslettercontent visible-xs">
 		<div class="leftside" id="brochure">
 			<img src="../image/border.png" alt="border">
 			<h1>Brochure</h1>
-			<p>Subscribe to the COLLECTIONCARS mailing list to <br>
-				receive updates on new arrivals, special offers <br>
-				and other discount information.</p>
+			<p>View or download our company brochure to see our comprehensive range of products and services.  </p>
 		</div>
 		<div class="rightside">
 			<img class="newsimage" src="../image/brochure.jpg" alt="newsletter">
 			<!-- <input type="text" class="form-control" id="subemail" placeholder="EMAIL"> -->
-			<button>Download</button>
+
+			<button id="broc">Download</button>
 		</div>
 	</div>
 </div>
@@ -210,11 +216,28 @@
 
 	<!-- ______________________________________________________Bottom Menu ______________________________-->
 	<div class="bottommenu">
-		<p>"Lorem ipsum dolor sit amet, consectetur,  sed do eiusmod tempor incididunt <br>
-			eiusmod tempor incididunt"</p>
+		<p>"We offering aluminum valve products for Internal Renovation, Construction, Residential, Medical Equipment and Food Industry."</p>
 		 <img src="../image/line.png" alt="line"> <br>
 	</div>	 
 <?php include_once 'footer.php'; ?>
-
+<script>
+function downloadAll(files){  
+    if(files.length == 0) return;  
+    file = files.pop();  
+    var theAnchor = $('<a />')  
+        .attr('href', file[1])  
+        .attr('download',file[0]);  
+    theAnchor[0].click();   
+    theAnchor.remove();  
+    downloadAll(files);  
+}  
+$("#broc").click(function(){
+	downloadAll([  
+    ['../LLC.pdf', 'data:text/pdf;charset=utf8,'+  
+                  encodeURIComponent('pdf,file\and,so,on')] 
+	]);
+});
+  
+</script>
 </body>
 </html>

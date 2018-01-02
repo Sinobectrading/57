@@ -550,13 +550,18 @@ font-size: 15.88pt;
 	font-size: 13pt;
 }
 .carousel-caption {
-    top: 15%;
-
+    top: 10%;
 }
  
 .carousel-caption>p{
 font-size: 10pt;
 }	
+#brochure.leftside>h1 {
+	font-size: 18px
+}
+.allcontain .newslettercontent {
+	margin-bottom: 0%
+}
 
 }
  
@@ -2333,8 +2338,10 @@ left: 0%;
   }
  @media screen and (min-width:360px) and (max-width:480px){
   	.bottommenu>p{
-  		font-size: 12px;
-  		padding-top: 20px;
+  		font-size: 14px;
+  		padding-top: 0px;
+  		padding-bottom: 40px
+
   	}
   	.bottommenu>ul{
   		padding-left: 20px;
