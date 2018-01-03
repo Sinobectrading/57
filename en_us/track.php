@@ -306,9 +306,10 @@ $('#track').on({
             url:"po.php",
             dataType: "json",
             data:{
-                povalue:$('#ponumber').val(),
-                cidvalue:$('#cidname').val()
-                },
+                password:$("#password").val(),
+                cidname:$("#cidname").val(),
+                ponumber:$("#ponumber").val()
+                }, 
             success: function(datat){
                if (datat.success) {
                     $("#tmp").replaceWith("");

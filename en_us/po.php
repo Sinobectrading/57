@@ -27,7 +27,7 @@ if ( isset($_POST["cidvalue"]) && !isset($_POST["psvalue"]) && !isset($_POST["po
 }
 
 
-if ( isset($_POST["psvalue"]) && !isset($_POST["povalue"]) ) { // if input cid and password. CID exists
+if (  isset($_POST["psvalue"]) && !isset($_POST["povalue"]) ) { // if input cid and password. CID exists
 	$cid = strtolower(filterName($_POST["cidvalue"]));
 	$password = $_POST["psvalue"];
 	$queryps = "SELECT * FROM customer WHERE cid=:client";
@@ -49,36 +49,46 @@ if ( isset($_POST["psvalue"]) && !isset($_POST["povalue"]) ) { // if input cid a
 }
 
  
-if (  isset($_POST["povalue"]) ) {
+if ( isset($_POST["cidname"]) && isset($_POST["password"]) &&  isset($_POST["ponumber"]) ) {
 	// $value = strtolower(filterName($_POST["povalue"]));
 	// echo '{"success":true,"message":'.$value.'}';
-	$po = strtolower(filterName($_POST["povalue"]));
-	$cid = strtolower(filterName($_POST["cidvalue"]));
+	$pose = strtolower(filterName($_POST["ponumber"]));
+	$cidse = strtolower(filterName($_POST["cidname"]));
+	$passwordse = $_POST["password"];
 
-// $po = strtolower(filterName("8070004986"));
-	$querypo = "SELECT * FROM po WHERE ag=:ponumber and cid=:cid";
-		$stmtpo = $conn->prepare($querypo);
-		$stmtpo->bindParam(':ponumber', $po, PDO::PARAM_STR);
-		$stmtpo->bindParam(':cid', $cid, PDO::PARAM_STR);
+	$queryps = "SELECT * FROM customer WHERE cid=:client";
 
-	$stmtpo->execute();
+	$stmtps = $conn->prepare($queryps);
+	$stmtps->bindParam(':client', $cidse, PDO::PARAM_STR);
+	$stmtps->execute();
 
+	$resultpassword = $stmtps->fetch(PDO::FETCH_ASSOC);
+	$verifypassword = password_verify($passwordse , $resultpassword["password"]);
+		
+
+		if($verifypassword) {
+	 		$querypo = "SELECT * FROM po WHERE ag=:ponumber and cid=:cid";
+			$stmtpo = $conn->prepare($querypo);
+			$stmtpo->bindParam(':ponumber', $pose, PDO::PARAM_STR);
+			$stmtpo->bindParam(':cid', $cidse, PDO::PARAM_STR);
+
+			$stmtpo->execute();
 	
-	if( $stmtpo->rowCount() > 0){ //if all info correct
+ 			print_r($resultse);
 
-		$size = $stmtpo->rowCount();
-		$resultpo = $stmtpo->fetchAll(PDO::FETCH_ASSOC);
-
-		// foreach ($resultpo as $value) {
-		// 	$value["invoice"] = encrypt_decrypt('decrypt', $value["invoice"]);
-		// }
-
- 		 $response = json_encode($resultpo);
-	 	 echo '{"success":true,"size":'.$size.',"result":'.$response.'}';
-	}
- 
-	if ( $stmtpo->rowCount() ==0 ) {
-		echo '{"success":false,"message":"PO number invalid!"}';
-	} 
+				if( $stmtpo->rowCount() > 0){ //if get PO number
+					$size = $stmtpo->rowCount();
+					$resultse = $stmtpo->fetchAll(PDO::FETCH_ASSOC);
+ 					$response = json_encode($resultse);
+	 	 				echo '{"success":true,"size":'.$size.',"result":'.$response.'}';
+				}
+	 
+				if ( $stmtpo->rowCount() ==0 ) { //if no PO
+					echo '{"success":false,"message":"PO number invalid!"}';
+				} 
+		}
+		else {
+			echo '{"success":false,"message":"Password error!"}';
+		}
 }	
 ?>
