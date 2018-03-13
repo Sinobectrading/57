@@ -307,7 +307,7 @@
     };
 
     const DOM = {};
-    DOM.grid = document.querySelector('.grid');
+    DOM.grid = document.querySelector('.mdm');
     DOM.content = DOM.grid.parentNode;
     DOM.hamburger = document.querySelector('.dummy-menu');
     DOM.gridItems = Array.from(DOM.grid.querySelectorAll('.grid__item'));

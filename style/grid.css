@@ -937,7 +937,8 @@ figure.effect-sarah figcaption {
 }
 
 figure.effect-sarah h4 {
-	font-size: 1.15em;
+	font-size: 0.9em;
+	font-weight: 300;
 	color: #555;
 	position: relative;
 	overflow: hidden;
