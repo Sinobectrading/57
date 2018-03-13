@@ -12,8 +12,8 @@ http://www.tooplate.com/view/2079-garage
 <meta name="author" content="Web Domus Italia">
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="stylesheet" type="text/css" href="/057/source/bootstrap-3.3.6-dist/css/bootstrap.css">
-<link rel="stylesheet" type="text/css" href="/057/source/font-awesome-4.5.0/css/font-awesome.css">
+<link rel="stylesheet" type="text/css" href="/llc/source/bootstrap-3.3.6-dist/css/bootstrap.css">
+<link rel="stylesheet" type="text/css" href="/llc/source/font-awesome-4.5.0/css/font-awesome.css">
 <link href="https://fonts.googleapis.com/css?family=Barlow+Semi+Condensed:100,200,300" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Barlow+Condensed:100,200,300,400,500,700" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700" rel="stylesheet">
@@ -24,8 +24,14 @@ http://www.tooplate.com/view/2079-garage
 <link href="https://fonts.googleapis.com/css?family=Belleza" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Roboto:100,300" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Barlow+Condensed:100,200,300,400" rel="stylesheet">
-<link rel="stylesheet" type="text/css" href="/057/style/slider.css">
-<link rel="stylesheet" type="text/css" href="/057/style/mystyle.css">
-<link rel="stylesheet" type="text/css" href="/057/style/main.css">
-<link rel="stylesheet" type="text/css" href="/057/style/input.css">
+<link rel="stylesheet" type="text/css" href="/llc/style/slider.css">
+<link rel="stylesheet" type="text/css" href="/llc/style/mystyle.css">
+<link rel="stylesheet" type="text/css" href="/llc/style/main.css">
+<link rel="stylesheet" type="text/css" href="/llc/style/input.css">
+<link rel="stylesheet" type="text/css" href="/llc/style/grid.css">
+
+
+
+<link rel="stylesheet" href="/llc/style/temp.css">
+<!-- <script defer src="/static/fontawesome/fontawesome-all.js"></script> -->
 </head>

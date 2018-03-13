@@ -7,32 +7,38 @@
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 				</button>    
-				<span class="visible-xs"><a  class="currentlg" href="/057/en_us/<?php echo basename($_SERVER['PHP_SELF']); ?>">EN</a> <a href="/057/es/<?php echo basename($_SERVER['PHP_SELF']); ?>"  class="register">ES</a></span>
-				<a class="navbar-brand" href="/057/en_us/index">					
+				<span class="visible-xs"><a  class="currentlg" href="/llc/en_us/<?php echo basename($_SERVER['PHP_SELF']); ?>">EN</a> <a href="/llc/es/<?php echo basename($_SERVER['PHP_SELF']); ?>"  class="register">ES</a></span>
+				<a class="navbar-brand" href="/en_us/index.php">					
 
 					<img src="../image/triangle30.png" alt=""></br class="visible-xs">SINOBEC RESOURCES LLC
-					<p class="navtitle hidden-xs">Since 2002</p>
+					<p class="navtitle hidden-xs">Since 2012</p>
 				</a>
 			</div>
 			<div class="navbar-collapse collapse">
 				<ul class="nav navbar-nav navbar-left">
 					<li
-						<?php if (trim($_SERVER['PHP_SELF']) == "/057/en_us/index") {
+						<?php if (trim($_SERVER['PHP_SELF']) == "/llc/en_us/index.php") {
                               echo 'class="active"';} ?> 
 					>
-						<a href="index" class="element underline-opening">HOME</a> 
+						<a href="index.php" class="element underline-opening">HOME</a> 
 					</li>
 					<li
-						<?php if (trim($_SERVER['PHP_SELF']) == "/057/en_us/products") {
+						<?php if (trim($_SERVER['PHP_SELF']) == "/llc/en_us/products.php") {
                               echo 'class="active"';} ?> 
 					>
-						<a href="products" class="element underline-opening">PRODUCTS & SERVICES</a>
+						<a href="products.php" class="element underline-opening">PRODUCTS</a>
 					</li>
 					<li
-						<?php if (trim($_SERVER['PHP_SELF']) == "/057/en_us/track") {
+						<?php if (trim($_SERVER['PHP_SELF']) == "/llc/en_us/products.php#serviceinside") {
                               echo 'class="active"';} ?> 
 					>
-						<a href="track" class="element underline-opening">TRACK ORDER</a>
+						<a href="products.php#serviceinside" class="element underline-opening">SERVICES</a>
+					</li>
+					<li
+						<?php if (trim($_SERVER['PHP_SELF']) == "/llc/en_us/track.php") {
+                              echo 'class="active"';} ?> 
+					>
+						<a href="track.php" class="element underline-opening">TRACK ORDER</a>
 					</li>
 					<!-- <li class="dropdown">
 						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">PRODUCTS<span class="caret"></span></a>
@@ -44,17 +50,17 @@
 					</li> -->
 					
 					<li
-						<?php if (trim($_SERVER['PHP_SELF']) == "/057/en_us/contact") {
+						<?php if (trim($_SERVER['PHP_SELF']) == "/llc/en_us/contact.php") {
                               echo 'class="active"';} ?> 
 					>
-						<a href="contact" class="element underline-opening">CONTACT</a>
+						<a href="contact.php" class="element underline-opening">CONTACT</a>
 					</li>
 				</ul>
-				<ul class="nav navbar-nav navbar-right hidden-xs">
-					<li><a href="/057/en_us/<?php echo basename($_SERVER['PHP_SELF']); ?>"><span class="currentlg element underline-opening">EN</span></a> </li>
-					<li><a href="/057/es/<?php echo basename($_SERVER['PHP_SELF']); ?>"><span class="register element underline-opening">ES</span></a></li>
+				<!-- <ul class="nav navbar-nav navbar-right hidden-xs">
+					<li><a href="/en_us/<?php echo basename($_SERVER['PHP_SELF']); ?>"><span class="currentlg element underline-opening">EN</span></a> </li>
+					<li><a href="/es/<?php echo basename($_SERVER['PHP_SELF']); ?>"><span class="register element underline-opening">ES</span></a></li>
 				</ul>
-				 
+				  -->
 			</div>
 		</nav>
 		

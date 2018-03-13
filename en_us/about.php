@@ -7,7 +7,7 @@
 <!--_______________________________________ Carousel__________________________________ -->
 <div class="allcontain clearfix">
 	 <div class="col-md-12" id="abouttop">
-	 	<h3>We are the largest distributor of non-ferrous products.</h3>	
+	 	<h3>We are the largest distributor of non-ferrous products in North of America.</h3>	
  		<img src="../image/DSC00134.jpg" alt="porsche1">
 
 	</div>
@@ -190,7 +190,12 @@
 		<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
 			<div class="aboutfocusinside">
 <!-- 				<h1>LOREM IPSUM 2</h1>
- -->				<p>Sinobec Resources LLC, established in 2002, is a large sized Master Distributor of non-ferrous products including aluminum & stainless steel, in all shapes & forms. We pride ourselves on innovation, efficiency and management resulting in providing our customers with quality products at competitive prices. We currently have three strategically located facilities in Canada & the USA which carry standard stock of aluminum coils, sheets, plates, extrusions and stainless steel sheets.</p>
+ -->				<p>Established in 2012, SINOBEC RESOURCES ,LLC is headquartered in Montreal, Canada with offices 						in China and a domestic office in Coral Springs, Florida. The company has manu-facturing 							facilities in Indonesia, China, Vietnam and our newest mill in India opened the first of this year. We have the ability to meet almost any extrusion requirement including fabrication such as punching, bending and twisting. We also have the ability to create all products with enhancements such as Bright Dip, Custom Powder Paint, Wet Paint and Anodizing up to 40 foot lengths. We have annual capacity of over 200,000 metric tons.</p>
+<p>We supply Aluminum products such as extrusions, plate sheets, ingot and coil, common and custom profiles, railing & fencing, tubes, ladders and special alloys.</p>
+<p>At Sinobec we take pride in our efficiency and are particularly concerned with worker safety and care. Our focus now and going forward is to maintain a company with the environmentally friendly conditions and green technology that is available.</p>
+<p>Our markets now include: Canada, China, United States, Brazil, Italy, Turkey, Albania, Mex¬ico and Bolivia. Sinobec, since its inception has dedicated its efforts to provide a quality product at competitive pricing in a professional manner.</p>
+<p>Sinobec has strategically placed distribution warehouses in several contries. 
+</p>
  				<h2>&nbsp;</h2>
 			</div>
 		</div>

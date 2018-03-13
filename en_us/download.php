@@ -31,10 +31,14 @@ function encrypt_decrypt($action, $string) {
 
 if(isset($_GET['file'])){
 	$link = encrypt_decrypt('decrypt',$_GET['file']);
-	$file = "../inv/".$link.".pdf";
+  echo '{"success":true, "message":'+$link+'}';
+ 	$file = "../inv/".$link.".pdf";
 	  header("Content-Disposition: attachment; filename=".$file);
       readfile($file);
 }
-
+if(isset($_GET['data'])){
+  $link = encrypt_decrypt('decrypt',$_GET['data']);
+  echo $link;
+}
  
 ?>

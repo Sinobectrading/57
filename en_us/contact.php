@@ -26,7 +26,7 @@ body{
 				<div id="address" class="col-md-4">
 					<h1>Our Location</h1>
 					<address class="col-md-12 col-sm-6 col-xs-12">
-						<strong>SINOMETAL RESOURCES INC.</strong><br>
+						<strong>SINOBEC RESOURCES LLC</strong><br>
 						Address: 5301 North Federal Highway Suite 210<br>    
             Boca Raton, Fl. 33487<br>
 						USA<br>

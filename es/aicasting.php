@@ -40,6 +40,9 @@
 						<div class="featurecontant">
     						<div class="sticky">
   								<h3>12" FRIDAY HARBOUR MOORING CLEAT MILL FINISH A356.0-T6</h3>
+  								<h3>12" FM-TQ-12 FORMATINE MOORING CLEAT MILL FINISH 6061-T6</h3>
+  								<h3>8" FM-TQ-8 FORMATINE MOORING CLEAT MILL FINISH 6061-T6</h3>
+  								<h3>8" FRIDAY HARBOUR MOORING CLEAT MILL FINISH A356.0-T6</h3>
   							</div>
 						</div>
 					</div>
@@ -47,7 +50,7 @@
 				</div>
 			</div>
 
-			<div class="col-lg-12 costumcol colborder2">
+			<!-- <div class="col-lg-12 costumcol colborder2">
 				<div class="row costumrow">
 					<div class="col-xs-12 col-sm-5 col-md-7 col-lg-7 slideimg">
 						<img src="../image/1920_900/002.jpg" alt="porsche1">
@@ -55,7 +58,7 @@
 					<div class="col-xs-12 col-sm-7 col-md-5 col-lg-5 stick1">
 						<div class="featurecontant">
 							<div>
-								<h3>12" FM-TQ-12 FORMATINE MOORING CLEAT MILL FINISH 6061-T6</h3>
+								
 			 				</div>
  						</div>
 					</div>
@@ -70,7 +73,7 @@
 					<div class="col-xs-12 col-sm-7 col-md-5 col-lg-5 stick1">
 						<div class="featurecontant">
 							<div>
-								<h3>8" FM-TQ-8 FORMATINE MOORING CLEAT MILL FINISH 6061-T6</h3>
+								
 			 				</div>
  						</div>
 					</div>
@@ -86,13 +89,13 @@
 					<div class="col-xs-12 col-sm-7 col-md-5 col-lg-5 stick1">
 						<div class="featurecontant">
 							<div>
-								<h3>8" FRIDAY HARBOUR MOORING CLEAT MILL FINISH A356.0-T6</h3>
+								
 							</div>
  						</div>
 					</div>
 				</div>
 			</div>
-
+ -->
 			 
 		</div>
 	</div>

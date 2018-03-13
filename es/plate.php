@@ -33,113 +33,21 @@
 			<div class="col-lg-12 costumcol colborder2">
 				<div class="row costumrow">
 					<div class="col-xs-12 col-sm-5 col-md-7 col-lg-7 slideimg">
-						<img src="../image/900.jpg" alt="porsche1">
+						<img src="../image/plate.jpg" alt="porsche1">
 					</div>
 					<div class="col-xs-12 col-sm-7 col-md-5 col-lg-5 stick1">
 						<div class="featurecontant">
 							<div>
 								<h3>ALUMINUM TREAD PLATE 3003-H22 .125" X 60" X 120"</h3>
-								<!-- <p><span>Alloy & Temp</span><span>6061-T6  6063-T5 6006-T5 6063-T52</span></p>
-								<p><span>Finish</span><span>Mill Finish, Powder Coating ( black / white )</span></p>
-								<p><span>Length</span><span>240"</span></p> -->
-			 				</div>
- 						</div>
-					</div>
-				</div>
-			</div>
-			<div class="col-lg-12 costumcol colborder2">
-				<div class="row costumrow">
-					<div class="col-xs-12 col-sm-5 col-md-7 col-lg-7 slideimg">
-						<img src="../image/900.jpg" alt="porsche1">
-					</div>
-					<div class="col-xs-12 col-sm-7 col-md-5 col-lg-5 stick1">
-						<div class="featurecontant">
-							<div>
 								<h3>ALUMINUM TREAD PLATE 3003-H22 .125" X 60" X 144"</h3>
-								<!-- <p><span>Alloy & Temp</span><span>6061-T6  6063-T5 6006-T5 6063-T52</span></p>
-								<p><span>Finish</span><span>Mill Finish, Powder Coating ( black / white )</span></p>
-								<p><span>Length</span><span>240"</span></p> -->
-			 				</div>
- 						</div>
-					</div>
-				</div>
-			</div>
-			<div class="col-lg-12 costumcol colborder2">
-				<div class="row costumrow">
-					<div class="col-xs-12 col-sm-5 col-md-7 col-lg-7 slideimg">
-						<img src="../image/900.jpg" alt="porsche1">
-					</div>
-					<div class="col-xs-12 col-sm-7 col-md-5 col-lg-5 stick1">
-						<div class="featurecontant">
-							<div>
 								<h3>ALUMINUM TREAD PLATE 3003-H22 .063" X 48" X 144"</h3>
-								<!-- <p><span>Alloy & Temp</span><span>6061-T6  6063-T5 6006-T5 6063-T52</span></p>
-								<p><span>Finish</span><span>Mill Finish, Powder Coating ( black / white )</span></p>
-								<p><span>Length</span><span>240"</span></p> -->
-			 				</div>
- 						</div>
-					</div>
-				</div>
-			</div>
-			<div class="col-lg-12 costumcol colborder2">
-				<div class="row costumrow">
-					<div class="col-xs-12 col-sm-5 col-md-7 col-lg-7 slideimg">
-						<img src="../image/900.jpg" alt="porsche1">
-					</div>
-					<div class="col-xs-12 col-sm-7 col-md-5 col-lg-5 stick1">
-						<div class="featurecontant">
-							<div>
+								 
 								<h3>ALUMINUM TREAD PLATE 3003-H22 .080" X 48" X 120"</h3>
-								<!-- <p><span>Alloy & Temp</span><span>6061-T6  6063-T5 6006-T5 6063-T52</span></p>
-								<p><span>Finish</span><span>Mill Finish, Powder Coating ( black / white )</span></p>
-								<p><span>Length</span><span>240"</span></p> -->
-			 				</div>
- 						</div>
-					</div>
-				</div>
-			</div>
-			<div class="col-lg-12 costumcol colborder2">
-				<div class="row costumrow">
-					<div class="col-xs-12 col-sm-5 col-md-7 col-lg-7 slideimg">
-						<img src="../image/900.jpg" alt="porsche1">
-					</div>
-					<div class="col-xs-12 col-sm-7 col-md-5 col-lg-5 stick1">
-						<div class="featurecontant">
-							<div>
+								 
 								<h3>ALUMINUM TREAD PLATE 3003-H22 .080" X 48" X 144"</h3>
-								<!-- <p><span>Alloy & Temp</span><span>6061-T6  6063-T5 6006-T5 6063-T52</span></p>
-								<p><span>Finish</span><span>Mill Finish, Powder Coating ( black / white )</span></p>
-								<p><span>Length</span><span>240"</span></p> -->
-			 				</div>
- 						</div>
-					</div>
-				</div>
-			</div>
-			<div class="col-lg-12 costumcol colborder2">
-				<div class="row costumrow">
-					<div class="col-xs-12 col-sm-5 col-md-7 col-lg-7 slideimg">
-						<img src="../image/900.jpg" alt="porsche1">
-					</div>
-					<div class="col-xs-12 col-sm-7 col-md-5 col-lg-5 stick1">
-						<div class="featurecontant">
-							<div>
+								 
 								<h3>ALUMINUM TREAD PLATE 3003-H22 .100" X 60" X 192"</h3>
-								<!-- <p><span>Alloy & Temp</span><span>6061-T6  6063-T5 6006-T5 6063-T52</span></p>
-								<p><span>Finish</span><span>Mill Finish, Powder Coating ( black / white )</span></p>
-								<p><span>Length</span><span>240"</span></p> -->
-			 				</div>
- 						</div>
-					</div>
-				</div>
-			</div>
-			<div class="col-lg-12 costumcol colborder2">
-				<div class="row costumrow">
-					<div class="col-xs-12 col-sm-5 col-md-7 col-lg-7 slideimg">
-						<img src="../image/900.jpg" alt="porsche1">
-					</div>
-					<div class="col-xs-12 col-sm-7 col-md-5 col-lg-5 stick1">
-						<div class="featurecontant">
-							<div>
+								 
 								<h3>ALUMINUM TREAD PLATE 3003-H22 .125" X 48" X 144"</h3>
 								<!-- <p><span>Alloy & Temp</span><span>6061-T6  6063-T5 6006-T5 6063-T52</span></p>
 								<p><span>Finish</span><span>Mill Finish, Powder Coating ( black / white )</span></p>
@@ -149,7 +57,9 @@
 					</div>
 				</div>
 			</div>
-
+			 
+								
+								 
  
 			
 

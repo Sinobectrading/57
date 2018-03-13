@@ -1,6 +1,13 @@
-order deny,allow
-allow from 127.0.0.1
-deny from all
-Authname Private
-AuthType basic
-require user noadmittance
+# Authname Private
+# AuthType basic
+# require user noadmittance
+
+
+RewriteEngine On
+RewriteBase /
+# Add these lines right after the preceding two
+RewriteCond %{REQUEST_FILENAME} ^.*(pdf|doc|docx)$
+RewriteCond %{HTTP_COOKIE} !^.*wordpress_logged_in.*$ [NC]
+RewriteRule . - [R=403,L]
+
+

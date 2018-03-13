@@ -1,0 +1,6 @@
+[11-Jan-2018 17:32:49 UTC] PHP Warning:  fopen(U3992.pdf): failed to open stream: No such file or directory in /home/cmsci3501/public_html/sinobecresources.com/inv/dl.php on line 12
+[11-Jan-2018 17:32:49 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/cmsci3501/public_html/sinobecresources.com/inv/dl.php on line 34
+[19-Jan-2018 23:11:39 UTC] PHP Warning:  fopen(): Filename cannot be empty in /home/cmsci3501/public_html/sinobecresources.com/inv/dl.php on line 12
+[19-Jan-2018 23:11:39 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/cmsci3501/public_html/sinobecresources.com/inv/dl.php on line 34
+[23-Feb-2018 04:38:01 UTC] PHP Warning:  fopen(): Filename cannot be empty in /home/cmsci3501/public_html/sinobecresources.com/inv/dl.php on line 12
+[23-Feb-2018 04:38:01 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/cmsci3501/public_html/sinobecresources.com/inv/dl.php on line 34

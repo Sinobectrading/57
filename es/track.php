@@ -10,9 +10,14 @@ body{
     height:100%; /* force the BODY element to match the height of the HTML element */
 }
 #contact {
-	height: 900px
+    height: 900px
 }
-
+.rc-anchor-invisible {
+    opacity: 0
+}
+.rc-anchor-normal-footer  {
+    opacity: 0
+}
 </style>
 <body>
 
@@ -26,7 +31,7 @@ body{
             <div class="col-md-4">
 
                 <h1>Tracking Your Order</h1>
-
+                <p>( <i>This function is only for testing</i> )</p>
                 <form class="form-inline" action="#" method="post" id="form-login">
                     <span class="input input--nao">
                         <input class="input__field input__field--nao valid" type="text" id="cidname" name="cidname"/>
@@ -34,8 +39,7 @@ body{
                             <span class="input__label-content input__label-content--nao">Customer ID</span>
                         </label>
                         <svg class="graphic graphic--nao" width="300%" height="100%" viewBox="0 0 1200 60" preserveAspectRatio="none">
-                            <path d="M0,56.5c0,0,298.666,0,399.333,0C448.336,56.5,513.994,46,597,46c77.327,0,135,10.5,200.999,10.5c95.996,0,402.001,0,402.001,0"/>
-                        </svg>
+                         </svg>
                     </span>
  
                     <span class="input input--nao">
@@ -44,9 +48,9 @@ body{
                             <span class="input__label-content input__label-content--nao">Password</span>
                         </label>
                         <svg class="graphic graphic--nao" width="300%" height="100%" viewBox="0 0 1200 60" preserveAspectRatio="none">
-                            <path d="M0,56.5c0,0,298.666,0,399.333,0C448.336,56.5,513.994,46,597,46c77.327,0,135,10.5,200.999,10.5c95.996,0,402.001,0,402.001,0"/>
-                        </svg>
+                         </svg>
                     </span>
+
 
                     <span class="input input--nao">
                         <input class="input__field input__field--nao" type="text" id="ponumber" name="ponumber" />
@@ -54,14 +58,15 @@ body{
                             <span class="input__label-content input__label-content--nao">Order Number</span>
                         </label>
                         <svg class="graphic graphic--nao" width="300%" height="100%" viewBox="0 0 1200 60" preserveAspectRatio="none">
-                            <path d="M0,56.5c0,0,298.666,0,399.333,0C448.336,56.5,513.994,46,597,46c77.327,0,135,10.5,200.999,10.5c95.996,0,402.001,0,402.001,0"/>
-                        </svg>
+                         </svg>
                     </span>
                          <!-- <input type="text" class="input-large valid" id="cidname" name="cidname" placeholder="Customer ID"> -->
                          <!-- <input type="text" class="input-large valid" id="ponumber" name="ponumber" placeholder="Order Number"> -->
                     <span class="input input--nao"><button class="btn btn-primary" id="track" name="track">Track</button></span>
                     <span class="forget"><a href="trouble.php">Having trouble?</a></span>
-
+                        <div id='recaptcha' class="g-recaptcha"
+                          data-sitekey="6LfKBUEUAAAAAHQYJ1wrtYMjIr92q3_vbuYFqDPc"
+                           data-size="invisible"></div>
                  </form>
 
                 
@@ -83,7 +88,9 @@ body{
 </div>
 </div>  
 <?php include_once 'footer.php'; ?>
+<script src="https://www.google.com/recaptcha/api.js?hl=en" async defer></script>
 <script>
+ 
 /*!
  * classie - class helper functions
  * from bonzo https://github.com/ded/bonzo
@@ -225,6 +232,9 @@ $('#cidname').on({
     focus: function(){
         $("#ciderror").empty();
     },
+    change: function(){
+        $("#track").prop('disabled', true);
+    },
 
     blur: function(){
         $.ajax({
@@ -256,11 +266,13 @@ $('#cidname').on({
 });
 
 $('#password').on({
-    focus: function(){
-        $("#ciderror").empty();
+    // focus: function(){
+    //     $("#ciderror").empty();
+    // },
+    focusin: function(){
+        grecaptcha.reset();
     },
-
-    blur: function(){
+    focusout: function(){
         $.ajax({
             type: "POST",
             url:"po.php",
@@ -286,6 +298,7 @@ $('#password').on({
                 console.log("password wrong");
             },
         });
+        grecaptcha.execute(); 
     },
 
 });
@@ -306,18 +319,22 @@ $('#track').on({
             url:"po.php",
             dataType: "json",
             data:{
-                povalue:$('#ponumber').val(),
-                cidvalue:$('#cidname').val()
-                },
+                password:$("#password").val(),
+                cidname:$("#cidname").val(),
+                ponumber:$("#ponumber").val()
+                }, 
             success: function(datat){
                if (datat.success) {
                     $("#tmp").replaceWith("");
                     $('.addedDiv').empty();
                     $("#ponumber").removeClass('err');
-                    $('#title').replaceWith('<span id="resulttitle"><h1>Your PO tracking result:</h1></span>');
-                    $('#ajaxresponse').replaceWith('<table class="table table-hover table-responsive" id="ajaxresponse"><thead class="thead-inverse"><tr><td>AG PO#</td><td>SINOBEC PO#</td><td>Invoice #</td><td>SHIPPING REF</td><td>CONTAINER#</td><td>ETA</td></tr></thead><tbody></tbody></table>');
-                    for (var i = 0; i < datat.size; i++) {  
-                        var newString = ['<tr><td>'+datat.result[i].ag+'</td><td>'+datat.result[i].sinobec+'</td><td>'+datat.result[i].invoice+'</td><td>'+datat.result[i].shipref+'</td><td>'+datat.result[i].contref+'</td><td>'+datat.result[i].eta+'</td></tr>'].join('');
+                    $('#title').replaceWith('<span id="resulttitle"><h1>'+datat.result[0].name+' Purchase Orders:</h1></span>');
+                    $('#ajaxresponse').replaceWith('<table class="table table-hover table-responsive" id="ajaxresponse"><thead class="thead-inverse"><tr><td>P.O Number</td><td>Invoice</td><td>SHIPPING REF</td><td>CONTAINER#</td><td>ETA</td></tr></thead><tbody></tbody></table>');
+                    for (var i = 0; i < datat.size; i++) { 
+                        // console.log(datat.result[i].invoice); 
+                        var invoiceName = datat.result[i].invoice;
+                        // $.ajax({type: "get",url: "download.php?inv=",data: invoiceName,success: function(data){return(data);},});
+                         var newString = ['<tr><td>'+datat.result[i].ag+'</td><td><a class="pdf" href="../inv/dl.php?download_file='+datat.result[i].invoice+'.pdf" name="file">'+datat.result[i].invoice+'</a></td><td>'+datat.result[i].shipref+'</td><td>'+datat.result[i].contref+'</td><td>'+datat.result[i].eta+'</td></tr>'].join('');
                         $('#ajaxresponse tbody').append(newString);
                     }
                      console.log('povalid');
@@ -338,8 +355,16 @@ $('#track').on({
         });
     },
 });
+
+
 });
 
+</script>
+<script>
+$("a.pdf").click(function(){
+    window.open(this.href);
+    return false;
+});
 </script>
 </body>
 </html>

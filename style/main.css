@@ -18,12 +18,43 @@ body {
 	font-family: 'fpl', sans-serif;
 	overflow-x: hidden;
 }
+#aluminumtop .subtitle {
+	text-align: left;
+	padding-left: 2%;
+ 
+	line-height: 10px;
+	font-size: 1.3em;
+}
+.subhr {
+	border-color: #333;
+	margin-left: 3em; 
+}
+.adddes {
+	clear: both;
+	padding: 7em 3em;
+	font-size: 1.3em;
+	text-align: left;
+}
+#aluminumtop .smallitem h4 {
+	font-size: 0.7em
+}
+#aluminumtop .smallitem img {
+	padding-bottom: 40px;
+}
+.img-responsive, .thumbnail > img, .thumbnail a > img, .carousel-inner > .item > img, .carousel-inner > .item > a > img {
+	width: 100%
+}
+.carousel-indicators li {
+	border: 1px solid #909090;
+}
 .flex {
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	align-content: center
-
+}
+.featurecontant li {
+	font-size: 20px
 }
 #brochure img {
 	/*margin-top: 3%*/
@@ -68,8 +99,9 @@ body {
 .allcontain {
 	max-width: 100%;
 	padding-left: 65px;
-	padding-right: 65px
+	padding-right: 65px;
 }
+
 .header {
 	background: #fff
 }
@@ -392,6 +424,7 @@ body {
 
 /*///// products details /////*/
 #productinside, #serviceinside {
+	clear: both;
 	text-align: center;
 	background: #e7e7e7;
 	padding-top: 0px;
@@ -406,7 +439,8 @@ body {
 }
 #productinside  div.row {
 	padding: 60px 40px;
-	padding-top: 40px
+	padding-bottom: 40px
+	padding-top:0px;
 }
 #productinside .row > a > div h4 {
 	padding-top: 0px;
@@ -418,8 +452,7 @@ body {
 	height: auto;
 	max-width: 100%;
 	max-height: 100%;
-	padding: 15%;
-	padding-bottom: 0;
+	padding: 0 5%;
 }
 .srvtext {
 	padding-right: 5vw;
@@ -680,6 +713,8 @@ padding-top: 20px
  #ajaxresponse > tbody > tr > td, 
  #ajaxresponse > tfoot > tr > td {
   	text-align: center;
+  	vertical-align: middle;
+  	padding-top: 17px
   }
 #tc button:disabled,
 #tc button[disabled],
@@ -690,21 +725,7 @@ padding-top: 20px
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+ 
 
 @media (min-width: 1025px) and (max-width: 1780px){ 
 #featuresection .costumcol .costumrow {
@@ -1051,47 +1072,46 @@ padding-top: 20px
 
    #res td:nth-of-type(1):before
     { 
-    content: "AG PO#";  
+    content: "P.O Number#";  
     font-size:1.2em; 
     font-weight: 700; 
     text-align: left;
     padding-left: 8px;
+    padding-top: 10px
   }
   #res td:nth-of-type(2):before { 
-    content: "SINOBEC PO#"; 
+    content: "Invoice"; 
     font-size:1.2em; 
     font-weight: 700; 
     text-align: left ;
     padding-left: 8px;
+    padding-top: 10px
   }
   #res td:nth-of-type(3):before { 
-    content: "INVOICE#"; 
+    content: "Shipping Ref"; 
     font-size:1.2em; 
     font-weight: 700; 
     text-align: left ;
     padding-left: 8px;
+    padding-top: 10px
   }
   #res td:nth-of-type(4):before { 
-    content: "SHIPPING Ref";  
+    content: "Container";  
     font-size:1.2em; 
     font-weight: 700; 
     text-align: left;
     padding-left: 8px;
+    padding-top: 10px
   }
   #res td:nth-of-type(5):before { 
-    content: "CONTAINER#"; 
+    content: "ETA"; 
     font-size:1.2em; 
     font-weight: 700;
     text-align: left ;
     padding-left: 8px;
+    padding-top: 10px
   }
-  #res td:nth-of-type(6):before { 
-    content: "ETA";  
-    font-size:1.2em; 
-    font-weight: 700; 
-    text-align: left;
-    padding-left: 8px;
-  }
+ 
 } 
 
 
@@ -1300,8 +1320,8 @@ font-size: 28px
 #res {
 	margin-top: 80px
 }
-  #ajaxresponse {
-  	width:  
+  #ajaxresponse tr td {
+  	vertical-align: middle
   }
 /* Force table to not be like tables anymore */
   #res table, thead, tbody, th, td, tr { 
@@ -1404,6 +1424,9 @@ font-size: 28px
 }
 
 @media (min-width: 1781px) and (max-width: 2076px) {
+	#carousel-up {
+		height: 100vh;
+	}
 #readmore>button, #readmore2>button, #readmore3>button, #readmore4>button {
 	margin-bottom: 12px;
 	font-size: 13px;

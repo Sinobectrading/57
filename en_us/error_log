@@ -1,0 +1,21 @@
+[28-Dec-2017 19:46:04 UTC] PHP Notice:  Undefined property: PDOException::$getMessage in /home/cmsci3501/public_html/sinobecresources.com/en_us/db.php on line 12
+[28-Dec-2017 19:46:06 UTC] PHP Notice:  Undefined property: PDOException::$getMessage in /home/cmsci3501/public_html/sinobecresources.com/en_us/db.php on line 12
+[28-Dec-2017 19:46:24 UTC] PHP Notice:  Undefined property: PDOException::$getMessage in /home/cmsci3501/public_html/sinobecresources.com/en_us/db.php on line 12
+[28-Dec-2017 22:07:10 UTC] PHP Notice:  Undefined property: PDOException::$getMessage in /home/cmsci3501/public_html/sinobecresources.com/en_us/db.php on line 12
+[28-Dec-2017 22:11:35 UTC] PHP Notice:  Undefined property: PDOException::$getMessage in /home/cmsci3501/public_html/sinobecresources.com/en_us/db.php on line 12
+[28-Dec-2017 22:13:50 UTC] PHP Notice:  Undefined property: PDOException::$getMessage in /home/cmsci3501/public_html/sinobecresources.com/en_us/db.php on line 12
+[29-Dec-2017 15:27:26 UTC] PHP Notice:  Undefined property: PDOException::$getMessage in /home/cmsci3501/public_html/sinobecresources.com/en_us/db.php on line 12
+[29-Dec-2017 15:27:26 UTC] PHP Notice:  Undefined property: PDOException::$getMessage in /home/cmsci3501/public_html/sinobecresources.com/en_us/db.php on line 12
+[10-Jan-2018 21:54:17 UTC] PHP Notice:  Undefined index: cidname in /home/cmsci3501/public_html/sinobecresources.com/en_us/rehash.php on line 104
+[10-Jan-2018 22:01:23 UTC] PHP Notice:  Undefined variable: resultse in /home/cmsci3501/public_html/sinobecresources.com/en_us/po.php on line 77
+[10-Jan-2018 22:01:59 UTC] PHP Notice:  Undefined variable: resultse in /home/cmsci3501/public_html/sinobecresources.com/en_us/po.php on line 77
+[10-Jan-2018 22:02:44 UTC] PHP Notice:  Undefined variable: resultse in /home/cmsci3501/public_html/sinobecresources.com/en_us/po.php on line 77
+[10-Jan-2018 22:04:47 UTC] PHP Notice:  Undefined variable: resultse in /home/cmsci3501/public_html/sinobecresources.com/en_us/po.php on line 77
+[10-Jan-2018 22:05:00 UTC] PHP Notice:  Undefined variable: resultse in /home/cmsci3501/public_html/sinobecresources.com/en_us/po.php on line 77
+[10-Jan-2018 22:06:01 UTC] PHP Notice:  Undefined variable: resultse in /home/cmsci3501/public_html/sinobecresources.com/en_us/po.php on line 77
+[10-Jan-2018 22:08:54 UTC] PHP Notice:  Undefined variable: resultse in /home/cmsci3501/public_html/sinobecresources.com/en_us/po.php on line 77
+[11-Jan-2018 17:32:41 UTC] PHP Notice:  Undefined variable: resultse in /home/cmsci3501/public_html/sinobecresources.com/en_us/po.php on line 77
+[30-Jan-2018 20:19:44 UTC] PHP Warning:  include_once(header.php): failed to open stream: No such file or directory in /home/cmsci3501/public_html/sinobecresources.com/en_us/aluminum.php on line 3
+[30-Jan-2018 20:19:44 UTC] PHP Warning:  include_once(): Failed opening 'header.php' for inclusion (include_path='.:/opt/alt/php70/usr/share/pear') in /home/cmsci3501/public_html/sinobecresources.com/en_us/aluminum.php on line 3
+[30-Jan-2018 21:11:39 UTC] PHP Warning:  include_once(header.php): failed to open stream: No such file or directory in /home/cmsci3501/public_html/sinobecresources.com/en_us/aluminum.php on line 3
+[30-Jan-2018 21:11:39 UTC] PHP Warning:  include_once(): Failed opening 'header.php' for inclusion (include_path='.:/opt/alt/php70/usr/share/pear') in /home/cmsci3501/public_html/sinobecresources.com/en_us/aluminum.php on line 3

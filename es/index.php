@@ -11,25 +11,23 @@
 			<div class="item active">
 				<img src="../image/1080/b02.jpg" alt="oldcar">
 				<div class="carousel-caption">
-					<h2>METAL 365</h2>
-					<p>Lorem ipsum dolor sit amet, consectetur ,<br>
-						sed do eiusmod tempor incididunt ut labore </p>
+					<h2>METAL</h2>
+					<p>El metal está en todas partes del mundo. </br> Los productos de metal que proporcionamos se pueden usar para variedades de campos.</p>
 				</div>
 			</div>
 			<div class="item">
 				<img src="../image/1080/b01.jpg" alt="porche">
 				<div class="carousel-caption">
-					<h2>ALUMINUM</h2>
-						<p>Lorem ipsum dolor sit amet, consectetur ,<br>
-						sed do eiusmod tempor incididunt ut labore </p>
+					<h2>ALUMINIO</h2>
+						<p>Nuestras especialidades incluyen Ingots, billots <br>
+						y productos de extrusión personalizados.</p>
 				</div>
 			</div>
 			<div class="item">
 				<img src="../image/1080/b03.jpg" alt="benz">
 				<div class="carousel-caption">
-					<h2>Car</h2>
-					<p>Lorem ipsum dolor sit amet, consectetur ,<br>
-						sed do eiusmod tempor incididunt ut labore </p>
+					<h2>BARANDILLA</h2>
+					<p>¿Necesita una barandilla para una terraza envolvente, un balcón, una escalera u otra característica en un hogar o negocio? </br> ¿Busca la elegante apariencia de hierro forjado sin las preocupaciones de mantenimiento?</p>
 				</div>
 			</div>
 		</div>
@@ -128,7 +126,7 @@
 	</div>
 <!-- ________________________LATEST CARS SECTION _______________________-->
 <div class="latestcars">
-	<h1 class="text-center">NUESTRO OBJETIVO</h1>
+	<h1 class="text-center">NUESTROS PRODUCTOS</h1>
 	<!-- <ul class="nav nav-tabs navbar-left latest-navleft">
 		<li role="presentation" class="li-sortby"><span class="sortby">SORT BY: </span></li>
 		<li data-filter=".RECENT" role="presentation"><a href="#mostrecent" class="prcBtnR">MOST RECENT </a></li>
@@ -143,58 +141,72 @@
 <!-- ________________________Latest Cars Image Thumbnail________________-->
 	<div class="clearfix" id="lastproject">
 		<div class="row">
-			<a href="">
-				<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
-					<img src="../image/338_389/01.png" alt="car1">
-					<p>Project 1</p>	
-				</div>
+			<a href="standex.php">
+			<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+ 					<img src="../image/700_774/004.jpg" alt="car1">
+					<p>Standard Extrusion</p>	
+ 			</div>
 			</a>
 			
-			<a href="">
-				<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
-					<img src="../image/338_389/01.png" alt="car1">
-					<p>Project 1</p>	
-				</div>
+			<a href="aicasting.php">
+			<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+ 					<img src="../image/700_774/021.png" alt="car1">
+					<p>Aluminum Casting</p>	
+ 			</div>
 			</a>
-			<a href="">
-				<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
-					<img src="../image/338_389/01.png" alt="car1">
-					<p>Project 1</p>	
-				</div>
+
+			<a href="customized.php">
+			<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+ 					<img src="../image/700_774/001.jpg" alt="car1">
+					<p>Customized Extrusion</p>	
+ 			</div>
+		 	</a>
+
+		 	<a href="coil.php">
+			<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+ 					<img src="../image/700_774/007.jpg" alt="car1">
+					<p>Aluminum Coil</p>	
+ 			</div>
 			</a>
-			<a href="">
-				<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
-					<img src="../image/338_389/01.png" alt="car1">
-					<p>Project 1</p>	
-				</div>
-			</a>
-			<a href="">
-				<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
-					<img src="../image/338_389/01.png" alt="car1">
-					<p>Project 1</p>	
-				</div>
-			</a>
-			<a href="">
-				<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
-					<img src="../image/338_389/01.png" alt="car1">
-					<p>Project 1</p>	
-				</div>
-			</a>		 	
+
+			<a href="plate.php"></a>
+			<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+ 					<img src="../image/700_774/023.png" alt="car1">
+					<p>Plates & Sheets</p>	
+ 			</div>
+
+			<a href="treatplate.php">
+			<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+ 					<img src="../image/700_774/024.jpg" alt="car1">
+					<p>Tread Plates</p>	
+ 			</div>	
+ 			</a> 	
 		</div>
 	</div>
 <!-- _______________________________News Letter ____________________-->
-	<div class="newslettercontent">
-		<div class="leftside">
+	<div class="newslettercontent flex hidden-xs">
+		<div class="leftside" id="brochure">
 			<img src="../image/border.png" alt="border">
-			<h1>NEWSLETTER</h1>
-			<p>Subscribe to the COLLECTIONCARS mailing list to <br>
-				receive updates on new arrivals, special offers <br>
-				and other discount information.</p>
+			<h1>Folleto</h1>
+			<p>Vea o descargue nuestro folleto de la compañía para ver nuestra amplia gama de productos y servicios. </p>
 		</div>
 		<div class="rightside">
-			<img class="newsimage" src="../image/newsletter.jpg" alt="newsletter">
-			<input type="text" class="form-control" id="subemail" placeholder="EMAIL">
-			<button>SUBSCRIBE</button>
+			<img class="newsimage" src="../image/brochure.jpg" alt="newsletter">
+			<!-- <input type="text" class="form-control" id="subemail" placeholder="EMAIL"> -->
+			<button id="broc">Descargar</button>
+		</div>
+	</div>
+	<div class="newslettercontent visible-xs">
+		<div class="leftside" id="brochure">
+			<img src="../image/border.png" alt="border">
+			<h1>Folleto</h1>
+			<p>Vea o descargue nuestro folleto de la compañía para ver nuestra amplia gama de productos y servicios.  </p>
+		</div>
+		<div class="rightside">
+			<img class="newsimage" src="../image/brochure.jpg" alt="newsletter">
+			<!-- <input type="text" class="form-control" id="subemail" placeholder="EMAIL"> -->
+
+			<button id="broc">Descargar</button>
 		</div>
 	</div>
 </div>
@@ -202,8 +214,7 @@
 
 	<!-- ______________________________________________________Bottom Menu ______________________________-->
 	<div class="bottommenu">
-		<p>"Lorem ipsum dolor sit amet, consectetur,  sed do eiusmod tempor incididunt <br>
-			eiusmod tempor incididunt"</p>
+		<p>"Ofrecemos productos de válvulas de aluminio para renovación interna, construcción, residencial, equipamiento médico e industria alimentaria."</p>
 		 <img src="../image/line.png" alt="line"> <br>
 	</div>	 
 <?php include_once 'footer.php'; ?>

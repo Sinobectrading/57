@@ -2,7 +2,9 @@
 font-family: "Gill Light";
 src:  url("../font/Gill_Sans_Light.woff") format("woff"),
 }
-
+.smallitem {
+	padding-top: 5em
+}
 .allcontain{
 	max-width: 95%;
 	margin-left: auto;
@@ -1247,42 +1249,7 @@ font-weight: bold;
 } 
 
 
-.bl-main {
-	position: absolute;
-	width: 100%;
-	height: 100vh;
-	overflow: hidden;
-}
-
-.bl-main > section {
-	position: absolute;
-	width: 50%;
-	height: 50%;
-}
-
-.bl-main > section:first-child {
-	top: 0;
-	left: 0;
-	background: #F06060;
-}
-
-.bl-main > section:nth-child(2) {
-	top: 0;
-	left: 50%;
-	background: #FA987D;
-}
-
-.bl-main > section:nth-child(3) {
-	top: 50%;
-	left: 0;
-	background: #72CCA7;
-}
-
-.bl-main > section:nth-child(4) {
-	top: 50%;
-	left: 50%;
-	background: #10A296;
-}
+ 
 
 .bl-box {
 	position: relative;
@@ -1563,6 +1530,7 @@ div.bl-panel-items > div.bl-hide-current-work {
 }
 
 .bl-main > section.bl-expand {
+	position: absolute;
 	width: 100%;
 	height: 100%;
 	top: 0;
@@ -1573,7 +1541,7 @@ div.bl-panel-items > div.bl-hide-current-work {
 	z-index: 100;
 }
 
-.bl-main > section:first-child.bl-expand {
+/*.bl-main > section:first-child.bl-expand {
 	background: #EE4444;
 }
 .bl-main > section:nth-child(2).bl-expand {
@@ -1584,7 +1552,7 @@ div.bl-panel-items > div.bl-hide-current-work {
 }
 .bl-main > section:nth-child(4).bl-expand {
 	background: #0D8278;
-}
+}*/
 
 .bl-main.bl-expand-item > section:not(.bl-expand),
 .bl-main.bl-expand-item > section.bl-scale-down {
@@ -1860,10 +1828,13 @@ margin-left: auto;
 	 
 }
 @media screen and (min-width: 1366px){
-.latest-navleft{
-	width: 810px;
+	.latest-navleft{
+		width: 810px;
+	}	
+/*	div.carousel-indicators {
+	    top: 20px;
+	}*/
 
-}	
 }
 @media screen and (max-width: 767px){
 .latestcars>h1{
@@ -2454,6 +2425,7 @@ height: 70px;
 		font-size: 1.1em
 	}
 }
+
 
 
 

@@ -7,6 +7,11 @@
 <!--_______________________________________ Carousel__________________________________ -->
 <div class="allcontain">
 	<div id="carousel-up" class="carousel slide" data-ride="carousel">
+		<ol class="carousel-indicators">
+		    <li data-target="#carousel-up" data-slide-to="0" class="active"></li>
+		    <li data-target="#carousel-up" data-slide-to="1"></li>
+		    <li data-target="#carousel-up" data-slide-to="2"></li>
+		</ol>
 		<div class="carousel-inner " role="listbox">
 			<div class="item active">
 				<img src="../image/1080/b02.jpg" alt="oldcar">
@@ -18,20 +23,28 @@
 			<div class="item">
 				<img src="../image/1080/b01.jpg" alt="porche">
 				<div class="carousel-caption">
-					<h2>ALUMINUM</h2>
-						<p>Our specialties include Ingots, billots <br>
-						and customized extrusion products ,</p>
+					<h2 style="color:#9e9e9e ">EXTRUSION</h2>
+						<p>High precision extrusions are derived from our 17-year experience and advanced equipment<br>
+						We can provide according to your size and shape of such aluminum profile</p>
 				</div>
 			</div>
 			<div class="item">
 				<img src="../image/1080/b03.jpg" alt="benz">
 				<div class="carousel-caption">
-					<h2>Railing</h2>
-					<p>Need a railing for a wraparound deck, a balcony, a stairway<br>or another feature at a home or business?</br>Looking for the elegant look of wrought iron without the maintenance worries ? </p>
+					<h2>PLATES & SHEETS</h2>
+					<p>Highest quality Aluminium Plate / Aluminum Sheet<br>
+					Standard export packing or following customer's demand</br></p>
 				</div>
 			</div>
 		</div>
-		 
+		<!-- <a class="left carousel-control" href="#carousel-up" data-slide="prev">
+		    <span class="glyphicon glyphicon-chevron-left"></span>
+		    <span class="sr-only">Previous</span>
+		  </a>
+		  <a class="right carousel-control" href="#carousel-up" data-slide="next">
+		    <span class="glyphicon glyphicon-chevron-right"></span>
+		    <span class="sr-only">Next</span>
+		</a> -->
 	</div>
 </div>
 <!-- ____________________Featured Section ______________________________--> 
@@ -140,49 +153,31 @@
 	</ul> -->
 </div>
 
-<!-- ________________________Latest Cars Image Thumbnail________________-->
+<!-- ________________________Products Section________________-->
 	<div class="clearfix" id="lastproject">
 		<div class="row">
-			<a href="standex">
+			<a href="standex.php">
 			<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
- 					<img src="../image/700_774/004.jpg" alt="car1">
-					<p>Standard Extrusion</p>	
+ 					<img src="../image/700_774/700_774_002.jpg" alt="car1">
+					<p>Aluminum Extrusion</p>	
  			</div>
 			</a>
 			
-			<a href="aicasting">
+			<a href="aicasting.php">
 			<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
- 					<img src="../image/700_774/021.png" alt="car1">
-					<p>Aluminum Casting</p>	
+ 					<img src="../image/700_774/700_773_001.jpg" alt="car1">
+					<p>Aluminum Flat Rolled</p>	
  			</div>
 			</a>
 
-			<a href="customized">
+			<a href="customized.php">
 			<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
- 					<img src="../image/700_774/001.jpg" alt="car1">
-					<p>Customized Extrusion</p>	
+ 					<img src="../image/700_774/700_774_003.jpg" alt="car1">
+					<p>Aluminum Casting</p>	
  			</div>
 		 	</a>
 
-		 	<a href="coil">
-			<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
- 					<img src="../image/700_774/007.jpg" alt="car1">
-					<p>Aluminum Coil</p>	
- 			</div>
-			</a>
-
-			<a href="plate"></a>
-			<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
- 					<img src="../image/700_774/023.png" alt="car1">
-					<p>Plates & Sheets</p>	
- 			</div>
-
-			<a href="treatplate">
-			<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
- 					<img src="../image/700_774/024.jpg" alt="car1">
-					<p>Tread Plates</p>	
- 			</div>	
- 			</a> 	
+		 	 
 		</div>
 	</div>
 <!-- _______________________________News Letter ____________________-->

@@ -1,8 +1,8 @@
 <?php 
 	define('DB_SERVER','localhost');
-	define('DB_NAME', 'shipping');
-	define('DB_USER', 'root');
-	define('DB_PASSWORD', '#9jc>Cn6');
+	define('DB_NAME', 'llc_shipment');
+	define('DB_USER', 'alexgao');
+	define('DB_PASSWORD', '123456Gp$$');
 	//Database connection
 		try{
 			$conn = new pdo("mysql:host=".DB_SERVER."; dbname=".DB_NAME,DB_USER,DB_PASSWORD);

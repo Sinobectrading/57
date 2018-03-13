@@ -34,7 +34,7 @@
 				<div class="row costumrow">
 
 					<div class="col-xs-12 col-sm-5 col-md-7 col-lg-7 slideimg">
-						<img src="../image/rc/tuberc01.png" alt="porsche1">
+						<img src="../image/rc/rc001.jpg" alt="porsche1">
 					</div>
 					<div class="col-xs-12 col-sm-7 col-md-5 col-lg-5 stick1" id="stick1">
 						<div class="featurecontant">
@@ -53,7 +53,7 @@
 			<div class="col-lg-12 costumcol colborder2">
 				<div class="row costumrow">
 					<div class="col-xs-12 col-sm-5 col-md-7 col-lg-7 slideimg">
-						<img src="../image/rc/rc01.png" alt="porsche1">
+						<img src="../image/rc/rc002.jpg" alt="porsche1">
 					</div>
 					<div class="col-xs-12 col-sm-7 col-md-5 col-lg-5 stick1">
 						<div class="featurecontant">
@@ -71,7 +71,7 @@
 			<div class="col-lg-12 costumcol colborder2">
 				<div class="row costumrow">
 					<div class="col-xs-12 col-sm-5 col-md-7 col-lg-7 slideimg">
-						<img src="../image/angle/angle01.png" alt="porsche1">
+						<img src="../image/angle/1920_1080_angle001.jpg" alt="porsche1">
 					</div>
 					<div class="col-xs-12 col-sm-7 col-md-5 col-lg-5 stick1">
 						<div class="featurecontant">
@@ -89,7 +89,7 @@
 			<div class="col-lg-12 costumcol colborder2">
 				<div class="row costumrow">
 					<div class="col-xs-12 col-sm-5 col-md-7 col-lg-7 slideimg">
-						<img src="../image/angle/angle02.png" alt="porsche1">
+						<img src="../image/angle/angle1920.jpg" alt="porsche1">
 					</div>
 					<div class="col-xs-12 col-sm-7 col-md-5 col-lg-5 stick1">
 						<div class="featurecontant">
@@ -118,7 +118,7 @@
 			<div class="col-lg-12 costumcol colborder2">
 				<div class="row costumrow">
 					<div class="col-xs-12 col-sm-5 col-md-7 col-lg-7 slideimg">
-						<img src="../image/1920_900/001.jpg" alt="porsche1">
+						<img src="../image/round/1920_round01.jpg" alt="porsche1">
 					</div>
 					<div class="col-xs-12 col-sm-7 col-md-5 col-lg-5 stick1">
 						<div class="featurecontant">
@@ -136,7 +136,7 @@
 			<div class="col-lg-12 costumcol colborder2">
 				<div class="row costumrow">
 					<div class="col-xs-12 col-sm-5 col-md-7 col-lg-7 slideimg">
-						<img src="../image/1920_900/001.jpg" alt="porsche1">
+						<img src="../image/round/round010.jpg" alt="porsche1">
 					</div>
 					<div class="col-xs-12 col-sm-7 col-md-5 col-lg-5 stick1">
 						<div class="featurecontant">
@@ -156,7 +156,7 @@
 			<div class="col-lg-12 costumcol colborder2">
 				<div class="row costumrow">
 					<div class="col-xs-12 col-sm-5 col-md-7 col-lg-7 slideimg">
-						<img src="../image/chan/chstru01.png" alt="porsche1">
+						<img src="../image/chan/channel003.jpg" alt="porsche1">
 					</div>
 					<div class="col-xs-12 col-sm-7 col-md-5 col-lg-5 stick1">
 						<div class="featurecontant">
@@ -171,27 +171,12 @@
 				</div>
 			</div>
 
-			<div class="col-lg-12 costumcol colborder2">
-				<div class="row costumrow">
-					<div class="col-xs-12 col-sm-5 col-md-7 col-lg-7 slideimg">
-						<img src="../image/chan/chstru01.png" alt="porsche1">
-					</div>
-					<div class="col-xs-12 col-sm-7 col-md-5 col-lg-5 stick1">
-						<div class="featurecontant">
-							<div class="profile">
-								<h3>Ch-Struc Profile</h3>
-								<p><span>Foot 1</span><span>Foot 2</span><span>Thickness</span></p>
-								<p><span>5</span><span>2</span><span>0.312"</span></p>
-			 				</div>
- 						</div>
-					</div>
-				</div>
-			</div>
+			 
 
 			<div class="col-lg-12 costumcol colborder2">
 				<div class="row costumrow">
 					<div class="col-xs-12 col-sm-5 col-md-7 col-lg-7 slideimg">
-						<img src="../image/flat/flat01.png" alt="porsche1">
+						<img src="../image/flat/flat003.jpg" alt="porsche1">
 					</div>
 					<div class="col-xs-12 col-sm-7 col-md-5 col-lg-5 stick1">
 						<div class="featurecontant">
@@ -209,7 +194,7 @@
 			<div class="col-lg-12 costumcol colborder2">
 				<div class="row costumrow">
 					<div class="col-xs-12 col-sm-5 col-md-7 col-lg-7 slideimg">
-						<img src="../image/flat/flat02.png" alt="porsche1">
+						<img src="../image/flat/flat004.jpg" alt="porsche1">
 					</div>
 					<div class="col-xs-12 col-sm-7 col-md-5 col-lg-5 stick1">
 						<div class="featurecontant">
@@ -236,7 +221,7 @@
 			<div class="col-lg-12 costumcol colborder2">
 				<div class="row costumrow">
 					<div class="col-xs-12 col-sm-5 col-md-7 col-lg-7 slideimg">
-						<img src="../image/chan/channel02.png" alt="porsche1">
+						<img src="../image/chan/channel004.jpg" alt="porsche1">
 					</div>
 					<div class="col-xs-12 col-sm-7 col-md-5 col-lg-5 stick1">
 						<div class="featurecontant">
@@ -254,7 +239,7 @@
 			<div class="col-lg-12 costumcol colborder2">
 				<div class="row costumrow">
 					<div class="col-xs-12 col-sm-5 col-md-7 col-lg-7 slideimg">
-						<img src="../image/chan/channel01.png" alt="porsche1">
+						<img src="../image/chan/channel002.jpg" alt="porsche1">
 					</div>
 					<div class="col-xs-12 col-sm-7 col-md-5 col-lg-5 stick1">
 						<div class="featurecontant">
@@ -282,7 +267,7 @@
 			<div class="col-lg-12 costumcol colborder2">
 				<div class="row costumrow">
 					<div class="col-xs-12 col-sm-5 col-md-7 col-lg-7 slideimg">
-						<img src="../image/bean/bean01.png" alt="porsche1">
+						<img src="../image/bean/bean004.jpg" alt="porsche1">
 					</div>
 					<div class="col-xs-12 col-sm-7 col-md-5 col-lg-5 stick1">
 						<div class="featurecontant">
@@ -323,7 +308,7 @@
 			<div class="col-lg-12 costumcol colborder2">
 				<div class="row costumrow">
 					<div class="col-xs-12 col-sm-5 col-md-7 col-lg-7 slideimg">
-						<img src="../image/pipe/pipe01.png" alt="porsche1">
+						<img src="../image/pipe/pipe004.jpg" alt="porsche1">
 					</div>
 					<div class="col-xs-12 col-sm-7 col-md-5 col-lg-5 stick1">
 						<div class="featurecontant">
@@ -341,7 +326,7 @@
 			<div class="col-lg-12 costumcol colborder2">
 				<div class="row costumrow">
 					<div class="col-xs-12 col-sm-5 col-md-7 col-lg-7 slideimg">
-						<img src="../image/pipe/pipe03.png" alt="pipe03">
+						<img src="../image/pipe/pipe005.jpg" alt="pipe03">
 					</div>
 					<div class="col-xs-12 col-sm-7 col-md-5 col-lg-5 stick1">
 						<div class="featurecontant">
@@ -398,7 +383,7 @@
 			<div class="col-lg-12 costumcol colborder2">
 				<div class="row costumrow">
 					<div class="col-xs-12 col-sm-5 col-md-7 col-lg-7 slideimg">
-						<img src="../image/tube/tube01.png" alt="porsche1">
+						<img src="../image/rc/rc003.jpg" alt="porsche1">
 					</div>
 					<div class="col-xs-12 col-sm-7 col-md-5 col-lg-5 stick1">
 						<div class="featurecontant">

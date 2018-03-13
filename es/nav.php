@@ -7,17 +7,17 @@
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 				</button>    
-				<span class="visible-xs"><a href="/057/en_us/<?php echo basename($_SERVER['PHP_SELF']); ?>" class="register">EN</a> <a href="/057/es/<?php echo basename($_SERVER['PHP_SELF']); ?>" class="currentlg">ES</a></span>
-				<a class="navbar-brand" href="/057/es/index.php">					
+				<span class="visible-xs"><a href="/en_us/<?php echo basename($_SERVER['PHP_SELF']); ?>" class="register">EN</a> <a href="/es/<?php echo basename($_SERVER['PHP_SELF']); ?>" class="currentlg">ES</a></span>
+				<a class="navbar-brand" href="/es/index.php">					
 
-					<img src="../image/triangle30.png" alt=""></br class="visible-xs">SINOBEC RESOURCES INC.
+					<img src="../image/triangle30.png" alt=""></br class="visible-xs">SINOBEC RESOURCES LLC
 					<p class="navtitle hidden-xs">Ya que 2002</p>
 				</a>
 			</div>
 			<div class="navbar-collapse collapse">
 				<ul class="nav navbar-nav navbar-left">
 					<li
-						<?php if (trim($_SERVER['PHP_SELF']) == "/057/es/index.php") {
+						<?php if (trim($_SERVER['PHP_SELF']) == "/es/index.php") {
                               echo 'class="active"';} ?> 
 					>
 						<a href="index.php" class="element underline-opening">CASA</a> 
@@ -32,20 +32,20 @@
 						</ul>
 					</li> -->
 					<li
-							<?php if (trim($_SERVER['PHP_SELF']) == "/057/es/products.php") {
+							<?php if (trim($_SERVER['PHP_SELF']) == "/es/products.php") {
                               echo 'class="active"';} ?> 
 					>
 						<a href="products.php" class="element underline-opening">PRODUCTOS & SERVICIO</a>
 					</li>
 					<li
-						<?php if (trim($_SERVER['PHP_SELF']) == "/057/es/track.php") {
+						<?php if (trim($_SERVER['PHP_SELF']) == "/es/track.php") {
                               echo 'class="active"';} ?> 
 					>
 						<a href="track.php" class="element underline-opening">ORDEN DE PISTA</a>
 					</li>
 
 					<li
-						<?php if (trim($_SERVER['PHP_SELF']) == "/057/es/contact.php") {
+						<?php if (trim($_SERVER['PHP_SELF']) == "/es/contact.php") {
                               echo 'class="active"';} ?> 
 					>
 						<a href="contact.php" class="element underline-opening">CONTACTO</a>
@@ -53,8 +53,8 @@
 					
 				</ul>
 				<ul class="nav navbar-nav navbar-right hidden-xs">
-					<li><a href="/057/en_us/<?php echo basename($_SERVER['PHP_SELF']); ?>"><span class="register element underline-opening">EN</span></a> </li>
-					<li><a href="/057/es/<?php echo basename($_SERVER['PHP_SELF']); ?>"><span class="currentlg element underline-opening">ES</span></a></li>
+					<li><a href="/en_us/<?php echo basename($_SERVER['PHP_SELF']); ?>"><span class="register element underline-opening">EN</span></a> </li>
+					<li><a href="/es/<?php echo basename($_SERVER['PHP_SELF']); ?>"><span class="currentlg element underline-opening">ES</span></a></li>
 				</ul>
 				 
 			</div>
