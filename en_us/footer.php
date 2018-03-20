@@ -43,7 +43,12 @@
 <script src="/llc/source/js/imagesloaded.pkgd.min.js"></script>
 <script src="/llc/source/js/anime.min.js"></script>
 <script src="/llc/source/js/temp.js"></script>
+<script src="/llc/source/js/jquery.showup.js"></script>
 
+<script src="/llc/source/js/jquery.dataTables.min.js"></script>
+<script src="/llc/source/js/dataTables.material.min.js"></script>
+<script src="https://cdn.datatables.net/responsive/2.2.1/js/dataTables.responsive.min.js"></script>
+<script src="https://cdn.datatables.net/responsive/2.2.1/js/responsive.bootstrap.min.js"></script>
 <script>
 // array is also fine, equal to
 $('.stick1').stickit([

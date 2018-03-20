@@ -29,8 +29,9 @@ http://www.tooplate.com/view/2079-garage
 <link rel="stylesheet" type="text/css" href="/llc/style/main.css">
 <link rel="stylesheet" type="text/css" href="/llc/style/input.css">
 <link rel="stylesheet" type="text/css" href="/llc/style/grid.css">
-
-
+<link rel="stylesheet" type="text/css" href="/llc/style/material.min.css">
+<link rel="stylesheet" type="text/css" href="/llc/style/dataTables.material.min.css">
+<link rel="stylesheet" href="https://cdn.datatables.net/responsive/2.2.1/css/responsive.bootstrap.min.css">
 
 <link rel="stylesheet" href="/llc/style/temp.css">
 <!-- <script defer src="/static/fontawesome/fontawesome-all.js"></script> -->

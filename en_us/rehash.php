@@ -27,9 +27,9 @@ body{
                 <h1>Rehash</h1>
                  <form class="form-inline" action="#" method="post" id="form-login" action="rehash.php">
                     <span class="input input--nao">
-                        <input class="input__field input__field--nao valid" type="text" id="cidname" name="cidname"/>
-                        <label class="input__label input__label--nao" for="cidname">
-                            <span class="input__label-content input__label-content--nao">Customer ID</span>
+                        <input class="input__field input__field--nao valid" type="email" id="email" name="email"/>
+                        <label class="input__label input__label--nao" for="email">
+                            <span class="input__label-content input__label-content--nao">Customer Email</span>
                         </label>
                         <svg class="graphic graphic--nao" width="300%" height="100%" viewBox="0 0 1200 60" preserveAspectRatio="none">
                             <path d="M0,56.5c0,0,298.666,0,399.333,0C448.336,56.5,513.994,46,597,46c77.327,0,135,10.5,200.999,10.5c95.996,0,402.001,0,402.001,0"/>
@@ -77,32 +77,39 @@ function hashPW($userpw){
 }
 
 
-function updatePw($userId){
-	require_once 'db.php';
+function updatePw($userEmail){
+	define('DB_SERVER','localhost');
+  define('DB_NAME', 'llclogin');
+  define('DB_USER', 'root');
+  define('DB_PASSWORD', '#9jc>Cn6');
+    //Database connection
+      try{
+        $pdoconn = new pdo("mysql:host=".DB_SERVER."; dbname=".DB_NAME,DB_USER,DB_PASSWORD);
+        $pdoconn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+      }
+      catch(PDOException $e){
+        die("Connection failed".$e->getMessage);
+      }
 
-  $querypost = "UPDATE customer SET password=:password WHERE cid=:cid";
+  $querypost = "UPDATE users SET password=:password WHERE email=:email";
 
-  $stmtpost = $conn->prepare($querypost);
+  $stmtpost = $pdoconn->prepare($querypost);
   $stmtpost->bindParam(':password', $password, PDO::PARAM_STR);
-  $stmtpost->bindParam(':cid', $cid, PDO::PARAM_STR);
+  $stmtpost->bindParam(':email', $email, PDO::PARAM_STR);
+          
+          $stmtget = $pdoconn->prepare("SELECT * FROM users WHERE email=:email");
+          $stmtget->bindParam(':email',$email, PDO::PARAM_STR);
+  
+          $email = $userEmail;
+          $stmtget->execute();
+          $row = $stmtget->fetch(PDO::FETCH_ASSOC);
 
-
-  $queryget = "SELECT * FROM customer WHERE cid=:uname";
-
-  $stmtget = $conn->prepare($queryget);
-  $stmtget->bindParam(':uname',$uname, PDO::PARAM_STR);
-
-	$uname = $userId;
-	$stmtget->execute();
-	$row = $stmtget->fetch(PDO::FETCH_ASSOC);
-
-  	$cid = $userId;
-  	$password = hashPW($row['password']);
-  	$stmtpost->execute();
+          $password = hashPW($row['password']);
+          $stmtpost->execute();
 }
 
-$customerid = $_POST["cidname"];
-updatePw($customerid);
+$customerEmail = $_POST["email"];
+updatePw($customerEmail);
 ?>
 </body>
 </html>

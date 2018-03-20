@@ -993,11 +993,14 @@ font-weight: bold;
 	width: 53.7%;
 }
 .featurecontant{
-	width:85%;
+	width: 100%;
 	height: auto;
 	border: 1px solid #C59E47;
 	margin-right: auto;
 	margin-left: auto;
+}
+.featurecontant > div {
+	padding: 2%
 }
 .featurecontant>h1{
 	font-family: "OpenSans Regular";

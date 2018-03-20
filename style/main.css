@@ -18,6 +18,23 @@ body {
 	font-family: 'fpl', sans-serif;
 	overflow-x: hidden;
 }
+#a1 .rightcnt {
+	 background: #fff
+}
+h3.subtitle {
+	margin-bottom: 12px
+}
+.productlink {
+	height: auto
+}
+.featurecontant > div {
+	z-index: 1000000
+}
+ 
+.form-inline .dataTables_filter label, 
+.form-inline .dataTables_filter label input.form-control {
+	width: 80%
+}
 #aluminumtop .subtitle {
 	text-align: left;
 	padding-left: 2%;
@@ -56,7 +73,7 @@ body {
 .featurecontant li {
 	font-size: 20px
 }
-#brochure img {
+#brochure img {  
 	/*margin-top: 3%*/
 }
 #privacy {
@@ -121,8 +138,8 @@ body {
 }
 .navbar-brand {
     position: absolute;
-    width: 100%;
-    left: 0;
+    width: 30%;
+    left: 35vw;
     text-align: center;
     margin:0 auto;
 }
@@ -153,8 +170,12 @@ body {
     z-index:3;
 }
 .navbar-collapse .navbar-nav.navbar-right li a {
+	font-family: 'fpl', sans-serif;
 	font-size: 14px;
 	font-weight: 700;
+	padding-top: 15px;
+    padding-bottom: 15px;
+    line-height: 20px;
 
 }
 .navtitle {
@@ -438,6 +459,9 @@ body {
 #serviceinside .row {
 	padding: 100px 40px
 }
+#serviceinside .row > div {
+	margin-bottom: 2em
+}
 #productinside  div.row {
 	padding: 60px 40px;
 	padding-bottom: 40px
@@ -479,9 +503,9 @@ body {
 	padding-top: 0px;
 	font-size: 20px;
 	position: fixed;
-	z-index: 101;
+	z-index: -1;
 	background: #fff;
-	right: 0
+	right: 0;
 }
 .productinside h1 {
 	line-height: 2;
@@ -494,9 +518,10 @@ body {
   height: auto;
   max-width: 100%;
   max-height: 100%;
+  padding: 0 5%
 }
 #a1 .firstrow > div {
-	margin-bottom: 50px
+	padding-bottom: 50px
 }
 #a1 .costumrow {
 	border-bottom: 0px;
@@ -729,6 +754,13 @@ padding-top: 20px
  
 
 @media (min-width: 1025px) and (max-width: 1780px){ 
+.form-inline .dataTables_filter label, 
+.form-inline .dataTables_filter label input.form-control {
+	width: 70%
+}
+.produictinside h3 {
+	font-size: 0.8em
+}
 #featuresection .costumcol .costumrow {
 	margin-bottom: 35px;
 }
@@ -808,6 +840,25 @@ padding-top: 20px
 	padding: 10px 80px 0px 20px;
 	font-size: 18px;
 }
+h3.subtitle {
+	font-size: 1.35em;
+	font-weight: 500
+}
+h4.tableh4 {
+	font-size: 1.1em
+}
+div.dataTables_info {
+	font-size: 12px;
+}
+button.mdl-button {
+	height: 30px;
+	font-size: 12px;
+	padding: 0 3px;
+	min-width: 36px
+}
+.pagination {
+	margin: 3px 0
+}
 #brochure img {
     /*margin-top: 15%;*/
 }
@@ -829,6 +880,7 @@ padding-top: 20px
 #a1 .stick1 .featurecontant > div  p   span {
 	padding-left: 0px
 }
+
 #a1 .colborder2 .costumrow {
 	/*display: flex*/
 }
