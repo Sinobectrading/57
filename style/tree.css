@@ -1,0 +1,233 @@
+.abb {
+  font-size: 0.9em;
+  padding: 0 2em 2em 2em
+}
+
+div#aluminumtop div#chart {
+  padding: 2em 4em
+}
+div#aluminumtop div#chart   .hierachy_chart--main {
+  padding: 0;
+  /* bootstrap approach */
+  margin: 0 -1em;
+  word-break: break-word;
+}
+
+div#aluminumtop div#chart   .hierachy_chart--mainentry,
+div#aluminumtop div#chart   .hierachy_chart--department,
+div#aluminumtop div#chart   .hierachy_chart--section {
+  list-style: none;
+  font-size: 1.1em
+}
+
+div#aluminumtop div#chart   .hierachy_chart--departments {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  padding: 0;
+}
+
+div#aluminumtop div#chart   .hierachy_chart--departments li {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 0 33.333%;
+          flex: 1 0 33.333%;
+}
+@media (max-width: 768px) {
+  div#aluminumtop div#chart   .hierachy_chart--departments li {
+    -webkit-box-flex: 1;
+        -ms-flex: 1 0 100%;
+            flex: 1 0 100%;
+  }
+}
+
+div#aluminumtop div#chart   .hierachy_chart--main--title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border: 1px solid;
+  padding: 1em;
+  margin: 2em auto;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  position: relative;
+  font-size: 1.4em;
+  font-weight: bold;
+  max-width: calc(50%);
+}
+@media (max-width: 768px) {
+  div#aluminumtop div#chart   .hierachy_chart--main--title {
+    max-width: calc(100% - 4em);
+  }
+}
+div#aluminumtop div#chart   .hierachy_chart--main--title:before {
+  content: "";
+  width: 1px;
+  height: calc(2em + 1px);
+  position: absolute;
+  background: black;
+  top: 100%;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+@media (max-width: 768px) {
+  div#aluminumtop div#chart   .hierachy_chart--main--title:before {
+    display: none;
+  }
+}
+div#aluminumtop div#chart   .hierachy_chart--main--title:after {
+  content: "";
+  width: 100%;
+  height: 1px;
+  position: absolute;
+  background: black;
+  top: calc(100% + 2em + 1px);
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+@media (max-width: 768px) {
+  div#aluminumtop div#chart   .hierachy_chart--main--title:after {
+    display: none;
+  }
+}
+div#aluminumtop div#chart   .has-three .hierachy_chart--main--title:after {
+  width: calc(133.333%);
+  left: -16.666%;
+}
+
+div#aluminumtop div#chart   .hierachy_chart--departments--title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border: 1px solid;
+  padding: 1em;
+  margin: 2em 1em;
+  font-size: 1.3em;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+}
+div#aluminumtop div#chart   .hierachy_chart--departments--title:before {
+  content: "";
+  width: 1px;
+  height: 2em;
+  position: absolute;
+  background: black;
+  top: calc(-2em - 1px);
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+@media (max-width: 768px) {
+  div#aluminumtop div#chart   .hierachy_chart--departments--title:before {
+    display: none;
+  }
+}
+div#aluminumtop div#chart   .hierachy_chart--departments--title:after {
+  content: "";
+  width: 1px;
+  height: 2em;
+  position: absolute;
+  background: black;
+  top: 100%;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+
+div#aluminumtop div#chart   .hierachy_chart--sections {
+  padding: 0;
+}
+
+div#aluminumtop div#chart   .hierachy_chart--section {
+  margin: 0 1em;
+  border: 1px solid;
+  border-bottom: none;
+}
+div#aluminumtop div#chart   .hierachy_chart--section:last-child {
+  border-bottom: 1px solid;
+}
+
+div#aluminumtop div#chart   .hierachy_chart--sections .section .richtext ul {
+  counter-reset: item 0;
+}
+
+div#aluminumtop div#chart   .hierachy_chart--sections .section .richtext ul li {
+  list-style-type: circle;
+}
+
+div#aluminumtop div#chart   .hierachy_chart--hiddeninput {
+  visibility: hidden;
+  height: 0;
+  position: absolute;
+}
+
+div#aluminumtop div#chart   .hierachy_chart--section--link {
+  min-width: 450px;
+  position: relative;
+  padding: 1em;
+}
+
+div#aluminumtop div#chart   .hierachy_chart--section--toggler {
+  display: block;
+  position: absolute;
+  top: 50%;
+  right: 1em;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  text-transform: none;
+}
+div#aluminumtop div#chart   .hierachy_chart--section--link .hierachy_chart--section--toggler:after {
+  display: inline-block;
+  vertical-align: middle;
+  content: "";
+  background: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNSIgaGVpZ2h0PSI5IiB2aWV3Qm94PSIwIDAgMTUgOSI+Cgk8cGF0aCBmaWxsPSIjMzMzMzMzIiBkPSJNNy44NjcgOC41NzRsLTcuMjItNy4yMi43MDctLjcwOEw3Ljg2NyA3LjE2IDE0LjA1Ljk4bC43MDYuNzA3Ii8+Cjwvc3ZnPgo=") no-repeat;
+  background-size: contain;
+  width: 18px;
+  height: 12px;
+  -webkit-transition: -webkit-transform 0.2s cubic-bezier(0.23, 1, 0.32, 1);
+  transition: -webkit-transform 0.2s cubic-bezier(0.23, 1, 0.32, 1);
+  transition: transform 0.2s cubic-bezier(0.23, 1, 0.32, 1);
+  transition: transform 0.2s cubic-bezier(0.23, 1, 0.32, 1), -webkit-transform 0.2s cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+div#aluminumtop div#chart   .hierachy_chart--accordion {
+  height: 0;
+  overflow: hidden;
+  background: white;
+  -webkit-transition: padding 0.5s ease-in-out;
+  transition: padding 0.5s ease-in-out;
+  padding: 0;
+}
+
+/* :checked */
+div#aluminumtop div#chart   .hierachy_chart--hiddeninput:checked ~ .hierachy_chart--accordion {
+  height: auto;
+  padding: 1em 0;
+}
+
+/* :checked */
+div#aluminumtop div#chart   .hierachy_chart--hiddeninput:checked ~ label .hierachy_chart--section--toggler:after {
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+  -webkit-transition: -webkit-transform 0.2s cubic-bezier(0.23, 1, 0.32, 1);
+  transition: -webkit-transform 0.2s cubic-bezier(0.23, 1, 0.32, 1);
+  transition: transform 0.2s cubic-bezier(0.23, 1, 0.32, 1);
+  transition: transform 0.2s cubic-bezier(0.23, 1, 0.32, 1), -webkit-transform 0.2s cubic-bezier(0.23, 1, 0.32, 1);
+}
+div#aluminumtop div#chart   .hierachy_chart--hiddeninput:checked ~ label .hierachy_chart--section--toggler .hierachy_chart--accordion {
+  height: auto;
+  padding: 1em 0;
+}
+
+div#aluminumtop div#chart   .hierachy_chart--accordion--content {
+  margin: 1em;
+}

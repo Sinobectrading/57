@@ -18,6 +18,10 @@ body {
 	font-family: 'fpl', sans-serif;
 	overflow-x: hidden;
 }
+.bold {
+	font-family: 'fpd', sans-serif;
+	font-weight: bold
+}
 #a1 .rightcnt {
 	 background: #fff
 }
@@ -336,7 +340,7 @@ h3.subtitle {
 #abouttop,
 #aluminumtop,
 #a1 {
-	margin-top: 90px
+	margin-top: 9em
 }
 #abouttop > div.container {
 	margin-bottom: 50px;
@@ -348,7 +352,7 @@ h3.subtitle {
 #aluminumtop h3 {
 	text-align: center;
 	font-family: 'Barlow Condensed', sans-serif;
-	line-height: 100px;
+	line-height: 80px;
 	font-weight: 200;
 	text-transform: uppercase;
 }
@@ -463,8 +467,11 @@ h3.subtitle {
 	margin-bottom: 2em
 }
 #productinside  div.row {
+	position: relative;
+
+	clear: both;
 	padding: 60px 40px;
-	padding-bottom: 40px
+	padding-bottom: 40px;
 	padding-top:0px;
 }
 #productinside .row > a > div h4 {
@@ -484,16 +491,57 @@ h3.subtitle {
 	text-align: left;
 }
 
-
+/* back top Top */
+#back-to-top {
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    z-index: 9999;
+    width: 32px;
+    height: 32px;
+    text-align: center;
+    line-height: 30px;
+    background: #f5f5f5;
+    color: #444;
+    cursor: pointer;
+    border: 0;
+    border-radius: 2px;
+    text-decoration: none;
+    transition: opacity 0.2s ease-out;
+    opacity: 0;
+}
+#AngleRadiusInside {
+	transition: opacity 0.2s ease-out;
+}
+#back-to-top:hover {
+    background: #e9ebec;
+}
+#back-to-top.show {
+    opacity: 1;
+}
+#content {
+    height: 2000px;
+}
 
 
 .propath {
+	 clear: both;
 	 padding-top: 15px;
-	 border-bottom: 1px  solid  #c59e47
+	 border-bottom: 1px solid #c59e47
+}
+.subc {
+	display: block;
+	clear: both;
+	margin-top: 4em;
+	font-size: 0.9em
+}
+.minc {
+	font-size: 0.9em
 }
 .propath a {
 	text-decoration: none;
 	color: #333;
+	line-height: 3em
 }
 .propath h3 {
 	font-size: 16px
@@ -503,7 +551,7 @@ h3.subtitle {
 	padding-top: 0px;
 	font-size: 20px;
 	position: fixed;
-	z-index: -1;
+ 
 	background: #fff;
 	right: 0;
 }
@@ -518,7 +566,7 @@ h3.subtitle {
   height: auto;
   max-width: 100%;
   max-height: 100%;
-  padding: 0 5%
+  padding: 0 10%
 }
 #a1 .firstrow > div {
 	padding-bottom: 50px
@@ -749,11 +797,27 @@ padding-top: 20px
   background-color: #999;
   color: #fff;
 }
+.pagination {
+	margin: 3px 0
+}
 
-
- 
+@media (min-width: 1780px) and (max-width: 1920px) {
+	.pagination {
+		margin: 3px 0
+	}
+	.mdl-button {
+    height: 28px;
+    min-width: 48px;
+    padding: 0 12px;
+    font-size: 12px;     
+    line-height: 28px;
+   }
+}
 
 @media (min-width: 1025px) and (max-width: 1780px){ 
+.pagination {
+	margin: 5px 0
+}
 .form-inline .dataTables_filter label, 
 .form-inline .dataTables_filter label input.form-control {
 	width: 70%
@@ -833,9 +897,28 @@ padding-top: 20px
 
 
 
-
+@media  (min-width: 1366px)  and (max-width: 1920px) {
+	a.text {
+		text-decoration: none;
+		border-radius: 2px;
+	  	background-color: #94d1fe;
+	  	color: white;
+	  	font-size: 0.7em;
+	  	font-weight: bold;
+	  	padding: 12px 20px;
+	}
+}
 
 @media only screen and (min-width: 768px) and (max-width: 1365px){
+a.text {
+		text-decoration: none;
+		border-radius: 2px;
+	  	background-color: #94d1fe;
+	  	color: white;
+	  	font-size: 0.7em;
+	  	font-weight: bold;
+	  	padding: 12px 20px;
+	}
 .productinside {
 	padding: 10px 80px 0px 20px;
 	font-size: 18px;
@@ -955,16 +1038,50 @@ button.mdl-button {
 
 
 
-
-
-
-
-
-
-
-
-
 @media screen and (max-width: 767px){
+html , body{
+	width: 100%
+}
+.text {
+	text-decoration: none;
+	border-radius: 2px;
+  	background-color: #94d1fe;
+  	color: white;
+  	font-size: 0.6em;
+  	font-weight: bold;
+  	padding: 12px 24px;
+}
+.dataTables_length label {
+		width: 100%
+	}
+.featurecontant {
+	margin-top: 10vh
+}
+.table-responsive {
+	margin-top: 3vh
+}
+.form-inline .dataTables_filter label, .form-inline .dataTables_filter label input.form-control {
+	width: 100%
+}
+.featurecontant ul.dtr-details li span  {
+	font-size: 14px
+}
+#a1 div.dataTables_wrapper div.dataTables_paginate {
+	text-align: left;
+}
+button.mdl-button {
+	font-size: 10px;
+	min-width: 24px;
+	padding: 0 7px
+}
+table.dataTable>tbody>tr.child ul.dtr-details,
+#res table, thead, tbody, th, td, tr {
+	clear: both;
+	height: auto;
+}
+.table > thead > tr > th, .table > tbody > tr > th, .table > tfoot > tr > th, .table > thead > tr > td, .table > tbody > tr > td, .table > tfoot > tr > td {
+	height: 100%
+}
 #navtop li.active a {
 	padding-left: 15px
 }
@@ -1466,13 +1583,21 @@ font-size: 28px
 
 @media screen and (max-width: 1198px) {
 	#featuresection #readmore>h1, #readmore2>h1, #readmore3>h1, #readmore4>h1 {
-	padding-top: 15px;
-	font-size: 18px;
-}
-#form-login {
-	padding-top: 0px
-}
-
+		padding-top: 15px;
+		font-size: 18px;
+	}	
+	#form-login {
+		padding-top: 0px
+	}
+	.text {
+		text-decoration: none;
+		border-radius: 2px;
+	  	background-color: #94d1fe;
+	  	color: white;
+	  	font-size: 0.6em;
+	  	font-weight: bold;
+	  	padding: 12px 24px;
+	}
 
 }
 

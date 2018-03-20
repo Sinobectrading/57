@@ -1,10 +1,11 @@
+<a href="#" id="back-to-top" title="Back to top">&uarr;</a>	 
 <div class="footer">
 	<nav class="navbar navbar-default" id="footernav">
 		<div class="container-fluid">
 				<!-- Collect the nav links, forms, and other content for toggling -->
 			<div class=" " id="botnav">
 				<ul class="nav navbar-nav">
-					<li class="pull-left copyright">&copy; Copy Right 2016, All right reserved</li>
+					<li class="pull-left copyright">&copy; Copy Right 2012-2018, All right reserved</li>
 					<li class="hidden-xs"><a href="/llc/en_us/about.php">ABOUT</a></li>
 			 
 					<li class="hidden-xs"><a href="/en_us/privacy.php">PRIVACY</a></li>
@@ -40,9 +41,9 @@
 <script type="text/javascript" src="/llc/source/bootstrap-3.3.6-dist/js/jquery.1.11.js"></script>
 <script type="text/javascript" src="/llc/source/bootstrap-3.3.6-dist/js/bootstrap.js"></script>
 
-<script src="/llc/source/js/imagesloaded.pkgd.min.js"></script>
+<!-- <script src="/llc/source/js/imagesloaded.pkgd.min.js"></script>
 <script src="/llc/source/js/anime.min.js"></script>
-<script src="/llc/source/js/temp.js"></script>
+<script src="/llc/source/js/temp.js"></script> -->
 <script src="/llc/source/js/jquery.showup.js"></script>
 
 <script src="/llc/source/js/jquery.dataTables.min.js"></script>
@@ -74,10 +75,43 @@ $('.stick1').stickit([
     $("#fade").fadeOut();
   }
 }]); 
-$(window).scroll( function() { 
- 	var scrolled_val = $(document).scrollTop().valueOf();
- 	if(scrolled_val < 100){
- 		$("#fade").fadeIn();
- 	}
-});
+
+
+// $(window).scroll( function() { 
+//  	var scrolled_val = $(document).scrollTop().valueOf();
+//  	if(scrolled_val < 100){
+//  		$("#fade").fadeIn();
+//  	}
+// });
+
+
+if ($('#back-to-top').length) {
+    var scrollTrigger = 100, // px
+        backToTop = function () {
+            var scrollTop = $(window).scrollTop();
+            if (scrollTop > scrollTrigger) {
+                $('#back-to-top').addClass('show');
+            } else {
+                $('#back-to-top').removeClass('show');
+            }
+        };
+    backToTop();
+    $(window).on('scroll', function () {
+        backToTop();
+    });
+    $('#back-to-top').on('click', function (e) {
+        e.preventDefault();
+        $('html,body').animate({
+            scrollTop: 0
+        }, 700);
+    });
+}
+
+ $("a[href^=#]").click(function(e) { 
+    	e.preventDefault(); 
+    	var dest = $(this).attr('href'); 
+    	console.log(dest); 
+    	$('html,body').animate({ 
+    		scrollTop: $(dest).offset().top -140 }, 'slow'); 
+  });
 </script>
