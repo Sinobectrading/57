@@ -2800,13 +2800,13 @@ input.mdl-button[type=submit] {
 }
 
 .mdl-button--raised.mdl-button--colored {
-    background: #3f51b5;
+    background: #67befe;
     color: #fff
 }
 
 .mdl-button--raised.mdl-button--colored:active,
 .mdl-button--raised.mdl-button--colored:hover {
-    background-color: #3f51b5
+    background-color: #67befe
 }
 
 .mdl-button--raised.mdl-button--colored:focus:not(:active) {

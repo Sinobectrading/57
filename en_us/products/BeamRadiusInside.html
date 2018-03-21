@@ -1,0 +1,168 @@
+<h4 class="tableh4">Beam (Radius Inside) Profile</h4>
+<table class="table table-hover table-responsive" cellpadding="0" cellspacing="0" id="beamri">
+    <thead>
+      <tr class="suj">
+          <td>Dimension A</td>
+          <td>Dimension B</td>
+          <td>Wall Thickness T</td>
+		<td>Wall Thickness T1</td>
+		<td>Radius</td>
+          <td>Alloy State</td>
+      </tr> 
+    </thead>
+    <tbody>
+	  	<tr>
+		    <td>3.000</td>
+		    <td>2.500</td>
+		    <td>0.130</td>
+		    <td>0.200</td>
+		    <td>0.250</td>
+		    <td>6061-T6</td>
+	  	</tr>
+		  <tr>
+		    <td>3.000</td>
+		    <td>2.500</td>
+		    <td>0.150</td>
+		    <td>0.260</td>
+		    <td>0.250</td>
+		    <td>6061-T6</td>
+		  </tr>
+		  <tr>
+		    <td>4.000</td>
+		    <td>3.000</td>
+		    <td>0.170</td>
+		    <td>0.290</td>
+		    <td>0.250</td>
+		    <td>6061-T6</td>
+		  </tr>
+		  <tr>
+		    <td>4.000</td>
+		    <td>3.000</td>
+		    <td>0.187</td>
+		    <td>0.312</td>
+		    <td>0.375</td>
+		    <td>6061-T6</td>
+		  </tr>
+		  <tr>
+		    <td>4.000</td>
+		    <td>4.000</td>
+		    <td>0.250</td>
+		    <td>0.312</td>
+		    <td>0.437</td>
+		    <td>6061-T6</td>
+		  </tr>
+		  <tr>
+		    <td>5.000</td>
+		    <td>3.500</td>
+		    <td>0.190</td>
+		    <td>0.320</td>
+		    <td>0.300</td>
+		    <td>6061-T6</td>
+		  </tr>
+		  <tr>
+		    <td>5.000</td>
+		    <td>3.000</td>
+		    <td>0.225</td>
+		    <td>0.400</td>
+		    <td>0.375</td>
+		    <td>6061-T6</td>
+		  </tr>
+		  <tr>
+		    <td>6.000</td>
+		    <td>4.000</td>
+		    <td>0.190</td>
+		    <td>0.290</td>
+		    <td>0.300</td>
+		    <td>6061-T6</td>
+		  </tr>
+		  <tr>
+		    <td>6.000</td>
+		    <td>6.000</td>
+		    <td>0.240</td>
+		    <td>0.269</td>
+		    <td>0.250</td>
+		    <td>6061-T6</td>
+		  </tr>
+		  <tr>
+		    <td>6.000</td>
+		    <td>6.000</td>
+		    <td>0.375</td>
+		    <td>0.500</td>
+		    <td>0.625</td>
+		    <td>6061-T6</td>
+		  </tr>
+		  <tr>
+		    <td>6.000</td>
+		    <td>4.000</td>
+		    <td>0.281</td>
+		    <td>0.375</td>
+		    <td>0.437</td>
+		    <td>6061-T6</td>
+		  </tr>
+		  <tr>
+		    <td>6.000</td>
+		    <td>6.000</td>
+		    <td>0.312</td>
+		    <td>0.375</td>
+		    <td>0.625</td>
+		    <td>6061-T6</td>
+		  </tr>
+		  <tr>
+		    <td>7.000</td>
+		    <td>4.500</td>
+		    <td>0.230</td>
+		    <td>0.400</td>
+		    <td>0.300</td>
+		    <td>6061-T6</td>
+		  </tr>
+		  <tr>
+		    <td>8.000</td>
+		    <td>8.000</td>
+		    <td>0.288</td>
+		    <td>0.433</td>
+		    <td>0.400</td>
+		    <td>6061-T6</td>
+		  </tr>
+		  <tr>
+		    <td>8.000</td>
+		    <td>7.213</td>
+		    <td>0.288</td>
+		    <td>0.433</td>
+		    <td>0.400</td>
+		    <td>6061-T6</td>
+		  </tr>
+		  <tr>
+		    <td>8.000</td>
+		    <td>8.000</td>
+		    <td>0.375</td>
+		    <td>0.500</td>
+		    <td>0.500</td>
+		    <td>6061-T6</td>
+		  </tr>
+		  <tr>
+		    <td>9.500</td>
+		    <td>6.750</td>
+		    <td>0.375</td>
+		    <td>0.500</td>
+		    <td>0.500</td>
+		    <td>6005-T6</td>
+		  </tr>
+	</tbody>
+</table>
+<script>
+$(document).ready(function(){
+     $('#beamri').DataTable({
+      searching: true,
+      ordering:  true,
+      responsive: true,
+      columnDefs: [
+            {
+                targets: [ 0, 1, 2 ],
+                className: 'mdl-data-table__cell--non-numeric'
+            }
+        ],
+      "lengthMenu": [ [10, 25, 50, -1], [10, 25, 50, "All"] ]
+    });
+
+});
+</script>

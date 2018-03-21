@@ -118,11 +118,11 @@ main {
   text-align: center;
 }
 
-.product:hover .product__img {
+#std .product:hover .product__img {
   opacity: 0.3;
 }
 
-.product:hover .middle {
+#std  .product:hover .middle {
   opacity: 1;
 }
 
@@ -139,7 +139,7 @@ main {
 	text-decoration: none;
 	color: #fff
 }
-.product {
+#std  .product {
 	height: 100%;
 	background: #f6f6f6;
 	margin: 0 10px;

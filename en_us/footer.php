@@ -1,4 +1,6 @@
-<a href="#" id="back-to-top" title="Back to top">&uarr;</a>	 
+<a href="#" id="back-to-top" title="Back to top">
+	<img src="/llc/image/png/back-to-top-1500.png" alt="">
+</a>	 
 <div class="footer">
 	<nav class="navbar navbar-default" id="footernav">
 		<div class="container-fluid">

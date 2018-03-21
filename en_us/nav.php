@@ -24,15 +24,9 @@
 					</li>
 					<li
 						<?php if (trim($_SERVER['PHP_SELF']) == "/llc/en_us/products.php") {
-                              echo 'class="active dropdown"';} else { echo 'class="dropdown"';} ?> 
+                              echo 'class="active"';} ?> 
 					>
-						<a href="#" data-toggle="dropdown" class="dropdown-toggle">PRODUCTS<b class="caret"></b></a>
-							<ul class="dropdown-menu">
-					            <li><a href="products.php#extrusion">Aluminum Extrusion</a></li>
-					            <li><a href="products.php#flat">Aluminum Flat Rolled</a></li>
-					        </ul>
-
-						<!-- <a href="products.php" class="element underline-opening">PRODUCTS</a> -->
+						<a href="products.php#serviceinside" class="element underline-opening">PRODUCTS</a>
 					</li>
 					<li
 						<?php if (trim($_SERVER['PHP_SELF']) == "/llc/en_us/products.php#serviceinside") {
